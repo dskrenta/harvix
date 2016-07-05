@@ -1,0 +1,1 @@
+125.1	Buffer_overflow	Buffer overflow	Now, the program attempts to store the null-terminated string in the A buffer. By failing to check the length of the string, it overwrites the value of B:	http://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Nopsled.svg/200px-Nopsled.svg.png

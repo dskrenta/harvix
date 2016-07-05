@@ -1,0 +1,19 @@
+#!/usr/bin/perl
+
+use warnings; 
+use WWW::Google::Images;
+
+    $agent = WWW::Google::Images->new(
+        server => 'images.google.com',
+        proxy  => 'my.proxy.server:port',
+    );
+
+    $result = $agent->search('flowers', limit => 10);
+
+    while ($image = $result->next()) {
+        $count++;
+        print $image->content_url();
+        print $image->context_url();
+        print $image->save_content(base => 'image' . $count);
+        print $image->save_context(base => 'page' . $count);
+    }

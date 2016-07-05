@@ -1,0 +1,17 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use WebService::GData::YouTube;
+use Data::Dumper;
+
+my $yt = new WebService::GData::YouTube();
+
+my $videos = $yt->get_top_rated_videos('JP','Comedy');
+
+foreach my $video (@$videos) {
+   print $video->title,"\n";
+}
+
+print Dumper($videos);
+

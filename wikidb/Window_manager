@@ -1,0 +1,1 @@
+51.4	Window_manager	Window manager	On systems using the X window system, there is a clear distinction between the window manager and the windowing system. Strictly speaking, an X window manager does not directly interact with video hardware, mice, or keyboards – that is the responsibility of the X server.	

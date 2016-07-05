@@ -1,0 +1,1 @@
+4.00	Penultimate_Hop_Popping	Penultimate Hop Popping	Penultimate Hop Popping is a function performed by certain routers in an MPLS enabled network. It refers to the process whereby the outermost label of an MPLS tagged packet is removed by a Label Switch Router (LSR) before the packet is passed to an adjacent Label Edge Router (LER).	

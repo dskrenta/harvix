@@ -1,0 +1,525 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+  <head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!-- Meta Images -->
+	<link rel="shortcut icon" href="http://harvix.com/harvix-logo-2.png" type="image/x-icon" />	
+<!-- Title and External Script Integration -->
+			<title>Harvix.com-Homepage</title>
+		
+<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/style.css" type="text/css" media="screen" />	
+	<style type="text/css">
+
+
+
+
+
+
+
+
+
+	
+
+
+
+</style>
+	
+
+<!-- Wordpress Stuff -->
+	<meta name="generator" content="WordPress 3.0.1" /> <!-- leave this for stats -->
+	<link rel="pingback" href="http://www.pagelines.com/demos/iblogpro/xmlrpc.php" />
+	 <!-- This makes the comment box appear where the ‘reply to this comment’ link is -->
+	
+<!-- Modules w/ Javascript -->	
+					<!-- IE -->
+
+<!--[if IE 6]>
+	<script src="http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/core/js/belatedpng.js"></script>
+	<script>
+	  DD_belatedPNG.fix('.pngbg, a.home, #nav,.searchform .left, .searchform .right, .searchform .s, .fcol_pad img, .fbox img, #respond h3, #cred.pagelines a, .post .date, .headerimage, #sidebar div ul li a');
+	 </script>	
+	<style>
+		#header #blogtitle .sheen {display: none;height: 1px;}
+		#featurenav a span.nav_thumb span.nav_overlay {background: transparent;display:none}
+		 #nav ul li {background: transparent}
+		.fbox {overflow:hidden}
+	</style>
+<![endif]-->	
+
+<!-- Font Replacement -->
+  	<!-- Font Replacement -->
+	<script type="text/javascript" src="http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/core/js/cufon-yui.js" ></script>	
+			<script type="text/javascript" src="http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/js/Carto.font.js" ></script>
+		<script type="text/javascript">
+	/* <![CDATA[ */
+					Cufon.replace('.site-description, .fcontent .fsub, .fcontent .ftitle, .pagetitle, .footer-site-title', {hover: true});
+			/* ]]> */
+	</script>	
+		
+	<meta name='robots' content='noindex,nofollow' />
+<link rel="alternate" type="application/rss+xml" title="iBlogPro &raquo; Feed" href="http://www.pagelines.com/demos/iblogpro/feed" />
+<link rel="alternate" type="application/rss+xml" title="iBlogPro &raquo; Comments Feed" href="http://www.pagelines.com/demos/iblogpro/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="iBlogPro &raquo; Home Comments Feed" href="http://www.pagelines.com/demos/iblogpro/home/feed" />
+<link rel="stylesheet" href="http://www.pagelines.com/demos/iblogpro/wp-content/plugins/wp125/wp125.css" type="text/css" media="screen" />
+
+<!--[if lte IE 7]>
+<link rel='stylesheet' id='ie7-style-css'  href='http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/css/ie7.css?ver=3.0.1' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.pagelines.com/demos/iblogpro/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.50' type='text/css' media='all' />
+<link rel='stylesheet' id='pro-css'  href='http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/pro/css/pro.css?ver=3.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sidebar_icons-css'  href='http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/css/sidebar_icons.css?ver=3.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dropdown-css'  href='http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/pro/css/dropdown.css?ver=3.0.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.pagelines.com/demos/iblogpro/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<script type='text/javascript' src='http://www.pagelines.com/demos/iblogpro/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.pagelines.com/demos/iblogpro/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.pagelines.com/demos/iblogpro/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='iBlogPro' href='http://www.pagelines.com/demos/iblogpro' />
+<link rel='prev' title='iBlog' href='http://www.pagelines.com/demos/iblogpro/blog' />
+<link rel='next' title='Forms' href='http://www.pagelines.com/demos/iblogpro/contact' />
+<meta name="generator" content="WordPress 3.0.1" />
+
+<!-- All in One SEO Pack 1.6.10.2 by Michael Torbert of Semper Fi Web Design[529,544] -->
+
+<meta name="description" content="iBlogPro 4 is a Premium WordPress theme by PageLines inspired by Apple's website" />
+<meta name="keywords" content="iBlogPro, iBlogPro2, iBlogPro3, iblogpro4, iBlog Pro 4, iBlog Pro 3, PageLines demo, iBlog" />
+<link rel="canonical" href="http://www.pagelines.com/demos/iblogpro/" />
+<!-- /all in one seo pack -->
+
+<!-- Start Of Script Generated By cforms v11.1 [Oliver Seidel | www.deliciousdays.com] -->
+<script type="text/javascript" src="http://www.pagelines.com/demos/iblogpro/wp-content/plugins/cforms/js/cforms.js"></script>
+<!-- End Of Script Generated By cforms -->
+
+<link rel="stylesheet" type="text/css" href="http://www.pagelines.com/demos/iblogpro/wp-content/plugins/lightbox-plus/css/shadowed/colorbox.css" media="screen" />
+<!--[if IE]>
+     <link type="text/css" media="screen" rel="stylesheet" href="http://www.pagelines.com/demos/iblogpro/wp-content/plugins/lightbox-plus/css/shadowed/colorbox-ie.php" title="IE fixes" />
+<![endif]-->
+			<link rel="stylesheet" href="http://www.pagelines.com/demos/iblogpro/wp-content/plugins/wp-post-thumbnail/css/wppt.css" type="text/css" media="all" />
+			<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+	var $j = jQuery.noConflict();
+	$j(document).ready(function () {
+			//Feature Cycle Setup	
+			$j('#cycle').cycle({ 
+			    fx: 'fade',
+				sync: 1,
+				timeout: 0,
+			    speed:  1500, 
+				pager:  '#featurenav',
+				cleartype:  true,
+    			cleartypeNoBg:  true
+			 });
+			
+				
+			
+		//Overide page numbers on cycle feature with custom text
+			$j("div#featurenav").children("a").each(function() {
+																	if($j(this).html() == "1") {$j(this).html('<span class="nav_thumb" style="background: transparent url(http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/fthumb1.png) no-repeat 0 0;"><span class="nav_overlay">&nbsp;</span></span>');}
+																						if($j(this).html() == "2") {$j(this).html('<span class="nav_thumb" style="background: transparent url(http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/fthumb2.png) no-repeat 0 0;"><span class="nav_overlay">&nbsp;</span></span>');}
+																						if($j(this).html() == "3") {$j(this).html('<span class="nav_thumb" style="background: transparent url(http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/fthumb3.png) no-repeat 0 0;"><span class="nav_overlay">&nbsp;</span></span>');}
+																						if($j(this).html() == "4") {$j(this).html('<span class="nav_thumb" style="background: transparent url(http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/fthumb4.png) no-repeat 0 0;"><span class="nav_overlay">&nbsp;</span></span>');}
+																						if($j(this).html() == "5") {$j(this).html('<span class="nav_thumb" style="background: transparent url() no-repeat 0 0;"><span class="nav_overlay">&nbsp;</span></span>');}
+																						if($j(this).html() == "6") {$j(this).html('<span class="nav_thumb" style="background: transparent url() no-repeat 0 0;"><span class="nav_overlay">&nbsp;</span></span>');}
+																});
+				
+				
+	});
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+	var $j = jQuery.noConflict();
+	
+	$j(document).ready(function () {
+				$j("#accordion").accordion({ 
+						autoHeight: false		});
+				
+		$j("#drag_drop_sidebar").sortable();
+		$j("#drag_drop_sidebar").disableSelection();
+		
+	});	
+/* ]]> */
+</script>
+</head>
+<body class="home page page-id-43 page-template page-template-page-feature-php">
+
+<div id="page" class="fix">
+  <div id="wrapper" class="fix" >
+    <div id="header" class="fix">
+					<a href="http://harvix.com">
+			<h1 class="headerimage" >Harvix.com</h1><h3>5.0 Beta</h2>
+</a>
+		
+
+				<!-- iphone icons -->
+	<div class="icons">
+
+								<div class="nav-icon">
+				<a href='http://www.pagelines.com/demos/iblogpro/feed'><img class="pngbg" src="http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/iphone/rss.png" alt="icon"/></a>
+			</div>
+									<div class="nav-icon">
+				<a href="http://www.pagelines.com/demos/iblogpro/feed"><img class="pngbg" src="http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/iphone/comments.png" alt="icon"/></a>
+			</div>
+
+						
+			
+			  
+				<div class="nav-icon">
+					
+					<a href='http://www.facebook.com/arpowers'><img class="pngbg" rel="me" src="http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/iphone/facebook.png" alt="icon"/></a>
+				</div> 
+													<div class="nav-icon">
+							<a href='http://www.linkedin.com/in/arpowers'><img class="pngbg" rel="me" src="http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/iphone/linkedin.png" alt="icon"/></a>
+						</div>	 
+						
+								<div class="nav-icon">
+						<a href='http://www.twitter.com/pagelines'><img class="pngbg" rel="me" src="http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/iphone/twitter.png" alt="icon"/></a>
+					</div> 
+					
+								<div class="nav-icon">
+
+						<a href='http://www.pagelines.com/about'><img class="pngbg" src="http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/iphone/mail.png" alt="icon"/></a>
+					</div> 
+											<div class="nav-icon">
+						<a href='#'><img class="pngbg" src="http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/iphone/map.png" alt="icon"/></a>
+					</div> 
+				</div>
+<!-- /end iphone icons -->	
+	</div><!-- /header -->
+	<div id="nav" class="fix">
+	<ul class="fix homebutton">
+		<li class="page_item navfirst">
+
+		
+			<a class="home" href="http://www.pagelines.com/demos/iblogpro/" title="Home" style="background-image: url('http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/home-icon-trans.png');">
+				Home	
+			</a>
+		</li>
+	</ul>
+	
+			<ul id="menu-main" class="mnav dropdown fix"><li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-198"><a href="http://www.pagelines.com/demos/iblogpro/blog">Hsites</a></li>
+<li id="menu-item-197" class="menu-item menu-item-type-post_type menu-item-197"><a href="http://www.pagelines.com/demos/iblogpro/ipod">pages</a>
+<ul class="sub-menu">
+	<li id="menu-item-205" class="menu-item menu-item-type-post_type menu-item-205"><a href="http://www.pagelines.com/demos/iblogpro/contact">Forms</a></li>
+
+	<li id="menu-item-209" class="menu-item menu-item-type-post_type menu-item-209"><a href="http://www.pagelines.com/demos/iblogpro/carousel-2/lorem">Lorem</a>
+	<ul class="sub-menu">
+		<li id="menu-item-204" class="menu-item menu-item-type-post_type menu-item-204"><a href="http://www.pagelines.com/demos/iblogpro/ipod/shuffle/classic-grandchild">Grandchild 1</a></li>
+		<li id="menu-item-203" class="menu-item menu-item-type-post_type menu-item-203"><a href="http://www.pagelines.com/demos/iblogpro/ipod/shuffle/new-shuffle-grandchild">Grandchild 2</a></li>
+	</ul>
+</li>
+	<li id="menu-item-208" class="menu-item menu-item-type-post_type menu-item-208"><a href="http://www.pagelines.com/demos/iblogpro/carousel-2/ipsum">Ipsum</a></li>
+
+</ul>
+</li>
+<li id="menu-item-193" class="menu-item menu-item-type-post_type menu-item-193"><a href="http://www.pagelines.com/demos/iblogpro/ipod/highlight-page">Highlight Page</a></li>
+<li id="menu-item-194" class="menu-item menu-item-type-post_type menu-item-194"><a href="acounts.html">Acounts</a></li>
+<li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-195"><a href="about.html">About Harvix</a></li>
+<li id="menu-item-196" class="menu-item menu-item-type-post_type menu-item-196"><a href="more.html">More</a>
+<ul class="sub-menu">
+	<li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-206"><a href="new.html">Harvix New</a></li>
+	<li id="menu-item-207" class="menu-item menu-item-type-post_type menu-item-207"><a href="read.html">Harvix 5.0</a></li>
+
+</ul>
+</li>
+</ul>				<form method="get" class="searchform" action="http://www.pagelines.com/demos/iblogpro/">
+	<span class="left"></span>
+		<input type="text" value="Search" name="s" class="s" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}" />
+	<span class="right"></span>
+	<input type="submit" class="searchsubmit" value="Go" />
+</form>
+	<div class="clear"></div>
+</div><!-- /nav -->
+
+	<div id="container" class="fix ">
+		<!-- Code for subnav if pages have parents.. -->
+
+
+<div id="feature">
+	<div class="postwrap fix">
+		<div class="hentry fix">
+			<div id="cycle" class="fix">
+
+																											<div id="Feature_1" class="fcontainer" style="background:">
+									<div class="fcontent">
+
+										<div class="fheading">
+											<h3 class="fsub">Welcome to </h3><h1 class="ftitle">Harvix.com</h1>										</div>
+										<div class="ftext">
+											<p><form action="/y1search.cgi" method="get">
+<input type=textbox  size="70" name="q" value="">
+<input type=submit value="web search">
+</form>
+</p>
+																							<a class="featurelink" href="#url_goes_here">More</a>
+																					</div>
+
+									</div>
+									<div class="fmedia">
+										<img src="http://harvix.com/harvix-logo.png" alt="feature1" />									</div>
+								<div class="clear"></div>
+							</div>
+																																		<div id="Feature_2" class="fcontainer" style="background:">
+									<div class="fcontent">
+										<div class="fheading">
+
+											<h3 class="fsub">Whats been happening</h3><h1 class="ftitle">Lately</h1>										</div>
+										<div class="ftext">
+											<p>Blekko, a new interesting search start up that a lot of people enjoy.... 
+</p>
+																							<a class="featurelink" href="#url_goes_here">More</a>
+																					</div>
+									</div>
+
+	<div class="fmedia">
+
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/1AZn5nWIj_g?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/1AZn5nWIj_g?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>			
+	
+				<div class="clear"></div>
+							</div>
+							</div>
+
+							
+
+																											<div id="Feature_3" class="fcontainer" style="background:">
+
+
+									<div class="fcontent">
+										<div class="fheading">
+											<h3 class="fsub">Weekly Harvix</h3><h1 class="ftitle">Story</h1>										</div>
+
+										<div class="ftext">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis molestie nunc. Vivamus molestie, quam vitae pharetra  at ultricies tortor quam sed ante.</p>
+																							<a class="featurelink" href="#url_goes_here">More</a>
+																					</div>
+									</div>
+									<div class="fmedia">
+										<img src="http://www.salmo.net/Images/clipart.jpg" />									</div>
+
+								<div class="clear"></div>
+							</div>
+																																		<div id="Feature_4" class="fcontainer" style="background:">
+									<div class="fcontent">
+										<div class="fheading">
+											<h3 class="fsub">PageLines' Shortcodes</h3><h1 class="ftitle">Dynamic<br/>Features</h1>										</div>
+										<div class="ftext">
+
+											In the latest version of our framework we've added a shortcode library to make your features and posts dynamic. The Google maps shortcode is used here!
+																							<a class="featurelink" href="#url_goes_here">More</a>
+																					</div>
+									</div>
+									<div class="fmedia">
+										<iframe width="480" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&source=s_q&hl=en&q=San Diego, CA 92109&amp;output=embed"></iframe>									</div>
+								<div class="clear"></div>
+							</div>
+
+																																																								</div>
+	
+			
+	
+		</div>
+		<div class="hl"></div>
+		<div id="feature-footer" class="fix">
+			
+						<div id="featurenav" class="thumb_nav">
+				
+			</div>
+
+		</div>
+		<div class="clear"></div>
+
+	</div>
+
+</div>
+<div class="clear"></div>
+
+
+			<div class="fboxes fix">
+	<div class="fboxdividers fix">
+							
+							<div class="fbox">
+					<div class="fboxcopy">
+						<div class="fboxtitle"><h3>Chat Zone</h3></div>
+
+						<div class="fboxtext"><p>Chat Zone will be a place you can chat with your firends and other people it is comming soon.</p><p><img alt="fbox1" class="aligncenter" src="http://www.faithandfamilylive.com/images/dailyBlog/blog/cache/chat_bubble-300x246.png" /></p></div>
+					</div>
+				</div>
+				
+																
+							<div class="fbox">
+					<div class="fboxcopy">
+						<div class="fboxtitle"><h3>Postit</h3></div>
+						<div class="fboxtext"><p>Postit, is way to talk with your friends online and conected its like twitter and facebook but, for Harvix.</p><p><img alt="fbox1" class="aligncenter" src="http://www.artistsvalley.com/images/icons/Network%20Security%20Icons/Mail%20Chat/256x256/Mail%20Chat.jpg" /></p></div>
+
+					</div>
+				</div>
+				
+																
+							<div class="fbox">
+					<div class="fboxcopy">
+ <div class="fboxtitle"><h3>Harvix 5.0</h3></div>
+						<div class="fboxtext">
+<p>Harvix 5.0 is the fastest and newest version of harvix yet, it does not run all the social sites yet but comming soon in 6.0 in a month so hang on and enjoy.</p><p><img alt="fbox1" class="aligncenter" src="http://harvix.com/harvix-logo.png" /></p></div>
+					</div>
+				</div>
+
+				
+														</div>
+</div>
+<div class="clear"></div>
+
+</div>
+<div class="clear"></div>
+
+
+	<div id="morefoot" class="fboxes fix">
+		<div class="fboxdividers fix">
+			<div class="fbox">
+				<div class="fboxcopy">
+
+															<h3>Looking for something?</h3>
+						<p>Use the form below to search the site:</p>
+						<div class="left p"><form method="get" class="searchform" action="http://www.pagelines.com/demos/iblogpro/">
+	<span class="left"></span>
+		<input type="text" value="Search" name="s" class="s" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}" />
+	<span class="right"></span>
+	<input type="submit" class="searchsubmit" value="Go" />
+</form>
+
+</div>
+						<div class="clear"></div>
+						<p>Still not finding what you're looking for? Drop a comment on a post or contact us so we can take care of it!</p>
+													</div>
+			</div>
+
+			<div class="fbox">
+				<div class="fboxcopy">
+															<h3>Visit our friends!</h3><p>A few highly recommended friends...</p><ul><li><a href="http://wordpress.org/development/">Development Blog</a></li>
+
+<li><a href="http://codex.wordpress.org/">Documentation</a></li>
+<li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
+<li><a href="http://wordpress.org/extend/ideas/">Suggest Ideas</a></li>
+<li><a href="http://wordpress.org/support/">Support Forum</a></li>
+<li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
+<li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
+</ul>
+													</div>
+			</div>
+
+			<div class="fbox">
+				<div class="fboxcopy">
+														<h3>Archives</h3><p>All entries, chronologically...</p><ul>	<li><a href='http://www.pagelines.com/demos/iblogpro/articles/2009/02' title='February 2009'>February 2009</a></li>
+ </ul>
+													</div>
+			</div>
+
+		</div>
+	</div><!-- Closes morefoot -->
+
+<div  id="footer">
+	<div class="effect">
+		<div class="content">
+							<div id="footer_topline">
+
+	 <h3>Hot New Headlines:</h3> <a href="chatvix.html">New Chatvix, in 6.0 version</a>
+
+</div>
+						<div id="fcolumns_container" class="fix">
+									<div class="fcol">
+						<div class="fcol_pad">
+															<a class="home" href="http://www.pagelines.com/demos/iblogpro/" title="Home">
+									<img src="http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/logo-iblogpro-small.png" alt="iBlogPro" />
+								</a>
+													</div>
+					</div>
+
+					<div class="fcol">
+						<div class="fcol_pad">
+							<h3>Pages</h3>
+							<ul id="menu-footer" class="footer_nav"><li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-212"><a href="http://www.pagelines.com/demos/iblogpro/contact">Forms</a></li>
+<li id="menu-item-213" class="menu-item menu-item-type-post_type menu-item-213"><a href="http://www.pagelines.com/demos/iblogpro/blog">iBlog</a></li>
+<li id="menu-item-214" class="menu-item menu-item-type-post_type menu-item-214"><a href="http://www.pagelines.com/demos/iblogpro/ipod/nano">Black Scheme</a></li>
+<li id="menu-item-215" class="menu-item menu-item-type-post_type menu-item-215"><a href="http://www.pagelines.com/demos/iblogpro/ipod/shuffle">Blue Scheme</a></li>
+<li id="menu-item-216" class="menu-item menu-item-type-post_type menu-item-216"><a href="http://www.pagelines.com/demos/iblogpro/itunes">Full Width</a></li>
+
+<li id="menu-item-217" class="menu-item menu-item-type-post_type menu-item-217"><a href="http://www.pagelines.com/demos/iblogpro/options">Options</a></li>
+<li id="menu-item-218" class="menu-item menu-item-type-post_type menu-item-218"><a href="http://www.pagelines.com/demos/iblogpro/ipod">Pages</a></li>
+</ul>						</div>
+					</div>
+					<div class="fcol">
+						<div class="fcol_pad">
+							<h3>Stay In Touch</h3>
+							<ul id="menu-social" class="footer_nav"><li id="menu-item-199" class="menu-item menu-item-type-custom menu-item-199"><a href="http://www.linkedin.com/in/arpowers">LInkedIn</a></li>
+
+<li id="menu-item-200" class="menu-item menu-item-type-custom menu-item-200"><a href="http://www.facebook.com/pagelines">Facebook</a></li>
+<li id="menu-item-201" class="menu-item menu-item-type-custom menu-item-201"><a href="http://www.twitter.com/pagelines">Twitter</a></li>
+<li id="menu-item-202" class="menu-item menu-item-type-custom menu-item-202"><a href="http://www.youtube.com/arpowers">Youtube</a></li>
+</ul>
+						</div>
+					</div>
+					<div class="fcol">
+						<div class="fcol_pad">
+							<h3>More</h3>
+
+							<div class="welcomemessage">Thanks for dropping by! This is a welcome message that you can edit in iBlogPro Options. <br/>
+
+<a href="http://www.pagelines.com/launchpad/signup.php?price_group=101&product_id=8&hide_paysys=paypal_r" class="featurelink" target="_blank">Buy This Theme Now Using PayPal</a></div>						</div>
+					</div>
+					<div class="fcol">
+						<div class="fcol_pad">
+							<span class="terms">
+								© 2009 Terms For Your Site - Not associated with Apple							</span>
+
+						</div>
+					</div>
+							</div>
+	
+		
+			<div class="clear"></div>
+		</div>		
+	</div>
+
+
+</div>
+	<div class="clear"></div>
+			<div id="cred" class="pagelines">
+
+			<a class="plimage" target="_blank" href="http://www.pagelines.com" title="iBlogPro by PageLines">
+				<img src="http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/images/pagelines.png" alt="iBlogPro by PageLines" />
+			</a>
+		</div>
+	 	<hr class="hidden" />
+
+  </div><!--/wrapper -->
+
+</div><!--/page -->
+
+<!-- Footer Scripts Go Here -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6282814-1");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- End Footer scripts -->
+
+<script type='text/javascript' src='http://www.pagelines.com/demos/iblogpro/wp-content/plugins/lightbox-plus/js/jquery.colorbox-min.js?ver=1.3.6'></script>
+<!-- Lightbox Plus v1.6.9.7 - 3/24/2010 AM -->
+<script type="text/javascript">
+jQuery(document).ready(function($){
+  $("a[rel*=lightbox]").colorbox({transition:"elastic",speed:350,width:false,height:false,innerWidth:false,innerHeight:false,initialWidth:"300",initialHeight:"100",maxWidth:"75%",maxHeight:false,scalePhotos:true,opacity:0.8,preloading:true,current:"Image {current} of {total}",previous:"previous",next:"next",close:"close",overlayClose:true,slideshow:false,slideshowAuto:true,slideshowSpeed:2500,slideshowStart:"start",slideshowStop:"stop"});
+});
+</script>
+<script type='text/javascript' src='http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/core/js/jquery.cycle.all.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/core/js/dropdown.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.pagelines.com/demos/iblogpro/wp-content/themes/iblogpro4/core/js/jquery-ui.custom.js?ver=1.0'></script>
+</body>
+
+</html>

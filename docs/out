@@ -1,0 +1,1304 @@
+=== NAV (1 results):
+
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.foofighters.com%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.foofighters.com/',
+          'r' => '1000000.94764373',
+          'du' => 'foofighters.com',
+          's' => 'Welcome to the official <strong>Foo</strong> Fighters website featuring <strong>Foo</strong> Fighters news, music, videos, album info, tour dates, and more.',
+          't' => '<strong>Foo</strong> Fighters - The Official <strong>Foo</strong> Fighters Site'
+        };
+
+
+=== WIKI (1 results):
+
+$VAR1 = {
+          'r' => '0.949752583818725',
+          'wt' => 'Foobar',
+          'du' => 'en.wikipedia.org/wiki/<b>Foo</b>',
+          'ws' => 'The terms foobar, foo, bar, baz and qux are sometimes used as placeholder names (also referred to as metasyntactic variables) in computer programming or computer-related documentation. They have been used to name entities such as variables, functions, and commands whose purpose is unimportant and serve only to demonstrate a concept. The words themselves have no meaning in this usage. Foobar is sometimes used alone; foo, bar, and baz are sometimes used in that order, when multiple entities are needed.',
+          's' => 'The terms foobar fubar, or <b>foo</b>, bar, baz and qux (alternatively quux) are sometimes used as placeholder names (also referred to as metasyntactic variables) in ...',
+          'u' => 'http://en.wikipedia.org/wiki/Foo',
+          'wi' => undef,
+          't' => 'Foobar - Wikipedia, the free encyclopedia'
+        };
+
+
+=== ORIG (32 results):
+
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.foofighters.com%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.foofighters.com/',
+          'r' => '1000000.94764373',
+          'du' => 'foofighters.com',
+          's' => 'Welcome to the official <strong>Foo</strong> Fighters website featuring <strong>Foo</strong> Fighters news, music, videos, album info, tour dates, and more.',
+          't' => '<strong>Foo</strong> Fighters - The Official <strong>Foo</strong> Fighters Site'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.npr.org%2Fartists%2F17000138%2Ffoo-fighters&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.996521541456926',
+          'du' => 'npr.org/artists/17000138/<b>foo</b>-fighters',
+          's' => 'Interviews, features and/or performances archived at NPR Music.',
+          'ih' => 165,
+          'u' => 'http://www.npr.org/artists/17000138/foo-fighters',
+          'iw' => 220,
+          'i' => 'e79300deacb7a4aaed9c54828e14a4c9',
+          't' => 'www.npr.org artists 17000138 <strong>foo</strong> fighters'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.food.com%2Frecipe%2Fegg-foo-yung-75356&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.9804616307895',
+          'du' => 'food.com/recipe/egg-<b>foo</b>-yung-75356',
+          's' => 'Looking for More.  Become a FREE Member.  Food.com: The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world.  I&#39;m looking for.  User at Food.com.',
+          'ih' => 73,
+          'u' => 'http://www.food.com/recipe/egg-foo-yung-75356',
+          'iw' => 98,
+          'i' => '71878c61f28d148355782992f2d8ac2c',
+          't' => 'Egg <strong>Foo</strong> Yung Recipe - Chinese.Food.com - 75356'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.foodily.com%2Fr%2FRxTiOFWv5R-foo-yung&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.foodily.com/r/RxTiOFWv5R-foo-yung',
+          'r' => '0.971082691693016',
+          'du' => 'foodily.com/r/RxTiOFWv5R-<b>foo</b>-yung',
+          's' => 'What is Foodily.  Choose a list.  Or Log in with your email address.  Sign up with Facebookand discover new tastes with your friends.  Sign up with your email address.',
+          't' => '<strong>Foo</strong> Yung',
+          'i' => '0bdac680d60189d1ca95c1a9060d60b6'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Ffoo.com%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://foo.com/',
+          'r' => '0.970712717958328',
+          'du' => 'foo.com',
+          's' => '',
+          't' => '<strong>Foo</strong>.com'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Ffoodnetwork.com%2Frecipes%2Frachael-ray%2Fegg-foo-young-recipe%2Findex.html&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.951412405368923',
+          'du' => 'foodnetwork.com/.../egg-<b>foo</b>-young-recipe/index.html',
+          'd' => 1360310400,
+          's' => '',
+          'ih' => 165,
+          'u' => 'http://foodnetwork.com/recipes/rachael-ray/egg-foo-young-recipe/index.html',
+          'iw' => 220,
+          'i' => 'bd6c2a69c66310f29da75973dea30ac8',
+          't' => 'foodnetwork.com recipes rachael ray egg <strong>foo</strong> young recipe index.html'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Floudwire.com%2Ftags%2Ffoo-fighters%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.914218417473782',
+          'du' => 'loudwire.com/tags/<b>foo</b>-fighters',
+          's' => 'Dave Grohl to Perform With &#39;Sound City Players&#39; at Sundance Film Festival Gig.  Dave Grohl to Host SiriusXM &#39;Sound City&#39; Show.  <strong>Foo</strong> Fighters Frontman Dave Grohl Set To Guest Host the &#39;Chelsea Lately&#39; Show.  10 Best <strong>Foo</strong> Fighters Songs.',
+          'ih' => 65,
+          'u' => 'http://loudwire.com/tags/foo-fighters/',
+          'iw' => 220,
+          'i' => 'baf4f7aa57bd0fa3c88e2e8fb5961217',
+          't' => '<strong>Foo</strong> Fighters News'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Ffoo-magazin.de%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://foo-magazin.de/',
+          'r' => '0.913246904854398',
+          'du' => 'foo-magazin.de',
+          's' => "Inhalt Fr\x{fc}hjahr 2013.  DAS Magazin f\x{fc}r Softwareentwicklung mit Perl.  Ist Dein Code Perl-5.18-sicher.  Synchrone Operationen sind \x{fc}berholt.  Leidenschaft und Perl.",
+          't' => '<strong>foo</strong> - Perl-Magazin/Perl-Zeitschrift (Workshops, Module, News und vieles mehr)'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Ffoo.sh%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://foo.sh/',
+          'r' => '0.908203874602812',
+          'du' => 'foo.sh',
+          's' => '',
+          't' => '<strong>foo</strong>.sh'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Ffoo-projects.org%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://foo-projects.org/',
+          'r' => '0.897501537687002',
+          'du' => 'foo-projects.org',
+          's' => 'Server move stuff.  Spamcop and SORBS blacklist Gmail.com.  Sponsorship for a new server.  Xfce server move planning.  I&#39;m about to retire nl.lunar-linux.org from active duty.',
+          't' => '<strong>foo</strong>-projects'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Ffoo.net%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://foo.net/',
+          'r' => '0.89475868796249',
+          'du' => 'foo.net',
+          's' => '<strong>Foo</strong>.net account holders only: SSH access here (large window) or here (small window).',
+          't' => '<strong>foo</strong>.net'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.foodandwine.com%2Fchefs%2Fsusanna-foo&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.foodandwine.com/chefs/susanna-foo',
+          'r' => '0.894392392924033',
+          'du' => 'foodandwine.com/chefs/susanna-<b>foo</b>',
+          's' => 'You currently have no recipes saved.  To add recipes, visit a recipe and click on the save button.  Susanna <strong>Foo</strong> Chinese Kitchen.  Recipes by Chef Susanna <strong>Foo</strong>.  Stir-Fried Sichuan Shrimp with Dried Red Chiles.',
+          't' => 'Susanna <strong>Foo</strong> - Food &amp; Wine - Chefs'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Flazyfoo.net%2FSDL_tutorials%2Findex.php&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://lazyfoo.net/SDL_tutorials/index.php',
+          'r' => '0.893791710401148',
+          'du' => 'lazyfoo.net/SDL_tutorials/index.php',
+          's' => 'Lazy <strong>Foo</strong>&#39; Productions.  These tutorials were made to help programmers start out in game programming.  I tried to keep them as simple and to the point as possible.  They are a perpetual work in progress, and will be improved over time.',
+          't' => 'Lazy <strong>Foo</strong>&#39; Productions - Beginning Game Programming'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Ftouchfoo.com%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://touchfoo.com/',
+          'r' => '0.889833550185601',
+          'du' => 'touchfoo.com',
+          's' => 'See us on the App Store.  Touch <strong>Foo</strong> on Twitter.',
+          't' => 'Touch <strong>Foo</strong> - iOS Games'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.cc.gatech.edu%2Ffce%2Fpeople%2Fjmankoff%2FFOO%2Fhome.html&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.cc.gatech.edu/fce/people/jmankoff/FOO/home.html',
+          'r' => '0.886725643374322',
+          'du' => 'cc.gatech.edu/fce/people/jmankoff/<b>FOO</b>/home.html',
+          's' => 'What is <strong>FOO</strong>, you ask.  Official <strong>FOO</strong> fan club.  What are its religious views.  Oh, and what is CHURCH.  Official decision making process.',
+          't' => '<strong>FOO</strong>'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fsoundcloud.com%2Ffoofighters&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.886286400678493',
+          'du' => 'soundcloud.com/<b>foo</b>fighters',
+          's' => 'Share to WordPress.com.  <strong>Foo</strong> Fighters <strong>Foo</strong> Fighters, Los Angeles, United States.  Wasting Light 11 tracks, 47.57 <strong>Foo</strong> Fighters on April 01, 2011 16:45.  Hide the comments.  Go to track Bridge Burning.',
+          'ih' => 220,
+          'u' => 'http://soundcloud.com/foofighters',
+          'iw' => 220,
+          'i' => '95cbd9980fc271038ea97bb47b2cf7e3',
+          't' => '<strong>Foo</strong> Fighters&#39;s Spotlight page on SoundCloud - Hear the world&#39;s sounds'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.foofighters.com%2Fus%2Fhome&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.foofighters.com/us/home',
+          'r' => '0.871428571428571',
+          'du' => 'www.<b>foo</b>fighters.com',
+          's' => 'Welcome to the official <b>Foo</b> Fighters website featuring <b>Foo</b> Fighters news, music, videos, album info, tour dates, and more.',
+          't' => '<b>Foo</b> Fighters | The Official <b>Foo</b> Fighters Site'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.mtv.com%2Fartists%2Ffoo-fighters%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.mtv.com/artists/foo-fighters/',
+          'r' => '0.860983494069137',
+          'du' => 'www.mtv.com/artists/<b>foo</b>-fighters',
+          's' => '<b>Foo</b> Fighters new music, concerts, photos, and official news updates directly from <b>Foo</b> Fighters\'s Twitter and Facebook.',
+          't' => '<b>Foo</b> Fighters | New Music And Songs | MTV - New Music Videos ...'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.g4tv.com%2Fgames%2Fpc%2F24004%2Ffoo%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.g4tv.com/games/pc/24004/foo/',
+          'r' => '0.838282289946773',
+          'du' => 'g4tv.com/games/pc/24004/<b>foo</b>',
+          's' => 'Playing as a burglar in Ancient China, you challenge your opponents to break into palaces and loot them.  You enter at dusk and your mission is to escape before dawn with as many valuables as you can carry.  Before you begin, you must carefully plan which traps to bring and set for your opponents in the palace.',
+          't' => '<strong>Foo</strong> for PC - G4tv'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.catb.org%2Fjargon%2Fhtml%2FF%2Ffoo.html&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.catb.org/jargon/html/F/foo.html',
+          'r' => '0.7',
+          'du' => 'www.catb.org/jargon/html/F/<b>foo</b>.html',
+          's' => '<b>foo</b>: /<b>foo</b>/ 1. interj. Term of disgust. 2. [very common] Used very generally as a sample name for absolutely anything, esp. programs and files (esp. scratch files).',
+          't' => '<b>foo</b>'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.urbandictionary.com%2Fdefine.php%3Fterm%3Dfoo&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.urbandictionary.com/define.php?term=foo',
+          'r' => '0.663636363636364',
+          'du' => 'www.urbandictionary.com/define.php?term=<b>foo</b>',
+          's' => '1. <b>foo</b> An term used for unimportant variables in programming when the programmer is too lazy to think of an actual name. The origin of such word is described in ...',
+          't' => 'Urban Dictionary: <b>foo</b>'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fdictionary.reference.com%2Fbrowse%2Ffoo-foo&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://dictionary.reference.com/browse/foo-foo',
+          'r' => '0.633333333333333',
+          'du' => 'dictionary.reference.com/browse/<b>foo</b>-<b>foo</b>',
+          's' => 'noun fufu . Also, <b>foo</b>-<b>foo</b>.',
+          't' => '<b>Foo</b>-<b>foo</b> | Define <b>Foo</b>-<b>foo</b> at Dictionary.com'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFoo_Fighters&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://en.wikipedia.org/wiki/Foo_Fighters',
+          'r' => '0.585714285714286',
+          'du' => 'en.wikipedia.org/wiki/<b>Foo</b>_Fighters',
+          's' => 'The <b>Foo</b> Fighters is an American rock band, formed in Seattle in 1994. It was founded by Nirvana drummer Dave Grohl as a one-man project following the death ...',
+          't' => '<b>Foo</b> Fighters - Wikipedia, the free encyclopedia'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.ebay.com%2Fitm%2FHand-carved-Chinese-Shoushan-Stone-Statue-Buddhism-Luohan-Foo-Dog-NR-%2F121097949322&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.ebay.com/itm/Hand-carved-Chinese-Shoushan-Stone-Statue-Buddhism-Luohan-Foo-Dog-NR-/121097949322',
+          'r' => '0.566666666666667',
+          'du' => 'www.ebay.com/itm/...carved...Luohan-<b>Foo</b>-Dog-NR-/121097949322',
+          's' => 'Hand-carved Chinese Shoushan Stone Statue - Buddhism Luohan &amp; <b>Foo</b> Dog NR in Antiques, Asian Antiques, China | eBay',
+          't' => 'Hand Carved Chinese Shoushan Stone Statue Buddhism Luohan <b>Foo</b> ...'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fen.wiktionary.org%2Fwiki%2Ffoo&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://en.wiktionary.org/wiki/foo',
+          'r' => '0.55',
+          'du' => 'en.wiktionary.org/wiki/<b>foo</b>',
+          's' => 'A metasyntactic variable used to represent an unspecified entity. If part of a series of such entities, it is often the first in the series, and followed ...',
+          't' => '<b>foo</b> - Wiktionary'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.last.fm%2Fmusic%2FFoo%2BFighters&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.53952380952381',
+          'du' => 'www.last.fm/music/<b>Foo</b>+Fighters',
+          's' => 'Watch videos &amp; listen free to <b>Foo</b> Fighters: Everlong, The Pretender &amp; more, plus 186 pictures. <b>Foo</b> Fighters are an American rock band formed by singer/guitarist ...',
+          'ih' => 118,
+          'u' => 'http://www.last.fm/music/Foo+Fighters',
+          'iw' => 126,
+          'i' => '0db24acf835bbaa2ea015d5d45ea4d78',
+          't' => "<b>Foo</b> Fighters \x{2013} Free listening, concerts, stats, &amp; pictures ..."
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.myspace.com%2Ffoofighters&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.53',
+          'du' => 'www.myspace.com/<b>foo</b>fighters',
+          's' => '<b>Foo</b> Fighters\'s official profile including the latest music, albums, songs, music videos and more updates.',
+          'ih' => 163,
+          'u' => 'http://www.myspace.com/foofighters',
+          'iw' => 170,
+          'i' => '8f6ad2cd773a9e01346c6d654b528959',
+          't' => '<b>Foo</b> Fighters | Free Music, Tour Dates, Photos, Videos'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.forgetfoo.com%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.forgetfoo.com/',
+          'r' => '0.522222222222222',
+          'du' => 'www.forget<b>foo</b>.com',
+          's' => '<b>foO</b> says, i know right? fuck\'n weird! hmmm, it\'s almost time for that end-of-the-week BvB action, i\'m thinking. *g* Guillermo says, 13th post in a row w/o boobs.',
+          't' => 'forgetfoo. it\'s just a pixel, baby.'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.urbandictionary.com%2Fdefine.php%3Fterm%3Dfoo%2520foo&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.urbandictionary.com/define.php?term=foo%20foo',
+          'r' => '0.510526315789474',
+          'du' => 'www.urbandictionary.com/define.php?term=<b>foo</b>%20<b>foo</b>',
+          's' => 'When you look or feel frilly, Prissy, made up, High maintenance, overdone etc.. Others can look <b>foo</b> <b>foo</b> to you also.',
+          't' => 'Urban Dictionary: <b>foo</b> <b>foo</b>'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Ffoofood.ca%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://foofood.ca/',
+          'r' => '0.5',
+          'du' => '<b>foofoo</b>d.ca',
+          's' => 'Welcome to <b>Foo</b> ~ Asian Street Food. Located in the downtown core of beautiful Victoria, British Columbia, <b>FOO</b> FOOD serves up a wide range of asian inspired dishes.',
+          't' => '<b>Foo</b> Food | East and West infusion of flavours and styles ...'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSBjQ9tuuTJQ&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.499230769230769',
+          'du' => 'www.youtube.com/watch?v=SBjQ9tuuTJQ',
+          's' => 'Music video by <b>Foo</b> Fighters performing The Pretender. YouTube view counts pre-VEVO: 4,323,242 (C) 2007 Roswell Records, Inc.',
+          'ih' => 124,
+          'u' => 'http://www.youtube.com/watch?v=SBjQ9tuuTJQ',
+          'iw' => 220,
+          'i' => '83b4fe3f6e69c35855d0179a32300cdf',
+          't' => '<b>Foo</b> Fighters - The Pretender - YouTube'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.foopets.com%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.foopets.com/',
+          'r' => '0.473913043478261',
+          'du' => 'www.<b>foo</b>pets.com',
+          's' => 'FooPets are virtual puppies and kittens created with love in San Francisco, California. Adopt them, breed them, love them.',
+          't' => 'FooPets | Real Virtual Pets Online'
+        };
+
+
+=== RETAIL (30 results):
+
+$VAR1 = {
+          'r' => 1,
+          'maxp' => '19.95',
+          's' => 'Includes "The Pretender" (Grammy-winner for Best Hard Rock Performance) and: "Ballad of the Beaconsfield Miners," "But, Honestly," "Come Alive," "Erase/Replace," "Home," "Let It Die," "Long Road to Ruin," "Statues," "Summer\'s End," and more.',
+          'ih' => 200,
+          'u' => 'http://www.shopping.com/hal-leonard-hal-leonard-foo-fighters-echoes-silence-patience-grace-guitar-tab-songbook/prices~linkin_id-8064431',
+          'retailer' => 'shopping.com',
+          'iw' => 200,
+          'i' => '679c52eca5b0266f7e5b453616e5e301',
+          't' => 'Hal Leonard Foo Fighters - Echoes, Silence, Patience & Grace Guitar Tab Songbook'
+        };
+$VAR1 = {
+          'r' => 1,
+          'maxp' => '135.75',
+          's' => 'Electronics Cameras Computers Software Housewares Sports DVDs Music Books Games Toys in titles descriptions Company Info |Checkout Info |Shipping Info |Return Policy |FAQ\'s Add us as a favorite seller By continuing with your purchase using the eBay Buy It Now button, you agree to the Buy Terms of Use at http://stores.ebay.com/Buys-Internet-Superstore/Terms.html . Aesthetic Pleasure in Twentieth-century Women\'s Food Writing - Mclean, Alice L.THIS IS A BRAND NEW UNOPENED ITEM. Buy SKU: 212647419',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=519&BEFID=95263&aon=%5E1&MerchantID=446528&crawler_id=446528&dealId=Qn-EVrJdAvHvB-H08NWFZg%3D%3D&url=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-56844-1854-0%2F2%3Fipn%3Dpsmain%26icep_item_id%3D380420010706%26icep_vectorid%3D240291%26kwid%3D1%26mtid%3D545%26crlp%3D1_240291%26kw%3D%7Bquery%7D%26query%3D%7Bquery%7D%26linkin_id%3D%7Blinkin_id%7D%26sortbid%3D%7Bbidamount%7D%26fitem%3D380420010706%26mt_id%3D545%26icep_meta_categ_id%3D267%26icep_etrs%3DY%26icep_epid%3D79590701%26icep_ctlg%3D4%26icep_cond%3DNew&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Aesthetic+Pleasure+In+Twentieth-century+Women%27s+Foo&dlprc=135.75&AR=2&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=1&IsLps=0&code=&acode=565&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=380420010706',
+          'retailer' => 'eBay',
+          'iw' => 200,
+          'i' => 'ac3ab6dad2b2ac49780cb9575511ab29',
+          't' => 'Aesthetic Pleasure In Twentieth-century Women\'s Foo'
+        };
+$VAR1 = {
+          'r' => '0.5',
+          'maxp' => 73,
+          's' => 'OFN2564: Features: -Set of two statues.-Dark faux antique bronze patina.-These exceptionally detailed statues are mirrored pairs Chinese Foo dogs on traditional pediments.-Mirrored pairs, great displayed on a shelf, mantle or as book ends.-A traditional gift for housewarming, a new business or partnership, holiday or birthday. Construction: -Cast resin construction. Color/Finish: -Finding unique and interesting interior design accents is not the easiest part of decorating a room, but it is fun, and crucial to turning a house or apartment into a home of one s own.',
+          'ih' => 200,
+          'u' => 'http://www.shopping.com/oriental-furniture-9-foo-dog-statues-in-dark-faux-antique-bronze-patina-set-of-two/prices~linkin_id-8064431',
+          'retailer' => 'shopping.com',
+          'iw' => 200,
+          'i' => '0ae9e3305895a8f401c95c214b9c13c0',
+          't' => 'Oriental Furniture 9" Foo Dog Statues in Dark Faux Antique Bronze Patina (Set of Two) - STALION'
+        };
+$VAR1 = {
+          'r' => '0.5',
+          'maxp' => 10,
+          's' => 'Find shirts at Target.com! Men\'s foo fighters graphic tee - charcoal s',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=598&BEFID=31515&aon=%5E1&MerchantID=309577&crawler_id=309577&dealId=FOY_9gYfYySx676T0J7Arg%3D%3D&url=http%3A%2F%2Fwww.target.com%2Fp%2Fmen-s-foo-fighters-graphic-tee-charcoal%2F-%2FA-14044623%3Fref%3Dtgt_adv_XSC10001%26AFID%3Dshopping_df%26LNM%3D%7C14044453%26CPNG%3DWomen%26ci_src%3D13736960%26ci_sku%3D14044453%26&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Men%27s+Foo+Fighters+Graphic+Tee+-+Charcoal+S&dlprc=10.0&AR=4&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=2&IsLps=0&code=&acode=597&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=14044453',
+          'retailer' => 'Target',
+          'iw' => 200,
+          'i' => '055e949d13804d129b36bc2891848af8',
+          't' => 'Men\'s Foo Fighters Graphic Tee - Charcoal S'
+        };
+$VAR1 = {
+          'r' => '0.25',
+          'maxp' => '903.09',
+          's' => "Color: Terra Cotta, Configuration: Right Facing Amedeo Design 2000-3 Our Foo Dog Statue comes from classic Chinese designs. Large yet lightweight, this piece can be moved by one person to any location easily. Our products are made of lightweight weatherproof resinstone. Features: -Made of resinstone - proprietary blend of stone and high performance resin. -Amazing stone - like appearance ideal for use inside and out. -Remarkably light, strong and weather-proof (120\x{b0} - 20\x{b0}). -Maintainable and repairable. -Handmade. -Made in the USA by Local Artisans. -Lifetime guaranty and warranty. -Dimensions: 41\" H x 20\" W x 28\" D.",
+          'ih' => 200,
+          'u' => 'http://www.shopping.com/amedeo-design-amedeo-design-resinstone-2000-4t-foo-dog-right-facing-28-by-20-by-41-inch-terra-cotta/prices~linkin_id-8064431',
+          'retailer' => 'shopping.com',
+          'iw' => 200,
+          'i' => '3910444fd17d8aafa7d707a508ea0e07',
+          't' => 'Amedeo Design ResinStone 2000-4T Foo Dog, Right Facing, 28 by 20 by 41-Inch, Terra Cotta - 848217016793'
+        };
+$VAR1 = {
+          'r' => '0.25',
+          'maxp' => '913.92',
+          's' => 'Chinese Foo Dogs are believed as the civilian door gods. They are placed in a pair to provide ultimate protection, guard against evil spirits and harmful people, nourishes chi that enters homes, bring in happy blessings.One pair - the one playing with a ball under his foot is male and the other one with a little baby Fu Dog under her foot is female. How to place it?They are displaced (facing outside) at either sides of the main door, hall way or raised high up on both sides of the main gate, stairs or escalator. They can be placed on floor level or raised to higher level. Dimension:  each approx. 23\\ x 17\\ x 11\\Material: Resin, Gold dyed',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=54&BEFID=96392&aon=%5E1&MerchantID=503033&crawler_id=1931142&dealId=LL_WsWhACK3O5iGX8-Rdrw%3D%3D&url=http%3A%2F%2Fwww.amazon.com%2Fdp%2FB001KB4K40%2Fref%3Dasc_df_B001KB4K402480160%3Fsmid%3DA28FUI98AHS404%26tag%3Ddealtimemptvs-1634-20%26linkCode%3Dasn%26creative%3D395105%26creativeASIN%3DB001KB4K40&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Chinese+Foo+Dogs&dlprc=913.92&AR=7&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=4&IsLps=0&code=&acode=0&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=B001KB4K40',
+          'retailer' => 'Amazon Marketplace',
+          'iw' => 200,
+          'i' => 'c7ac0f207a7dc91122683fbb82db8845',
+          't' => 'Chinese Foo Dogs'
+        };
+$VAR1 = {
+          'r' => '0.2',
+          'maxp' => '9.99',
+          's' => 'Foo Fighters have established themselves as a premier alternative rock band, offering a mixture of bittersweet harmonies and full-on rock anthems. Their formidable live act is second to none, and EVERYWHERE BUT HOME cements their reputation with a combination of stadium shows, festival appearances, and intimate acoustic performances. Endearing behind the scenes footage illustrates the goofy nature of the band, with singer Dave Grohl displaying all his gentlemanly charms. Tracks include "Monkey Wrench," "All My Life," "Learn To Fly," "Everlong," and more. ',
+          'minp' => '7.74',
+          'ih' => 200,
+          'u' => 'http://www.shopping.com/Foo_Fighters_Everywhere_But_Home/prices~linkin_id-8064431',
+          'retailer' => 'shopping.com',
+          'iw' => 200,
+          't' => 'Foo Fighters - Everywhere But Home',
+          'i' => '06fe4d4634ab197ab141bc7fa8610bf3'
+        };
+$VAR1 = {
+          'r' => '0.2',
+          'maxp' => '17.62',
+          's' => 'Free Worldwide Delivery : Foo Fighters : Mixed media product : Alfred Publishing Company : 9780739087015 : 0739087010 : 01 Apr 2012 : (DRUM PLAY-ALONG). Exact drum transcriptions to eight Foo Fighters rock anthems, with two CDs featuring two versions of every song: an instrumental sound-alike recording, and a version without drums so you can play along. Titles: All My Life * Learn to Fly * Everlong * Monkey Wrench * My Hero * Best of You * The Pretender * Walk. The CDs also feature the Tone \'n\' Tempo Changer software that allows you to use them in Macs or PCs to loop sections for practice, slow tracks down or speed them up without...',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=620&BEFID=63715&aon=%5E1&MerchantID=501635&crawler_id=501635&dealId=E9EFWClfCbwOj91Pf9cZmQ%3D%3D&url=http%3A%2F%2Fwww.bookdepository.com%2FFoo-Fighters-Alfred-Publishing%2F9780739087015%3Fredirected%3Dtrue%26utm_medium%3DShopping%26utm_campaign%3DShoppingUs%26utm_source%3DUS%26utm_content%3DFoo-Fighters&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Foo+Fighters+by+Alfred+Publishing&dlprc=17.62&AR=9&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=136716296&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=5&IsLps=0&code=&acode=632&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=9780739087015_uk',
+          'retailer' => 'BookDepository.com',
+          'iw' => 200,
+          'i' => '8e08967d507287b26c5d74173e12cbab',
+          't' => 'Foo Fighters by Alfred Publishing'
+        };
+$VAR1 = {
+          'r' => '0.166666666666667',
+          'maxp' => '24.99',
+          's' => 'Foo-King-Long - When Long Just Isn\'t Enough.  The 2-piece, 432 dimple pattern ball strives to be the longest ball in golf, while still giving you all of the playability you want around the greens.  The construction of the Foo Ball does not conform to USGA Rules due to a top secret core that allows the ball to travel illegal distances. When the mystical compression and low spin of the ball is combined with a power drive, fairways seem to be much shorter than previously thought.  With Foo-King-Long, the illegal core equals ninja like ball speed! Don\'t leave yardage on the tee. For the longest drives every time, play with Foo-King-Long Golf Balls.',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=516&BEFID=96424&aon=%5E1&MerchantID=301531&crawler_id=1913034&dealId=2bdLgoTHl8xQJkv_hGT-hA%3D%3D&url=http%3A%2F%2Fwww.amazon.com%2Fdp%2FB002Q75UKU%2Fref%3Dasc_df_B002Q75UKU2476155%3Fsmid%3DA2X47SOYXMT8FD%26tag%3Ddealtime-sg-mp01-20%26linkCode%3Dasn%26creative%3D395105%26creativeASIN%3DB002Q75UKU&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Foo-King-Long+Golf+Balls&dlprc=24.99&AR=10&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=6&IsLps=0&code=&acode=536&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=B002Q75UKU',
+          'retailer' => 'Amazon Marketplace',
+          'iw' => 200,
+          'i' => 'dddcd640e422648fac313e296497a472',
+          't' => 'Foo-King-Long Golf Balls'
+        };
+$VAR1 = {
+          'r' => '0.142857142857143',
+          'maxp' => '1069.81',
+          's' => 'Our foo Dog Base comes from classic chinese designs. Large yet lightweight, this piece can be moved by one person to any location easily. our products are made of lightweight weatherproof ResinStone. So authentic, you actually have to lift them to convince yourself they\'re not stone at all.',
+          'minp' => '825.07',
+          'ih' => 200,
+          'u' => 'http://www.shopping.com/amedeo-design-foo-dog-base/prices~linkin_id-8064431',
+          'retailer' => 'shopping.com',
+          'iw' => 200,
+          't' => 'Amedeo Design Foo Dog Base',
+          'i' => '348a2c77b8a36dac32ce020e9069f1bb'
+        };
+$VAR1 = {
+          'r' => '0.142857142857143',
+          'maxp' => '3.99',
+          's' => 'Protective Mylar. Metal Shell Pin Back Button. Professionally manufactured. Brand New. In Stock Great Gift  Idea. FREE Shipping.  Parcel Service: please allow about one week for delivery. We usually ship the same day.',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=954&BEFID=96392&aon=%5E1&MerchantID=513941&crawler_id=513941&dealId=ni-JM-pnYdTK_vARtPubTA%3D%3D&url=http%3A%2F%2Fballigifts.com%2Findex.php%3Fmain_page%3Dproduct_info%26products_id%3D4091&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Foo+Fighters+Logo+Pin+Back+Button+1.25&dlprc=3.99&AR=11&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=7&IsLps=0&code=&acode=931&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=foo-fighters-b',
+          'retailer' => 'Balli Gifts the #1 Gift Store',
+          'iw' => 200,
+          'i' => 'b0d283852527321579356c265076ff35',
+          't' => 'Foo Fighters Logo Pin Back Button 1.25'
+        };
+$VAR1 = {
+          'r' => '0.125',
+          'maxp' => '14.99',
+          's' => 'The Foo Fighters continued to redefine the parameters of the post-grunge rock world with their 2006 double album, IN YOUR HONOR. While the album\'s first disc found Dave Grohl and company plugged in with screaming guitars and vocals, the second disc showcased the band\'s more acoustic and ethereal leanings. SKIN AND BONES captures IN YOUR HONOR\'s softer side--and hearkens back to the days of Nirvana\'s UNPLUGGED--with an acoustic live performance recorded at L.A.\'s Pantages Theater in summer 2006.',
+          'minp' => '10.98',
+          'ih' => 200,
+          'u' => 'http://www.shopping.com/Foo_Fighters_Skin_and_Bones/prices~linkin_id-8064431',
+          'retailer' => 'shopping.com',
+          'iw' => 200,
+          't' => 'Foo Fighters - Skin and Bones',
+          'i' => 'cf6f48907ad2e9fb879216c958480fe4'
+        };
+$VAR1 = {
+          'r' => '0.125',
+          'maxp' => '197.41',
+          's' => 'This foo dog lamp features the traditional Chinese symbol of power and protection.  Crafted in classic white porcelain, the foo dog lamp sits on a solid brass base and is topped with a chocolate square cut corner shade with gold trim. The male foo dog\'s paw rests on the globe depicting power and protection of the world.  The female counterpart to this lamp is sold separately.',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=10&BEFID=96650&aon=%5E1&MerchantID=503029&crawler_id=1931137&dealId=OahVm3tBTBvFhfihx214kA%3D%3D&url=http%3A%2F%2Fwww.amazon.com%2Fdp%2FB002VJKHB0%2Fref%3Dasc_df_B002VJKHB02480151%3Fsmid%3DATVPDKIKX0DER%26tag%3Ddealtimetvs-0000019-20%26linkCode%3Dasn%26creative%3D395093%26creativeASIN%3DB002VJKHB0&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Port+68+Foo+Dog+Lamp+Right%2C+White%2C+29-Inch+Tall&dlprc=197.41&AR=12&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=8&IsLps=0&code=&acode=5&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=B002VJKHB0',
+          'retailer' => 'Amazon',
+          'iw' => 200,
+          'i' => '24f6be2a2237317197d3dde4a8ae09db',
+          't' => 'Port 68 Foo Dog Lamp Right, White, 29-Inch Tall'
+        };
+$VAR1 = {
+          'r' => '0.111111111111111',
+          'maxp' => '17.09',
+          's' => 'Long before the Foo Fighters became a modern rock fixture, frontman Dave Grohl had been the driving force behind many a hardcore outfit. This in-depth documentary traces the drummers career from D.C. (where he played with the punk act Scream) through to his hallowed days with Nirvana, featuring incredibly rare performance footage and interviews with his colleagues, bandmates, and admirers. NO DISTANCE LEFT TO RUN also includes an exclusive selection of Foo Fighters bootlegs, as well as a variety of never-before-seen photos of Grohl through the ages.',
+          'minp' => '13.4',
+          'ih' => 200,
+          'u' => 'http://www.shopping.com/foo-fighters-no-distance-left-to-run/prices~linkin_id-8064431',
+          'retailer' => 'shopping.com',
+          'iw' => 200,
+          't' => 'Foo Fighters - No Distance Left To Run',
+          'i' => 'a13f579e67b770dd73f011c1c9a9aab4'
+        };
+$VAR1 = {
+          'r' => '0.111111111111111',
+          'maxp' => 10,
+          's' => 'Find shirts at Target.com! Men\'s foo fighters graphic tee - charcoal m',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=598&BEFID=31515&aon=%5E1&MerchantID=309577&crawler_id=309577&dealId=HrrA_2vVEtZyKsjvDK4yGw%3D%3D&url=http%3A%2F%2Fwww.target.com%2Fp%2Fmen-s-foo-fighters-graphic-tee-charcoal%2F-%2FA-14044623%3Fref%3Dtgt_adv_XSC10001%26AFID%3Dshopping_df%26LNM%3D%7C14044456%26CPNG%3DWomen%26ci_src%3D13736960%26ci_sku%3D14044456%26&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Men%27s+Foo+Fighters+Graphic+Tee+-+Charcoal+M&dlprc=10.0&AR=13&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=9&IsLps=0&code=&acode=597&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=14044456',
+          'retailer' => 'Target',
+          'iw' => 200,
+          'i' => 'bdd42f66378690b0a965d03f30c96d33',
+          't' => 'Men\'s Foo Fighters Graphic Tee - Charcoal M'
+        };
+$VAR1 = {
+          'r' => '0.1',
+          'maxp' => 299,
+          's' => 'High-grade cast stone. Hand-applied greystone finish replicates natural aging to give the statue a classic appearance. Due to the hand-finished nature of this product, colors can vary slightly from what is shown. Handcrafted from high-grade cast stone, our Foo Dog Statues capture the essence of the East. Sculptors, mold-makers and other artisans have teamed up to create this outdoor sculpture through a labor-intensive 15-step process.  .  .  . Made in the USA.',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=383&BEFID=96392&aon=%5E1&MerchantID=417360&crawler_id=417360&dealId=jmpbZ5jmI_4ZqOLPchTTsw%3D%3D&url=http%3A%2F%2Flink.mercent.com%2Fredirect.ashx%3Fmr%3AmerchantID%3DFrontgate%26mr%3AtrackingCode%3D01C7A817-CD80-E111-AF97-001B2163195C%26mr%3AtargetUrl%3Dhttp%3A%2F%2Fwww.frontgate.com%2Fx%2F437821%253fSourceCode%253dZZ50869%2526cm_mmc%253dComparison%252520Shopping-_-Shopping.com-_-NA-_-NA&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Left-facing+Foo+Dog+Statue+-+Frontgate&dlprc=299.0&AR=14&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=10&IsLps=0&code=&acode=320&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=59469+LEF+GRE',
+          'retailer' => 'Frontgate',
+          'iw' => 200,
+          'i' => '33ac99e45a81607e5a2dd763d8e1abc4',
+          't' => 'Left-facing Foo Dog Statue - Frontgate'
+        };
+$VAR1 = {
+          'r' => '0.0909090909090909',
+          'maxp' => '89.99',
+          's' => 'Find decorative accent pieces at Target.com! Add an oriental feel to any room with this foo dog dragon in gold and green. It\'s made of wood with a lacquered finish, giving it a solid and durable structure, and the gold exterior is a unique design element.',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=598&BEFID=96441&aon=%5E1&MerchantID=309577&crawler_id=309577&dealId=Ap3x8G-a-KH2I9WMzab3YA%3D%3D&url=http%3A%2F%2Fwww.target.com%2Fp%2Flacquer-foo-dog-dragons-gold-green-5l-x-3w-x-7h%2F-%2FA-11026398%3Fref%3Dtgt_adv_XSC10001%26AFID%3Dshopping_df%26LNM%3D%7C11026398%26CPNG%3DUnassigned%26ci_src%3D13736960%26ci_sku%3D11026398%26&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Lacquer+Foo+Dog+Dragons-+Gold%2FGreen+5L+x+3W+x+7H&dlprc=89.99&AR=15&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=11&IsLps=0&code=&acode=611&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=11026398',
+          'retailer' => 'Target',
+          'iw' => 200,
+          'i' => 'c428f98abbcb7a3b6b88387fc538f49b',
+          't' => 'Lacquer Foo Dog Dragons- Gold/Green 5L x 3W x 7H'
+        };
+$VAR1 = {
+          'r' => '0.0833333333333333',
+          'maxp' => '3.79',
+          's' => 'Pricing subject to change.  Rubber Foo',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=729&BEFID=96392&aon=%5E1&MerchantID=487718&crawler_id=487718&dealId=BebQ0j3Ezxf-CClDILGSwA%3D%3D&url=http%3A%2F%2Fwww.searspartsdirect.com%2Fpartsdirect%2Fpart-number%2F0K0099%2F0071%2F504%3Futm_source%3Dshoppingcom%26utm_medium%3Dcse%26utm_term%3D0K0099%26sid%3DSPDxSHPG&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Rubber+Foo+-+0K0099&dlprc=3.79&AR=16&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=12&IsLps=0&code=&acode=704&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=0K0099',
+          'retailer' => 'Sears Parts Direct',
+          'iw' => 200,
+          'i' => 'ef368a49825e7ea4f2fa531e7ad1213c',
+          't' => 'Rubber Foo - 0K0099'
+        };
+$VAR1 = {
+          'r' => '0.0714285714285714',
+          'maxp' => 299,
+          's' => 'High-grade cast stone. Hand-applied greystone finish replicates natural aging to give the statue a classic appearance. Due to the hand-finished nature of this product, colors can vary slightly from what is shown. Handcrafted from high-grade cast stone, our Foo Dog Statues capture the essence of the East. Sculptors, mold-makers and other artisans have teamed up to create this outdoor sculpture through a labor-intensive 15-step process.  .  .  . Made in the USA.',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=383&BEFID=96392&aon=%5E1&MerchantID=417360&crawler_id=417360&dealId=iGp-qE2dzOooZN5V8IfuDg%3D%3D&url=http%3A%2F%2Flink.mercent.com%2Fredirect.ashx%3Fmr%3AmerchantID%3DFrontgate%26mr%3AtrackingCode%3D02C7A817-CD80-E111-AF97-001B2163195C%26mr%3AtargetUrl%3Dhttp%3A%2F%2Fwww.frontgate.com%2Fx%2F437822%253fSourceCode%253dZZ50869%2526cm_mmc%253dComparison%252520Shopping-_-Shopping.com-_-NA-_-NA&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Right-facing+Foo+Dog+Statue+-+Frontgate&dlprc=299.0&AR=19&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=14&IsLps=0&code=&acode=320&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=59469+RIG+GRE',
+          'retailer' => 'Frontgate',
+          'iw' => 200,
+          'i' => '34d57e2027660bfa501be1692b7c8efb',
+          't' => 'Right-facing Foo Dog Statue - Frontgate'
+        };
+$VAR1 = {
+          'r' => '0.0666666666666667',
+          'maxp' => '1.25',
+          's' => 'Mini Foo jigs are very popular for all jigging situations. They are a painted lead-head jig with a feather tail and come in a variety of colors. These jigs are usually fished under a float often with a grub or egg and are very effective on steelhead and other species. These are the standard Mini Foos and they are available in six colors and three weights.',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=516&BEFID=96424&aon=%5E1&MerchantID=301531&crawler_id=1913033&dealId=gKeIh5v6y9as61qVbbJMCg%3D%3D&url=http%3A%2F%2Fwww.amazon.com%2Fdp%2FB000EI6IHW%2Fref%3Dasc_df_B000EI6IHW2481302%3Fsmid%3DA1SQJ55GUIVOGP%26tag%3Ddealtime-sg-mp01-20%26linkCode%3Dasn%26creative%3D395105%26creativeASIN%3DB000EI6IHW&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Mini+Foo+Jig+Standard+1%2F32%2C+1%2F64+and+1%2F16+oz.+Color%3A+Red+head%2FBlack+body%3B+Weight%3A+1%2F16+oz.&dlprc=1.25&AR=20&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=15&IsLps=0&code=&acode=536&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=B000EI6IHW',
+          'retailer' => 'Amazon Marketplace',
+          'iw' => 200,
+          'i' => '71584fb4e422fcf901365eb3a24df402',
+          't' => 'Mini Foo Jig Standard 1/32, 1/64 and 1/16 oz. Color: Red head/Black body; Weight: 1/16 oz.'
+        };
+$VAR1 = {
+          'r' => '0.0625',
+          'maxp' => '13.99',
+          's' => "Look cool without breaking the bank. We know you'll love this unique t-shirt! This is a high quality pre-shrunk t-shirt that will not crack or fade no matter how many times you wash it. This tee will never shrink, twist, fade or fall to pieces after a couple of washes. We use only the most expensive and highest quality print materials (fully machine washable & direct ironable) The image will be soft to the touch and not have the plastic heavy feel of a screen-printed t-shirt. Comfortable, casual and loose fitting, our heavyweight t-shirt will quickly become one of your favorites. This soft and heavyweight t-shirt waits about 5.6 oz and offers classic look and classic comfort. It's so comfortable yet you really can wash it over and over again. It is perfect for anyone who wants to purchase a t-shirt that lasts. This tee is pre-shrunk and is made of 50 cotton/50 poly blend. It features a ribbed crew neck collar, set-in sleeves, taped shoulder-to-shoulder and two-needle hemmed sleeves & bottom. Unless otherwise noted, all the artwork features are centered on the front of the shirt. There is nothing on the back. Features  high quality pre-shrunk tee that will not crack, fade or twist we use only the most expensive and highest quality print materials the image is soft to the touch this soft t-shirt waits 5.6 oz and offers classic look & comfort this tee is pre-shrunk and is made of 50-cotton/50-poly blend  Size Chart  Measuring Instructions: Chest/bust: Raise your arms slightly and measure around your body. Be sure to measure the fullest part of your chest/bust, keeping the tape parallel to the ground. Waist: Measure around your waist where your pants usually fall. Keep one finger between the tape and your body to ensure an accurate fit. \x{a0}",
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=174&BEFID=31515&aon=%5E&MerchantID=515185&crawler_id=515185&dealId=DERx94HibO51JCLw5XXOIA%3D%3D&url=http%3A%2F%2Fwww.fastasticdeal.com%2Fworking-dog-pet-chinese-foo-t-shirt-tee-shirt-top%2F&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Working+Dog+Pet+Chinese+Foo+T-Shirt+Tee+Shirt+Top&dlprc=13.99&AR=21&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=16&IsLps=0&code=&acode=190&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=81693',
+          'retailer' => 'Fastasticdeal.com',
+          'iw' => 200,
+          'i' => '39f4b16bffead5cf3de91c9ce07132bc',
+          't' => 'Working Dog Pet Chinese Foo T-Shirt Tee Shirt Top'
+        };
+$VAR1 = {
+          'r' => '0.0588235294117647',
+          'maxp' => 32,
+          's' => 'Appealing Foo Dog silhouettes enhance these useful housewares, including mugs, switchplates, sympathy cards, and postcards Find your breed on designer Foo Dog items at Dreambarks All Breed Gifts. About our Keepsake Box: This tile box is perfect for stylishly storing knick-knacks, jewelry, or any precious keepsake.  Made of solid lacquered Alderwood. Measures 5 1/4 sq. x  2 1/8  with a 4 1/4 tile and hinged lid.. Pets',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=843&BEFID=41186&aon=%5E1&MerchantID=329860&crawler_id=1912044&dealId=u-ZdHBwxKoEzWI0Xt_ljZA%3D%3D&url=http%3A%2F%2Ftracking.searchmarketing.com%2Fclick.asp%3Faid%3D1478191149&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Foo+Dog++Pets+Keepsake+Box+by+CafePress&dlprc=32.0&AR=22&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=17&IsLps=0&code=&acode=840&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=28546681',
+          'retailer' => 'CafePress.com',
+          'iw' => 200,
+          'i' => 'fa35dd88fc07815253368eeaf4982b97',
+          't' => 'Foo Dog  Pets Keepsake Box by CafePress'
+        };
+$VAR1 = {
+          'r' => '0.0555555555555556',
+          'maxp' => '12.84',
+          's' => '',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=906&BEFID=96444&aon=%5E1&MerchantID=303925&crawler_id=303925&dealId=C8efFYdEFZ8IgAJOnW4VcQ%3D%3D&url=http%3A%2F%2Fwww.magazines.com%2Fbeyond-foo-book-2-geth-and-the-deception-of-dreams-389579%2F1187710-BK%2Cdefault%2Cpd.html%3Faffiliate_id%3D4548&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Beyond+Foo%2C+Book+2%3A+Geth+and+the+Deception+of+Dreams+%28Hardcover%29&dlprc=12.84&AR=23&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=18&IsLps=0&code=&acode=900&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=7348122',
+          'retailer' => 'Magazines.com',
+          'iw' => 200,
+          'i' => '7b4e19991be5e21133ab3f36eb249f39',
+          't' => 'Beyond Foo, Book 2: Geth and the Deception of Dreams (Hardcover)'
+        };
+$VAR1 = {
+          'r' => '0.0526315789473684',
+          'maxp' => '13.02',
+          's' => 'Dave Grohl had been writing and recording songs since he was a teenager in Washington D.C., but it wasn\'t until Nirvana collapsed after the death of Kurt Cobain that Grohl opted to step out from behind the drum set and move forward as a frontman. The Foo Fighters\' self-titled debut album featured Grohl playing all the instruments, but he soon assembled a working version of the band to go out on tour, and seventeen years after their 1994 debut, the Foo Fighters have weathered personal differences, a demanding touring schedule and health issues to become one of the world\'s most successful hard rock bands. FOO FIGHTERS: BACK AND FORTH is a documentary about the band in which Grohl and his bandmates talk about the band\'s history, perform some of their best-known songs for a sold-out audience, and work in Grohl\'s makeshift home studio with producer Butch Vig to record their seventh studio album, WASTING LIGHT. FOO FIGHTERS: BACK AND FORTH received its world premiere at the 2011 South by Southwest Film Festival.',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=519&BEFID=63716&aon=%5E1&MerchantID=446528&crawler_id=446528&dealId=V0_C7X6Fqx7cHjwzqFB9FQ%3D%3D&url=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-56844-1854-0%2F2%3Fipn%3Dpsmain%26icep_item_id%3D380605445698%26icep_vectorid%3D240291%26kwid%3D1%26mtid%3D545%26crlp%3D1_240291%26kw%3D%7Bquery%7D%26query%3D%7Bquery%7D%26linkin_id%3D%7Blinkin_id%7D%26sortbid%3D%7Bbidamount%7D%26fitem%3D380605445698%26mt_id%3D545%26icep_meta_categ_id%3D11232%26icep_etrs%3DN%26icep_epid%3D102355912%26icep_ctlg%3D1%26icep_cond%3DNew&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Foo+Fighters%3A+Back+And+Forth+%5Bdvd%5D+-+Dvd&dlprc=13.02&AR=25&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=19&IsLps=0&code=&acode=540&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=380605445698',
+          'retailer' => 'eBay',
+          'iw' => 200,
+          'i' => 'e3da4569813e13fbf083b75303486b0d',
+          't' => 'Foo Fighters: Back And Forth [dvd] - Dvd'
+        };
+$VAR1 = {
+          'r' => '0.0476190476190476',
+          'maxp' => '19.99',
+          's' => 'Foo Fighters have now immortalized their biggest ever headline stand with this 18-song DVD, documenting their two sold out performances at Wembley Stadium. The Live At Wembley Stadium DVD is a career-spanning live opus, drawing on all six of Foo Fighters\' studio albums, featuring classics Times Like These, Everlong, Monkey Wrench, All My Life, and Learn To Fly as well as live staples including Long Road To Ruin. The DVD also includes night two\'s historic encore, for which Jimmy Page and John Paul Jones of Led Zeppelin joined Grohl and Hawkins for renditions of Rock and Roll and Ramble On. The show concludes with a triumphant and highly emotional Best Of You with a closing chorus of 85,000 fans leaving Grohl visibly moved. Approximate running time 120 mins.Song list:1.The Pretender2.Times Like These3.No Way Back4.Cheer Up, Boys (Your Make Up Is Running)5.Learn To Fly6.Long Road To Ruin7.Breakout8.Stacked Actors9.Skin And Bones10.Marigold11.My Hero12.Cold Day In The Sun13.Everlong14.Monkey Wrench15.All My Life16.Rock And Roll17.Ramble On18.Best Of You19.The Pretender(5.1 Surround)20.Times Like These(5.1 Surround)21.No Way Back(5.1 Surround)22.Cheer Up, Boys (Your make Up Is Running)(5.1 Surround)23.Learn To Fly (5.1 Surround)24.Long Road To Ruin 5.1 Surround)25.Breakout(5.1 Surround)26.Stacked Actors(5.1 Surround)27.Skin And Bones(5.1 Surround)28.Marigold(5.1 Surround)29.My Hero(5.1 Surround)30.Cold Day In The Sun(5.1 Surround)31.Everlong(5.1 Surround)32.Monkey Wrench(5.1 Surround)33.All My Life (5.1 Surround)34.Rock And Roll(5.1 Surround)35.Ramble On (5.1 Surround)36.Best Of You (5.1 Surround)',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=601&BEFID=63716&aon=%5E1&MerchantID=300590&crawler_id=812157&dealId=9dDz0jM8RXMJ7JsaaWgDig%3D%3D&url=http%3A%2F%2Ftracking.searchmarketing.com%2Fclick.asp%3Faid%3D317576742&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Rca+Foo+Fighters+-+Live+At+Wembley+%28Dvd%29&dlprc=19.99&AR=27&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=21&IsLps=0&code=&acode=580&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=580293',
+          'retailer' => 'Musician\'s Friend',
+          'iw' => 200,
+          'i' => '5ff910cc4fadd65df846e58d651519a8',
+          't' => 'Rca Foo Fighters - Live At Wembley (Dvd)'
+        };
+$VAR1 = {
+          'r' => '0.0454545454545455',
+          'maxp' => '1.25',
+          's' => 'Mini Foo jigs are very popular for all jigging situations. They are a painted lead-head jig with a feather tail and come in a variety of colors. These jigs are usually fished under a float often with a grub or egg and are very effective on steelhead and other species. These are the standard Mini Foos and they are available in six colors and three weights.',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=516&BEFID=96424&aon=%5E1&MerchantID=301531&crawler_id=1913033&dealId=-hkYqpaz2VX6WSgARM73IQ%3D%3D&url=http%3A%2F%2Fwww.amazon.com%2Fdp%2FB000309PBM%2Fref%3Dasc_df_B000309PBM2481302%3Fsmid%3DA1SQJ55GUIVOGP%26tag%3Ddealtime-sg-mp01-20%26linkCode%3Dasn%26creative%3D395105%26creativeASIN%3DB000309PBM&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Mini+Foo+Jig+Standard+1%2F32%2C+1%2F64+and+1%2F16+oz.+Color%3A+Pink+head%2FPink+body%3B+Weight%3A+1%2F32+oz.&dlprc=1.25&AR=28&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=22&IsLps=0&code=&acode=536&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=B000309PBM',
+          'retailer' => 'Amazon Marketplace',
+          'iw' => 200,
+          'i' => '68ca7dbe3fef033ab78964789f3e734b',
+          't' => 'Mini Foo Jig Standard 1/32, 1/64 and 1/16 oz. Color: Pink head/Pink body; Weight: 1/32 oz.'
+        };
+$VAR1 = {
+          'r' => '0.0416666666666667',
+          'maxp' => '20.72',
+          's' => "The Grammy Award winning chronicling of the triumphs and tragedies of the band's 16 year history, BACK AND FORTH chronicles FOO FIGHTERS entire existence: from Dave Grohl's cassette demos to the band forming to play those songs to their ascent to becoming one of the biggest rock bands on the planet--and every Grammy\x{ae} win and sold out show along the way. FOO FIGHTERS BACK AND FORTH features Grohl, Taylor Hawkins, Nate Mendel, Chris Shiflett and Pat Smear recalling every stage of the band's existence more candidly and intimately than ever before culminating in a behind the scenes look at the direct-to-analog tape sessions in Grohl's garage that produced the new album, WASTING LIGHT.",
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=66&BEFID=63716&aon=%5E1&MerchantID=40085&crawler_id=1925411&dealId=MhrL0UKABnM3VsQi9dzVOQ%3D%3D&url=http%3A%2F%2Fwww.amazon.com%2Fdp%2FB004XCUEXY%2Fref%3Dasc_df_B004XCUEXY2481140%3Fsmid%3DATVPDKIKX0DER%26tag%3Ddealtime-dvd-20%26linkCode%3Dasn%26creative%3D395093%26creativeASIN%3DB004XCUEXY&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Foo+Fighters%3A+Back+And+Forth+%5BBlu-Ray%5D&dlprc=20.72&AR=30&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=24&IsLps=0&code=&acode=93&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=B004XCUEXY',
+          'retailer' => 'Amazon',
+          'iw' => 200,
+          'i' => '7e3b4532eccd81577f9d2298e211ad52',
+          't' => 'Foo Fighters: Back And Forth [Blu-Ray]'
+        };
+$VAR1 = {
+          'r' => '0.04',
+          'maxp' => 349,
+          's' => 'Checkout Payment Shipping Contact Us Giant Foo Dog of the Forbidden City Statue Design Toscano CHINESE This traditional Asian symbol will protect the entry to your home. Like the ancient guardians who\'ve watched over religious sites for centuries, our substantially sized Foo Dog bears a fierce expression and traditional power orb while set atop an ornamental plinth. We\'ve cast our exclusive in weather-resistant, designer resin to replicate its hand-carved stone forebears. 10Wx18Dx30H. 22 lbs',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=519&BEFID=96392&aon=%5E1&MerchantID=446528&crawler_id=1909691&dealId=Ad2s2mmTmCBpXhsPR8H74w%3D%3D&url=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-57618-1854-0%2F2%3Fipn%3Dpsmain%26icep_item_id%3D171003513842%26icep_vectorid%3D240251%26kwid%3D1%26mtid%3D570%26crlp%3D1_240251%26kw%3D%7Bquery%7D%26query%3D%7Bquery%7D%26linkin_id%3D%7Blinkin_id%7D%26sortbid%3D%7Bbidamount%7D%26fitem%3D171003513842%26mt_id%3D570%26icep_meta_categ_id%3D11700&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Giant+Foo+Dog+Of+The+Forbidden+City+Statue+Design+Toscano+Chinese&dlprc=349.0&AR=31&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=25&IsLps=0&code=&acode=564&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=171003513842',
+          'retailer' => 'eBay',
+          'iw' => 200,
+          'i' => 'af4d3564c5d6f44f653816e6dcdd0bcb',
+          't' => 'Giant Foo Dog Of The Forbidden City Statue Design Toscano Chinese'
+        };
+$VAR1 = {
+          'r' => '0.0384615384615385',
+          'maxp' => '16.38',
+          's' => 'Dave Grohl had been writing and recording songs since he was a teenager in Washington D.C., but it wasn\'t until Nirvana collapsed after the death of Kurt Cobain that Grohl opted to step out from behind the drum set and move forward as a frontman. The Foo Fighters\' self-titled debut album featured Grohl playing all the instruments, but he soon assembled a working version of the band to go out on tour, and seventeen years after their 1994 debut, the Foo Fighters have weathered personal differences, a demanding touring schedule and health issues to become one of the world\'s most successful hard rock bands. FOO FIGHTERS: BACK AND FORTH is a documentary about the band in which Grohl and his bandmates talk about the band\'s history, perform some of their best-known songs for a sold-out audience, and work in Grohl\'s makeshift home studio with producer Butch Vig to record their seventh studio album, WASTING LIGHT. FOO FIGHTERS: BACK AND FORTH received its world premiere at the 2011 South by Southwest Film Festival.',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=519&BEFID=63716&aon=%5E1&MerchantID=446528&crawler_id=446528&dealId=_-wH58H5Oe_LR7F2GxmlQg%3D%3D&url=http%3A%2F%2Frover.ebay.com%2Frover%2F1%2F711-56844-1854-0%2F2%3Fipn%3Dpsmain%26icep_item_id%3D150755826334%26icep_vectorid%3D240291%26kwid%3D1%26mtid%3D545%26crlp%3D1_240291%26kw%3D%7Bquery%7D%26query%3D%7Bquery%7D%26linkin_id%3D%7Blinkin_id%7D%26sortbid%3D%7Bbidamount%7D%26fitem%3D150755826334%26mt_id%3D545%26icep_meta_categ_id%3D11232%26icep_etrs%3DN%26icep_epid%3D102355912%26icep_ctlg%3D1%26icep_cond%3DNew&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Foo+Fighters%3A+Back+And+Forth+%5Bdvd+New%5D&dlprc=16.38&AR=32&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=26&IsLps=0&code=&acode=540&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=150755826334',
+          'retailer' => 'eBay',
+          'iw' => 200,
+          'i' => '9607a6c7df4294b14a842ed888cfe5d2',
+          't' => 'Foo Fighters: Back And Forth [dvd New]'
+        };
+$VAR1 = {
+          'r' => '0.037037037037037',
+          'maxp' => '1.25',
+          's' => 'Mini Foo jigs are very popular for all jigging situations. They are a painted lead-head jig with a feather tail and come in a variety of colors. These jigs are usually fished under a float often with a grub or egg and are very effective on steelhead and other species. These are the standard Mini Foos and they are available in six colors and three weights.',
+          'ih' => 200,
+          'u' => 'http://stat.dealtime.com/DealFrame/DealFrame.cmp?bm=516&BEFID=96424&aon=%5E1&MerchantID=301531&crawler_id=1913033&dealId=4pNbIzY6RCivluW3oKs5ng%3D%3D&url=http%3A%2F%2Fwww.amazon.com%2Fdp%2FB000309PAI%2Fref%3Dasc_df_B000309PAI2481302%3Fsmid%3DA1SQJ55GUIVOGP%26tag%3Ddealtime-sg-mp01-20%26linkCode%3Dasn%26creative%3D395105%26creativeASIN%3DB000309PAI&linkin_id=8064431&Issdt=130421010336&searchID=p14.0f35a365a7b7315c6f5c&DealName=Mini+Foo+Jig+Standard+1%2F32%2C+1%2F64+and+1%2F16+oz.+Color%3A+White+head%2FWhite+body%3B+Weight%3A+1%2F32+oz.&dlprc=1.25&AR=33&NG=18&NDP=41&PN=1&ST=7&FPT=DSP&NDS=&NMS=&MRS=&PD=&brnId=14305&IsFtr=0&IsSmart=0&op=&CM=&RR=27&IsLps=0&code=&acode=536&category=&HasLink=&ND=&MN=&GR=&lnkId=&SKU=B000309PAI',
+          'retailer' => 'Amazon Marketplace',
+          'iw' => 200,
+          'i' => 'b60d7cc54a0ea86cfe564e61b9774e29',
+          't' => 'Mini Foo Jig Standard 1/32, 1/64 and 1/16 oz. Color: White head/White body; Weight: 1/32 oz.'
+        };
+
+
+=== music (11 results):
+
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Floudwire.com%2Ftags%2Ffoo-fighters%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.914218417473782',
+          'du' => 'loudwire.com/tags/<b>foo</b>-fighters',
+          's' => 'Dave Grohl to Perform With &#39;Sound City Players&#39; at Sundance Film Festival Gig.  Dave Grohl to Host SiriusXM &#39;Sound City&#39; Show.  <strong>Foo</strong> Fighters Frontman Dave Grohl Set To Guest Host the &#39;Chelsea Lately&#39; Show.  10 Best <strong>Foo</strong> Fighters Songs.',
+          'ih' => 65,
+          'u' => 'http://loudwire.com/tags/foo-fighters/',
+          'iw' => 220,
+          'i' => 'data:image/jpeg;base64,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',
+          't' => '<strong>Foo</strong> Fighters News'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fsoundcloud.com%2Ffoofighters&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.886286400678493',
+          'du' => 'soundcloud.com/<b>foo</b>fighters',
+          's' => 'Share to WordPress.com.  <strong>Foo</strong> Fighters <strong>Foo</strong> Fighters, Los Angeles, United States.  Wasting Light 11 tracks, 47.57 <strong>Foo</strong> Fighters on April 01, 2011 16:45.  Hide the comments.  Go to track Bridge Burning.',
+          'ih' => 220,
+          'u' => 'http://soundcloud.com/foofighters',
+          'iw' => 220,
+          'i' => 'data:image/jpeg;base64,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',
+          't' => '<strong>Foo</strong> Fighters&#39;s Spotlight page on SoundCloud - Hear the world&#39;s sounds'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.foofighters.com%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.foofighters.com/',
+          'r' => '0.876286400678493',
+          'du' => 'foofighters.com',
+          's' => 'Welcome to the official <strong>Foo</strong> Fighters website featuring <strong>Foo</strong> Fighters news, music, videos, album info, tour dates, and more.',
+          't' => '<strong>Foo</strong> Fighters - The Official <strong>Foo</strong> Fighters Site'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.foofighters.com%2Fus%2Fhome&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.foofighters.com/us/home',
+          'r' => '0.871428571428571',
+          'du' => 'www.<b>foo</b>fighters.com',
+          's' => 'Welcome to the official <b>Foo</b> Fighters website featuring <b>Foo</b> Fighters news, music, videos, album info, tour dates, and more.',
+          't' => '<b>Foo</b> Fighters | The Official <b>Foo</b> Fighters Site'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.planetrock.com%2Fmusic%2Fartist%2Ffoo-fighters%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.85693362632196',
+          'du' => 'planetrock.com/music/artist/<b>foo</b>-fighters',
+          'd' => 1361174400,
+          's' => 'Merchandise for <strong>Foo</strong> Fighters.  Tracks played on Planet Rock.  Search Planet Rock.  The <strong>Foo</strong> Fighters are an American rock band, formed in Seattle in 1994.  It was founded by Nirvana drummer Dave Grohl as a one-man project following the death of Kurt Cobain and the resulting dissolution of his previous band.',
+          'ih' => 94,
+          'u' => 'http://www.planetrock.com/music/artist/foo-fighters/',
+          'iw' => 220,
+          'i' => '8e631917750ba2974678c67e9818c049',
+          't' => '<strong>Foo</strong> Fighters - Artist Info - Planet Rock - Music'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.hotnewhiphop.com%2Fkid-foo-young-and-a-foo-mixtape.79047.html&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.839832829057137',
+          'du' => 'hotnewhiphop.com/kid-<b>foo</b>-young-and-a-<b>foo</b>-mixtape.79047.html',
+          'd' => 1363330800,
+          's' => '',
+          'ih' => 136,
+          'u' => 'http://www.hotnewhiphop.com/kid-foo-young-and-a-foo-mixtape.79047.html',
+          'iw' => 136,
+          'i' => '0dfbdba1f46ee6283bd78e3a8ba22d2a',
+          't' => 'kid <strong>foo</strong> young and a <strong>foo</strong> mixtape.79047'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fnme.com%2Fartists%2Ffoo-fighters&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.820606847235256',
+          'du' => 'nme.com/artists/<b>foo</b>-fighters',
+          's' => '<strong>Foo</strong> Fighters Biography.  First for music news.  NME.com feature on <strong>Foo</strong> Fighters including news, reviews, biography, youtube video, audio, concerts, tour dates, photos, pictures, commentary, album reviews and live reviews and cool facts.  Dave Grohl to premiere Sound City documentary at Sundance Film Festival.',
+          'ih' => 220,
+          'u' => 'http://nme.com/artists/foo-fighters',
+          'iw' => 165,
+          'i' => '7ec719e7012852063142d16f9d262eda',
+          't' => '<strong>Foo</strong> Fighters - news, lyrics, pictures, reviews, biography, videos, best songs, discography, concerts, gossip, pictures and ... '
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Frollingstone.com%2Fmusic%2Fartists%2Ffoo-fighters&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://rollingstone.com/music/artists/foo-fighters',
+          'r' => '0.803397057295339',
+          'du' => 'rollingstone.com/music/artists/<b>foo</b>-fighters',
+          'd' => 788947200,
+          's' => 'Photos and Videos.  1997 The Colour and the Shape.  1999 There Is Nothing Left to Lose.  2005 Echoes, Silence, Patience &amp; Grace.  The <strong>Foo</strong> Fighters emerged from the ashes of Nirvana, but the band&#39;s true roots lay in the years of personal recordings made by leader Dave Grohl.',
+          't' => '<strong>Foo</strong> Fighters - Bio, Pictures, Videos - Rolling Stone'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.spin.com%2Farticles%2Fdave-grohl-talks-new-foo-fighters-album&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.spin.com/articles/dave-grohl-talks-new-foo-fighters-album',
+          'r' => '0.796765683001977',
+          'du' => 'spin.com/articles/dave-grohl-talks-new-<b>foo</b>-fighters-album',
+          'd' => 1291017600,
+          's' => 'INTERVIEWS Dave Grohl Talks New <strong>Foo</strong> Fighters Album.  November 29 2010, 10:03 AM ET by William Goodman.  The <strong>Foo</strong> Fighters&#39; Dave Grohl.',
+          't' => 'Dave Grohl Talks New <strong>Foo</strong> Fighters Album - SPIN - Newswire'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.musicemissions.com%2Fartists%2FFoo%2BFighters&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.musicemissions.com/artists/Foo+Fighters',
+          'r' => '0.756816275450115',
+          'du' => 'musicemissions.com/artists/<b>Foo</b>+Fighters',
+          's' => 'Other Artists Like <strong>Foo</strong> Fighters.  Fans of <strong>Foo</strong> Fighters.  <strong>Foo</strong> Fighters Resources.  <strong>Foo</strong> Fighters Profile Page.  Artists Similar to <strong>Foo</strong> Fighters.',
+          't' => '<strong>Foo</strong> Fighters Profile Page - Biography, Interview and Album Reviews'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.billboard.com%2Falbum%2F1544132%2Ffoo-fighters&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.billboard.com/album/1544132/foo-fighters',
+          'r' => '0.743396813344992',
+          'du' => 'billboard.com/album/1544132/<b>foo</b>-fighters',
+          'd' => 1361260800,
+          's' => '',
+          't' => '<strong>Foo</strong> Fighters - Billboard'
+        };
+
+
+=== IMAGE (8 results):
+
+$VAR1 = {
+          'r' => '0.5',
+          'ih' => 1024,
+          'ti' => 'http://ts3.mm.bing.net/th?id=H.5044010530309610&pid=15.1',
+          'u' => 'http://images.fanpop.com/images/image_uploads/Foo-Fighters--foo-fighters-649435_1280_1024.jpg',
+          'iw' => 1280,
+          'tih' => 240,
+          'i' => '5a58f6fa2a8dd0aa40a8375031ae8595',
+          't' => 'Foo Fighters - Foo Fighters Wallpaper (649435) - Fanpop fanclubs',
+          'tiw' => 300
+        };
+$VAR1 = {
+          'r' => '0.333333333333333',
+          'ih' => 918,
+          'ti' => 'http://ts4.mm.bing.net/th?id=H.4744354986657247&pid=15.1',
+          'u' => 'http://images.fanpop.com/images/image_uploads/FooFighters-foo-fighters-773772_1224_918.jpg',
+          'iw' => 1224,
+          'tih' => 225,
+          'i' => '915f4f3a8a9b3700779f709ac2347140',
+          't' => 'FooFighters - Foo Fighters Wallpaper (773772) - Fanpop fanclubs',
+          'tiw' => 300
+        };
+$VAR1 = {
+          'r' => '0.25',
+          'ih' => 1200,
+          'ti' => 'http://ts4.mm.bing.net/th?id=H.4939771707263135&pid=15.1',
+          'u' => 'http://wallpoper.com/images/00/36/90/51/foo-fighters_00369051.jpg',
+          'iw' => 1920,
+          'tih' => 187,
+          'i' => '06b257ed3fe91e028232742097fccf93',
+          't' => 'Foo Fighters Wallpaper 1920x1200 Foo, Fighters',
+          'tiw' => 300
+        };
+$VAR1 = {
+          'r' => '0.2',
+          'ih' => 864,
+          'ti' => 'http://ts2.mm.bing.net/th?id=H.4567131781400713&pid=15.1',
+          'u' => 'http://www.hdwpapers.com/walls/foo_fighters_background-normal.jpg',
+          'iw' => 1152,
+          'tih' => 225,
+          'i' => '781cf5c8504358b4a017d2ce51890dcf',
+          't' => 'Foo Fighters Background (click to view)',
+          'tiw' => 300
+        };
+$VAR1 = {
+          'r' => '0.166666666666667',
+          'ih' => 864,
+          'ti' => 'http://ts1.mm.bing.net/th?id=H.4518963712755908&pid=15.1',
+          'u' => 'http://4.bp.blogspot.com/-WqJeT7dvCnM/TbBNNKOt-0I/AAAAAAAAAGk/LDfIcYy42aM/s1600/Foo-Fighters-8-NRR75EJV9W-1024x768.jpg',
+          'iw' => 1152,
+          'tih' => 225,
+          'i' => 'c51596368e915d82c1f239c5409a7c9e',
+          't' => 'Welcome To The Brightside: FOO FIGHTERS',
+          'tiw' => 300
+        };
+$VAR1 = {
+          'r' => '0.142857142857143',
+          'ih' => 1492,
+          'ti' => 'http://ts3.mm.bing.net/th?id=H.5029570824635998&pid=15.1',
+          'u' => 'http://tanakamusic.com/wp-content/uploads/2011/02/Foo-Fighters.jpg',
+          'iw' => 2000,
+          'tih' => 223,
+          'i' => 'c99b163bae65962f2e698005bce402e2',
+          't' => "Foo Fighters nos muestra el primer sencillo de su nuevo \x{e1}lbum ...",
+          'tiw' => 300
+        };
+$VAR1 = {
+          'r' => '0.125',
+          'ih' => 391,
+          'ti' => 'http://ts3.mm.bing.net/th?id=H.4535477880357342&pid=15.1',
+          'u' => 'http://2.bp.blogspot.com/-URifQiuBi44/UCaQdGhVC3I/AAAAAAAAC6Y/x9JU9IQi-SI/s1600/Foo+Fighters.jpg',
+          'iw' => 500,
+          'tih' => 234,
+          'i' => '9decff52bc52e4004a7d6262387153d4',
+          't' => "Foo Fighters Letra e Tradu\x{e7}\x{e3}o de My Hero - HATE AND TRUST",
+          'tiw' => 300
+        };
+$VAR1 = {
+          'r' => '0.111111111111111',
+          'ih' => 398,
+          'ti' => 'http://ts1.mm.bing.net/th?id=H.4608268949979776&pid=15.1',
+          'u' => 'http://www.mamamiriamaband.com/wp-content/uploads/2011/02/foo-fighters.jpg',
+          'iw' => 512,
+          'tih' => 233,
+          'i' => '30a857ac1040a09827eeaa46b66ec472',
+          't' => 'Foo Fighters : A first piece of listening Wasting Light',
+          'tiw' => 300
+        };
+
+
+=== lyrics (10 results):
+
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.songlyrics.com%2Ffoo-fighters-lyrics%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.826074199293873',
+          'du' => 'songlyrics.com/<b>foo</b>-fighters-lyrics',
+          'd' => 1224054000,
+          's' => '<strong>Foo</strong> Fighters Albums.  <strong>Foo</strong> Fighters Lyrics - by Popularity.  <strong>Foo</strong> Fighters Lyrics.  <strong>Foo</strong> Fighters Greatest Hits.  Echoes, Silence, Patience &amp; Grace.',
+          'ih' => 160,
+          'u' => 'http://www.songlyrics.com/foo-fighters-lyrics/',
+          'iw' => 160,
+          'i' => '2213f9f828b2ad8d23b296e876eeb3e0',
+          't' => '<strong>FOO</strong> FIGHTERS LYRICS'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.metrolyrics.com%2Ffoo-fighters-lyrics.html&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.metrolyrics.com/foo-fighters-lyrics.html',
+          'r' => '0.770616880923577',
+          'du' => 'metrolyrics.com/<b>foo</b>-fighters-lyrics.html',
+          's' => 'Hot Buns Lyrics by <strong>Foo</strong> Fighters.  Check Out The Top 100.  More <strong>Foo</strong> Fighters Goodness.  Other Featured Songs.  Free Fall Lyrics by Kelly Rowland.',
+          't' => '<strong>Foo</strong> Fighters Lyrics'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.lyrics.com%2Ffoofighters&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.756572108060839',
+          'du' => 'www.lyrics.com/<b>foo</b>fighters',
+          's' => '<b>Foo</b> Fighters has 1051 songs. ... <b>Foo</b> Fighters is an American alternative rock and post-grunge band formed by singer/guitarist Dave Grohl in 1995.',
+          'ih' => 175,
+          'u' => 'http://www.lyrics.com/foofighters',
+          'iw' => 200,
+          'i' => 'a2ce48ef7f314f92a3279ada0efa2efe',
+          't' => '<b>Foo</b> Fighters Lyrics - Lyrics.com - your music community with ...'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.lyricsmode.com%2Flyrics%2Ff%2Ffoo_fighters%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.lyricsmode.com/lyrics/f/foo_fighters/',
+          'r' => '0.739071254723961',
+          'du' => 'lyricsmode.com/lyrics/f/<b>foo</b>_fighters',
+          's' => "Lyrics to <strong>Foo</strong> Fighters.  <strong>Foo</strong> Fighters lyrics.  Lyrics \x{2192} Artists: F \x{2192} <strong>Foo</strong> Fighters.  Email to friends.  <strong>Foo</strong> Fighters are a rock group formed by musician Dave Grohl in 1995.",
+          't' => '<strong>Foo</strong> Fighters Lyrics'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.elyrics.net%2Fsong%2Ff%2Ffoo-fighters-lyrics.html&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.elyrics.net/song/f/foo-fighters-lyrics.html',
+          'r' => '0.73627146191682',
+          'du' => 'elyrics.net/song/f/<b>foo</b>-fighters-lyrics.html',
+          's' => 'Selected popular <strong>Foo</strong> Fighters song of Wednesday, March 27 2013 is &quot;Best Of You&quot;.  <strong>Foo</strong> Fighters Albums.  Click on the album covers to see the lyrics inside the album.  The Colour and the Shape.  Messages from <strong>Foo</strong> Fighters.',
+          't' => '<strong>FOO</strong> FIGHTERS Lyrics'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.lyricsfreak.com%2Ff%2Ffoo%2Bfighters%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.lyricsfreak.com/f/foo+fighters/',
+          'r' => '0.712956176594763',
+          'du' => 'lyricsfreak.com/f/<b>foo</b>+fighters',
+          's' => "Lyrics to <strong>Foo</strong> Fighters.  <strong>Foo</strong> Fighters Lyrics.  Lyrics \x{25ba} Artists: F \x{25ba} <strong>Foo</strong> Fighters.  Pat Smear Dave Grohl William Goldsmith Nate Mendel Franz Stahl Chris Shiflett Taylor Hawkins.  <strong>Foo</strong> Fighters is an American rock band formed by singer/guitarist/drummer Dave Grohl in 1995.",
+          't' => '<strong>Foo</strong> Fighters Lyrics'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.lyrics007.com%2FFoo%2520Fighters%2520Lyrics.html&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.lyrics007.com/Foo%20Fighters%20Lyrics.html',
+          'r' => '0.710955836993788',
+          'du' => 'lyrics007.com/<b>Foo</b>%20Fighters%20Lyrics.html',
+          's' => 'These lyrics are listed by popularity.  8073 Ratings: 9.9/10 based on 105 ratings.  4731 Ratings: 9.2/10 based on 61 ratings.  3313 Ratings: 9.4/10 based on 25 ratings.  838 Ratings: 10/10 based on 4 ratings.',
+          't' => 'The Most Popular <strong>Foo</strong> Fighters Lyrics'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.lyricsdepot.com%2Ffoo-fighters%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.lyricsdepot.com/foo-fighters/',
+          'r' => '0.701081191170964',
+          'du' => 'lyricsdepot.com/<b>foo</b>-fighters',
+          's' => "Lyrics Depot is your source of lyrics to <strong>Foo</strong> Fighters songs.  All lyrics are the property of their respective authors, artists and labels.  <strong>Foo</strong> Fighters Lyrics at the Lyrics Depot.  Lyrics \x{bb} <strong>Foo</strong> Fighters Lyrics.",
+          't' => '<strong>Foo</strong> Fighters Lyrics'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.sing365.com%2Fmusic%2Flyric.nsf%2FFoo-Dang-lyrics-ABK%2FAB0855BFC8391285482576A7001C7FE1&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.sing365.com/music/lyric.nsf/Foo-Dang-lyrics-ABK/AB0855BFC8391285482576A7001C7FE1',
+          'r' => '0.673944450812622',
+          'du' => 'sing365.com/.../AB0855BFC8391285482576A7001C7FE1',
+          's' => 'Why you tryin to play me, <strong>foo</strong> dang.  (<strong>Foo</strong> Dang) Just cause I wanna let my nuts hang Teeth bang on the streets servin heads all night Some of us just ain&#39;t livin right.',
+          't' => '<strong>FOO</strong> DANG LYRICS - ABK'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.kididdles.com%2Flyrics%2Fl007.html&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.kididdles.com/lyrics/l007.html',
+          'r' => '0.661208533747832',
+          'du' => 'kididdles.com/lyrics/l007.html',
+          's' => 'Little Bunny <strong>Foo</strong> <strong>Foo</strong>, Hopping through the forest Scooping up the field mice And boppin&#39; &#39;em on the head.  Down came the good fairy and she said.',
+          't' => 'Little Bunny <strong>Foo</strong> <strong>Foo</strong> song and lyrics from KIDiddles'
+        };
+
+
+=== recipes (10 results):
+
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.food.com%2Frecipe%2Fegg-foo-yung-75356&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.9804616307895',
+          'du' => 'food.com/recipe/egg-<b>foo</b>-yung-75356',
+          's' => 'Looking for More.  Become a FREE Member.  Food.com: The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world.  I&#39;m looking for.  User at Food.com.',
+          'ih' => 73,
+          'u' => 'http://www.food.com/recipe/egg-foo-yung-75356',
+          'iw' => 98,
+          'i' => 'data:image/jpeg;base64,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',
+          't' => 'Egg <strong>Foo</strong> Yung Recipe - Chinese.Food.com - 75356'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.foodily.com%2Fr%2FRxTiOFWv5R-foo-yung&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.foodily.com/r/RxTiOFWv5R-foo-yung',
+          'r' => '0.971082691693016',
+          'du' => 'foodily.com/r/RxTiOFWv5R-<b>foo</b>-yung',
+          's' => 'What is Foodily.  Choose a list.  Or Log in with your email address.  Sign up with Facebookand discover new tastes with your friends.  Sign up with your email address.',
+          't' => '<strong>Foo</strong> Yung',
+          'i' => 'http://www.foodily.com/images/235x235/noimg.jpg'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.foodandwine.com%2Fchefs%2Fsusanna-foo&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.foodandwine.com/chefs/susanna-foo',
+          'r' => '0.894392392924033',
+          'du' => 'foodandwine.com/chefs/susanna-<b>foo</b>',
+          's' => 'You currently have no recipes saved.  To add recipes, visit a recipe and click on the save button.  Susanna <strong>Foo</strong> Chinese Kitchen.  Recipes by Chef Susanna <strong>Foo</strong>.  Stir-Fried Sichuan Shrimp with Dried Red Chiles.',
+          't' => 'Susanna <strong>Foo</strong> - Food &amp; Wine - Chefs'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Frasamalaysia.com%2Fmore-yong-tow-foo%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.857521476032789',
+          'du' => 'rasamalaysia.com/more-yong-tow-<b>foo</b>',
+          's' => "Sign up now.  I know, I have made Yong Tow <strong>Foo</strong> /Yong Tau <strong>Foo</strong> (\x{917f}\x{8c46}\x{8150}) before and posted my secret recipe, but I just have to post again.  This is my quickie recipe, san the bean sauce.  I pan-fried the Yong Tow <strong>Foo</strong> /Yong Tau <strong>Foo</strong> as usual, but served them immediately with hoisin chili dipping sauce.",
+          'ih' => 176,
+          'u' => 'http://rasamalaysia.com/more-yong-tow-foo/',
+          'iw' => 220,
+          'i' => '8f873c17a77fe6d21af98c49a9b1f40c',
+          't' => "More Yong Tow <strong>Foo</strong>/ Yong Tau <strong>Foo</strong> (\x{917f}\x{8c46}\x{8150}) - Easy Asian Recipes at RasaMalaysia.com"
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fallrecipes.com%2Frecipe%2Fegg-foo-yung-ii%2Fdetail.aspx&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.818546339009773',
+          'du' => 'allrecipes.com/recipe/egg-<b>foo</b>-yung-ii/detail.aspx',
+          's' => '',
+          'ih' => 220,
+          'u' => 'http://allrecipes.com/recipe/egg-foo-yung-ii/detail.aspx',
+          'iw' => 220,
+          'i' => 'f8db6885adad8a91f7147f7e817be78d',
+          't' => 'allrecipes.com recipe egg <strong>foo</strong> yung ii detail.aspx'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.epicurious.com%2Frecipes%2Ffood%2Fviews%2FEGG-FOO-YUNG-242591&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.801730741980938',
+          'du' => 'epicurious.com/recipes/<b>foo</b>d/views/EGG-<b>FOO</b>-YUNG-242591',
+          's' => 'Connect with epicurious.  By Ian Knauer.  Photo by by Romulo Yanes.  76% would make it again.  Egg <strong>Foo</strong> Yung 3 forks.',
+          'ih' => 116,
+          'u' => 'http://www.epicurious.com/recipes/food/views/EGG-FOO-YUNG-242591',
+          'iw' => 116,
+          'i' => 'bcf4135ec0d1c77d2a567021c6e76d42',
+          't' => 'Egg <strong>Foo</strong> Yung Recipe at Epicurious.com'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.eatingwell.com%2Frecipes%2Fegg_foo_yong.html&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.799460057354708',
+          'du' => 'eatingwell.com/recipes/egg_<b>foo</b>_yong.html',
+          's' => 'Advanced Recipe Search.  None Average: 4.5 ( 2 votes).  Egg <strong>foo</strong> yong is a Chinese omelet filled with vegetables, bean sprouts and sometimes meat.  Our vegetarian egg <strong>foo</strong> yong recipe is packed with vegetables and baked in a muffin tin for ease.  Serve with a mixed green salad tossed with sesame dressing.',
+          'ih' => 220,
+          'u' => 'http://www.eatingwell.com/recipes/egg_foo_yong.html',
+          'iw' => 220,
+          'i' => '8fc3dcafd12f1d963f97a2c5f5cd11ba',
+          't' => 'Baked Egg <strong>Foo</strong> Yong Recipe - Eating Well'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fglutenfree.wordpress.com%2F2009%2F03%2F05%2Flittle-bunny-foo-foo%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.774282793511106',
+          'du' => 'glutenfree.wordpress.com/2009/03/05/little-bunny-<b>foo</b>-<b>foo</b>',
+          'd' => 1236240000,
+          's' => "Sharing everyday recipes from our kitchen with a side of life.  March 5, 2009 15 Comments.  Okay\x{2026} seriously now.  If the Chicklet doesn&#39;t show up for Easter\x{2026} what am I to do with this cute little thing.  Admittedly, it&#39;s dang cute\x{2026} and certainly NOT just an Easter coat\x{2026} but that is what I thought of when I first saw it.",
+          'ih' => 220,
+          'u' => 'http://glutenfree.wordpress.com/2009/03/05/little-bunny-foo-foo/',
+          'iw' => 146,
+          'i' => 'b53859b4f5d43752ce19dbd0f48a82d0',
+          't' => 'Little Bunny <strong>Foo</strong>-<strong>Foo</strong> - Gluten Free Gobsmacked'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.recipetips.com%2Frecipe-cards%2Ft--3004%2Fegg-foo-yung.asp&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.recipetips.com/recipe-cards/t--3004/egg-foo-yung.asp',
+          'r' => '0.745537561594346',
+          'du' => 'recipetips.com/recipe-cards/t--3004/egg-<b>foo</b>-yung.asp',
+          's' => 'Ratings, Reviews &amp; Comments.  Breakfast Recipes Start the day off right with fuel to make through the day.  Slow Cooker Recipes Breathe a little easier in the evenings by starting your slow cooker in the morning.  All About Nutrition Start the New Year off with a healthy lifestyle.',
+          't' => 'Egg <strong>Foo</strong> Yung Recipe - RecipeTips.com'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.grouprecipes.com%2F29%2Feasy-egg-foo-yung.html&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.grouprecipes.com/29/easy-egg-foo-yung.html',
+          'r' => '0.707129410022482',
+          'du' => 'grouprecipes.com/29/easy-egg-<b>foo</b>-yung.html',
+          's' => 'No idea what to search for.  Start browsing till you find something.  From kristopher 6 years ago.  This is a wonderful little egg <strong>foo</strong> yung meal that is ready in less than 30 minutes if you have some leftover meat in the fridge.  Taste the same as most good Chinese restaurants.',
+          't' => 'Easy Egg <strong>Foo</strong> Yung Recipe'
+        };
+
+
+=== tabs (5 results):
+
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.tabondant.com%2Feng%2Ftabs%2Ffoo-fighters&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.823252596289742',
+          'du' => 'tabondant.com/eng/tabs/<b>foo</b>-fighters',
+          's' => '<strong>Foo</strong> Fighters are an American rock band formed by singer/guitarist Dave Grohl in 1995 in Seattle, USA.  Grohl formed the group as a one-man project after the dissolution of his previous band Nirvana in 1994.',
+          'ih' => 98,
+          'u' => 'http://www.tabondant.com/eng/tabs/foo-fighters',
+          'iw' => 126,
+          'i' => '338c7075c7fbf6b2fed26642664d73b4',
+          't' => '<strong>Foo</strong> Fighters Tabs'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.songsterr.com%2Fa%2Fwsa%2Ffoo-fighters-tabs-a50&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.songsterr.com/a/wsa/foo-fighters-tabs-a50',
+          'r' => '0.724424603106427',
+          'du' => 'songsterr.com/a/wsa/<b>foo</b>-fighters-tabs-a50',
+          's' => 'Tabs too difficult.  Try these easy step-by-step video lessons and learn fast.  Cheer Up, Boys (Your Make Up Is Running).  Echos Silence Patience And Grace.  <strong>Foo</strong> Fighters Acoustic Collection.',
+          't' => '<strong>Foo</strong> Fighters Tabs - Songsterr Tabs with Rhythm'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.ultimate-guitar.com%2Ftabs%2Ffoo_fighters_bass_tabs.htm&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.ultimate-guitar.com/tabs/foo_fighters_bass_tabs.htm',
+          'r' => '0.6779628532755',
+          'du' => 'ultimate-guitar.com/tabs/<b>foo</b>_fighters_bass_tabs.htm',
+          's' => '168 bass tabs total, last updated Mar 11th, 2013.  Welcome home, Stranger Please Sign in or Sign up.  Latest news, reviews.  &#39;There&#39;s a Reason Why <strong>Foo</strong> Fighters Don&#39;t Blast Out Nirvana Songs Every Night&#39;: <strong>Foo</strong> Fighters frontman talks about using Nirvana songs, considering them a &quot;hallowed ground&quot;.',
+          't' => '<strong>Foo</strong> Fighters Bass Tabs - 168 Tabs Total - Ultimate-Guitar.Com'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.ttabs.com%2Ftabs%2FF%2FFoo_Fighters%2Ftabs&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.ttabs.com/tabs/F/Foo_Fighters/tabs',
+          'r' => '0.658473115888124',
+          'du' => 'ttabs.com/tabs/F/<b>Foo</b>_Fighters/tabs',
+          's' => 'Guitar, Bass, and Drum tablatures.  <strong>Foo</strong> Fighters guitar, bass, and drum tabs.  Here is a list of guitar, bass, and drum tabs for pieces by <strong>Foo</strong> Fighters.  Drums tab by Geoff Bell.  Rated 3 times.',
+          't' => '<strong>Foo</strong> Fighters guitar, bass, and drum tabs - tTabs'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.azchords.com%2Ff%2Ffoofighters-tabs-1517.html&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.azchords.com/f/foofighters-tabs-1517.html',
+          'r' => '0.506015151342688',
+          'du' => 'azchords.com/f/<b>foo</b>fighters-tabs-1517.html',
+          's' => '<strong>Foo</strong> Fighters Chords.  Search chords &amp; tabs.  <strong>Foo</strong> Fighters Sheet music.  New tabs, chords, lyrics are the author&#39;s own work and represents their interpretation of the song.  You may only use this popular tab for private study, scholarship, research or language learning purposes.',
+          't' => '<strong>Foo</strong> Fighters Tabs - Chords, Bass Tabs'
+        };
+
+
+=== tv (10 results):
+
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Ffoodnetwork.com%2Frecipes%2Frachael-ray%2Fegg-foo-young-recipe%2Findex.html&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.951412405368923',
+          'du' => 'foodnetwork.com/.../egg-<b>foo</b>-young-recipe/index.html',
+          'd' => 1360310400,
+          's' => '',
+          'ih' => 165,
+          'u' => 'http://foodnetwork.com/recipes/rachael-ray/egg-foo-young-recipe/index.html',
+          'iw' => 220,
+          'i' => 'data:image/jpeg;base64,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',
+          't' => 'foodnetwork.com recipes rachael ray egg <strong>foo</strong> young recipe index.html'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.mtv.com%2Fartists%2Ffoo-fighters%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.mtv.com/artists/foo-fighters/',
+          'r' => '0.860983494069137',
+          'du' => 'www.mtv.com/artists/<b>foo</b>-fighters',
+          's' => '<b>Foo</b> Fighters new music, concerts, photos, and official news updates directly from <b>Foo</b> Fighters\'s Twitter and Facebook.',
+          't' => '<b>Foo</b> Fighters | New Music And Songs | MTV - New Music Videos ...'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.vh1.com%2Fartists%2Faz%2Ffoo_fighters%2Fartist.jhtml&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.852858451879342',
+          'du' => 'vh1.com/artists/az/<b>foo</b>_fighters/artist.jhtml',
+          's' => 'More Storytellers Artists.  From position 0, showing 10 items, asking 10.  From position 0, showing 13 items, asking 10.  The Definitive Concert Guide.  MTV News January 18, 2013.',
+          'ih' => 120,
+          'u' => 'http://www.vh1.com/artists/az/foo_fighters/artist.jhtml',
+          'iw' => 160,
+          'i' => 'd6b21f9d33c40f793aef62f430cf8cae',
+          't' => '<strong>Foo</strong> Fighters - New Music And Songs - MTV'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.g4tv.com%2Fgames%2Fpc%2F24004%2Ffoo%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.g4tv.com/games/pc/24004/foo/',
+          'r' => '0.838282289946773',
+          'du' => 'g4tv.com/games/pc/24004/<b>foo</b>',
+          's' => 'Playing as a burglar in Ancient China, you challenge your opponents to break into palaces and loot them.  You enter at dusk and your mission is to escape before dawn with as many valuables as you can carry.  Before you begin, you must carefully plan which traps to bring and set for your opponents in the palace.',
+          't' => '<strong>Foo</strong> for PC - G4tv'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.hollywoodreporter.com%2Fearshot%2Ffoo-fighters-hiatus-break-dave-grohl-375754&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.834311264476524',
+          'du' => 'hollywoodreporter.com/.../<b>foo</b>-fighters-hiatus-break-dave-gro...',
+          'd' => 1349161200,
+          's' => 'The frontman for the Grammy-winning rock group says that after 18 years, they will &quot;be going away for a while.&quot;.  <strong>Foo</strong> Fighters Taking a Hiatus, Dave Grohl Confirms.  After 18 years, seven albums and 10 Grammys, <strong>Foo</strong> Fighters are taking a break.  Dave Grohl Mocks ABBA, Possibly Mitt Romney in Charlotte.',
+          'ih' => 124,
+          'u' => 'http://www.hollywoodreporter.com/earshot/foo-fighters-hiatus-break-dave-grohl-375754',
+          'iw' => 220,
+          'i' => '5502eb1ccb4c1736842e3488375e227e',
+          't' => '<strong>Foo</strong> Fighters Taking a Hiatus, Dave Grohl Confirms - Hollywood Reporter'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.brits.co.uk%2Fartist%2Ffoo-fighters&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.brits.co.uk/artist/foo-fighters',
+          'r' => '0.731122193804381',
+          'du' => 'brits.co.uk/artist/<b>foo</b>-fighters',
+          's' => 'James Corden chats with Dave Grohl.  Dave Grohl accepts award for International Group on behalf of Black Keys.  Best International Group.  Best International Newcomer.  MasterCard Priceless London.',
+          't' => '<strong>Foo</strong> Fighters - The BRIT Awards 2013'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.tvfanatic.com%2Fprofiles%2Ffoo%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.tvfanatic.com/profiles/foo/',
+          'r' => '0.721282579378663',
+          'du' => 'tvfanatic.com/profiles/<b>foo</b>',
+          'd' => 1338447600,
+          's' => 'Send Private Message.  First of all I really loved the episode.  It had everything that got me hooked in the first place.  I am so happy that Sally is back, she gives regicide a whole new dimension SPOILER WARNING: About Huck.',
+          't' => '<strong>Foo</strong> Profile - TV Fanatic'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.tv.com%2Ffoo-fighters%2Fperson%2F87860%2Fsummary.html&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.tv.com/foo-fighters/person/87860/summary.html',
+          'r' => '0.719293057926303',
+          'du' => 'tv.com/<b>foo</b>-fighters/person/87860/summary.html',
+          's' => 'Trivia and Quotes.  While drumming with Nirvana, Dave Grohl was recording original songs at home that never received public release.  Those tapes would become the foundation of <strong>Foo</strong> Fighters, the band he formed in 1995, after the death of Kurt Cobain.',
+          't' => '<strong>Foo</strong> Fighters - TV.com'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fsaramoulton.com%2F2012%2F09%2Fegg-foo-yung%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://saramoulton.com/2012/09/egg-foo-yung/',
+          'r' => '0.710787471104035',
+          'du' => 'saramoulton.com/2012/09/egg-<b>foo</b>-yung',
+          'd' => 1348642800,
+          's' => 'Stay tuned for exclusive recipes, tips and announcements.  When I was growing up, egg <strong>foo</strong> yung was a very popular item on Chinese take-out menus and in most Chinese Restaurants.  In recent years, however, it seemed to disappear.',
+          't' => 'Egg <strong>Foo</strong> Yung - Sara Moulton - Chef, Cookbook Author, Television Personality'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.grammy.com%2Fphotos%2Ffoo-fighters-1&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.grammy.com/photos/foo-fighters-1',
+          'r' => '0.700270040812901',
+          'du' => 'grammy.com/photos/<b>foo</b>-fighters-1',
+          's' => 'You are here.  Danny Clinch GRAMMY Photo Gallery.  Download our App.  Jump to navigation.  David &quot;Honeyboy&quot; Edwards Dies.',
+          't' => '<strong>Foo</strong> Fighters - GRAMMY.com'
+        };
+
+
+=== date (10 results):
+
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.uproxx.com%2Fmusic%2F2013%2F04%2Fthe-foo-fighters-covered-rush-at-the-rock-and-roll-hall-of-fame-inductions%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.4146021110479',
+          'du' => 'uproxx.com/.../the-<b>foo</b>-fighters-covered-rush-at-the-rock-and...',
+          'd' => 1366406698,
+          's' => 'Last night at Los Angeles&#39; Nokia Theatre, Randy Newman, Donna Summer, Public Enemy, Albert King, and Heart, among others, were inducted into the Rock and Roll Hall of Fame.',
+          'u' => 'http://www.uproxx.com/music/2013/04/the-foo-fighters-covered-rush-at-the-rock-and-roll-hall-of-fame-inductions/',
+          'delta' => '1d',
+          'i' => '0ac0eacf6e3c9f0062efe132f065f8c4',
+          't' => 'Rush Played With <strong>Foo</strong> Fighters At Rock Hall Of Fame Inductions'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.wholenote.com%2Fn4944--Video-Foo-Fighters-Perform-Overture-from-Rushs-2112-at-Rock-and-Roll-Hall-of-Fame-Ceremony&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.wholenote.com/n4944--Video-Foo-Fighters-Perform-Overture-from-Rushs-2112-at-Rock-and-Roll-Hall-of-Fame-Ceremony',
+          'r' => '0.405090164449473',
+          'delta' => '1d',
+          'du' => 'wholenote.com/...hs-2112-at-Rock-and-Roll-Hall-of-Fame-Ceremony',
+          'd' => 1366389414,
+          's' => '<strong>Foo</strong> Fighters Perform &quot;Overture&quot; from Rush&#39;s &#39;2112&#39; at Rock and Roll Hall of Fame Ceremony.  Search Guitar News.  Sponsored By ActiveMusician.  By Damian Fanelli.  Last night, Rush were among the inductees at the occasionally unruly 28th Rock and Roll Hall of Fame ceremony at Los Angeles&#39; Nokia Theatre.',
+          't' => 'Video - <strong>Foo</strong> Fighters Perform Overture from Rush&#39;s &#39;2112&#39; at Rock and Roll Hall of Fame ... '
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.guitarworld.com%2Fvideo-foo-fighters-perform-overture-rushs-2112-rock-and-roll-hall-fame-ceremony&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.guitarworld.com/video-foo-fighters-perform-overture-rushs-2112-rock-and-roll-hall-fame-ceremony',
+          'r' => '0.405090164449473',
+          'delta' => '1d',
+          'du' => 'guitarworld.com/...-rushs-2112-rock-and-roll-hall-fame-ceremony',
+          'd' => 1366382387,
+          's' => '<strong>Foo</strong> Fighters Perform &quot;Overture&quot; from Rush&#39;s &#39;2112&#39; at Rock and Roll Hall of Fame Ceremony.  Login with Facebook.  Interviews Featured Content.  Lessons Featured Content.  Gear Featured Content.',
+          't' => 'Guitar World - Video - <strong>Foo</strong> Fighters Perform Overture from Rush&#39;s &#39;2112&#39; at Rock and Roll ... '
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.warcry.com%2Farticles%2Fview%2Finterviews%2F6920-Kung-Foo-Laughing-Behind-the-Hero-s-Back.2&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.warcry.com/articles/view/interviews/6920-Kung-Foo-Laughing-Behind-the-Hero-s-Back.2',
+          'r' => '0.408649207251087',
+          'delta' => '3d',
+          'du' => 'warcry.com/.../6920-Kung-<b>Foo</b>-Laughing-Behind-the-Hero-s-Back...',
+          'd' => 1366236495,
+          's' => 'Writer Devin Grayson.  What MMOs have you played or are you playing.  Right now my friends and I are jumping from Champions to Fallen Earth, which I&#39;m really enjoying.  We&#39;re kind of serial gamers-we play an MMO for a couple of years and then get distracted by something new and shiny.',
+          't' => 'Kung <strong>Foo</strong> - Laughing Behind the Hero&#39;s Back'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.ign.com%2Farticles%2F2013%2F04%2F16%2Figns-code-foo-returns-for-2013&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.ign.com/articles/2013/04/16/igns-code-foo-returns-for-2013',
+          'r' => '0.430192709431262',
+          'delta' => '4d',
+          'du' => 'ign.com/articles/2013/04/16/igns-code-<b>foo</b>-returns-for-2013',
+          'd' => 1366136092,
+          's' => 'Your chance to land a job at IGN.  IGN&#39;s Code <strong>Foo</strong> Returns for 2013.  Have you always wanted to code but never been able to find training.  Are you an experienced coder looking to kickstart a career.  Are you an IGN superfan who wants to come to the office every day IGN has good news for all three of you.',
+          't' => 'IGN&#39;s Code <strong>Foo</strong> Returns for 2013 - IGN'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.newsday.com%2Fentertainment%2Fmusic%2Ffoo-fighters-taking-a-break-dave-grohl-says-1.4065329&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.424178156471622',
+          'du' => 'newsday.com/.../<b>foo</b>-fighters-taking-a-break-dave-grohl-says-...',
+          'd' => 1365726020,
+          's' => '19 PM In Nassau Cnty accident cleared on The Northern St Pkwy EB at South Oyster Bay Rd/X36.  Slow traffic from The Long Island Expwy/I-495.  In Nassau Cnty accident cleared on The Northern St Pkwy EB at South Oyster Bay Rd/X36.  Is laughing along with these.',
+          'ih' => 82,
+          'u' => 'http://www.newsday.com/entertainment/music/foo-fighters-taking-a-break-dave-grohl-says-1.4065329',
+          'delta' => '9d',
+          'iw' => 144,
+          't' => '<strong>Foo</strong> Fighters taking a break, Dave Grohl says',
+          'i' => '61cc76648d6f32bc2db0139aae982759'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.ultimate-guitar.com%2Ftabs%2Ffoo_fighters_tabs9.htm&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.ultimate-guitar.com/tabs/foo_fighters_tabs9.htm',
+          'r' => '0.413409474326801',
+          'delta' => '11d',
+          'du' => 'ultimate-guitar.com/tabs/<b>foo</b>_fighters_tabs9.htm',
+          'd' => 1365490800,
+          's' => '1159 tabs total, last updated Apr 9th, 2013.  Welcome home, Stranger Please Sign in or Sign up.  Latest news, reviews.  Taylor Hawkins as Iggy Pop in &#39;CBGB&#39; Movie: The first image of <strong>Foo</strong> Fighters drummer Taylor Hawkins dressed as a shirtless Iggy Pop from the forthcoming CBGBs movie has appeared online - see it here.',
+          't' => '<strong>Foo</strong> Fighters Tabs - Page 9 - 1159 Tabs Total - Ultimate-Guitar.Com'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.idsnews.com%2Fnews%2Fstory.aspx%3Fid%3D52728&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'r' => '0.411027258727859',
+          'du' => 'idsnews.com/news/story.aspx?id=52728',
+          'd' => 1365463438,
+          's' => 'After three years, senior Codey Girten finally saw his musical take the stage of the Buskirk-Chumley Theater last week.  &quot;February Stars. The Foosical&quot; is a college love story based on the music of alternative rock band the <strong>Foo</strong> Fighters.',
+          'ih' => 90,
+          'u' => 'http://www.idsnews.com/news/story.aspx?id=52728',
+          'delta' => '12d',
+          'iw' => 108,
+          't' => 'Student play features music of <strong>Foo</strong> Fighters - Indiana Daily Student - Arts',
+          'i' => 'ebe42acfcbcdf56d86d357abbba7b396'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.reddit.com%2Fdomain%2Ffoo-projects.org%2F&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.reddit.com/domain/foo-projects.org/',
+          'r' => '0.439858280513206',
+          'delta' => '12d',
+          'du' => 'reddit.com/domain/<b>foo</b>-projects.org',
+          'd' => 1365427435,
+          's' => 'Join the community, vote, and change the world.  Reddit&#39;s stories are created by its users.  Login or register in seconds.  Limit my search to /domain/<strong>foo</strong>-projects.org.  Use the following search parameters to narrow your results.',
+          't' => '<strong>foo</strong>-projects.org on reddit.com'
+        };
+$VAR1 = {
+          'su' => '/a/serpr?url=http%3A%2F%2Fwww.eagle969.com%2FClassic-Rock-Music-News%2F11278854%3Fpid%3D309094%26do%3D1&i=NjMwZGI5M2JkNDIzNGVjMTZmZWY1ZGYzMDFhMTU3YjAsMTM2NjUyMDYxNjo0NGU1ZTI',
+          'u' => 'http://www.eagle969.com/Classic-Rock-Music-News/11278854?pid=309094&do=1',
+          'r' => '0.4146021110479',
+          'delta' => '12d',
+          'du' => 'eagle969.com/Classic-Rock-Music-News/11278854?pid=309094&amp;do=...',
+          'd' => 1365404400,
+          's' => 'Taylor Hawkins in?CBGB.  RT @classicsdujour: Julian Lennon (feat Steven Tyler).  With <strong>Foo</strong> Fighters recently on hiatus, drummer Taylor Hawkins has had time on his hands.  He used the break in FF&#39;s schedule to shoot a film role as Iggy Pop for an upcoming movie about the historic New York punk club CBGB.',
+          't' => '<strong>Foo</strong> Fighters Taylor Hawkins In CBGB Movie - EAGLE 969'
+        };
+
+

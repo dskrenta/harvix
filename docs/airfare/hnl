@@ -1,0 +1,19 @@
+{
+  "request": {
+    "passengers": {
+      "adultCount": 1
+    },
+    "slice": [
+      {
+        "origin": "SFO",
+        "destination": "HNL",
+        "date": "2015-09-22"
+      },
+      {
+        "origin": "HNL",
+        "destination": "SFO",
+        "date": "2015-09-23"
+      }
+    ]
+  }
+}

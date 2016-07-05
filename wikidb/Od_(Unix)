@@ -1,0 +1,1 @@
+4.00	Od_(Unix)	od (Unix)	and here is od used to diagnose the output of echo where the user types Ctrl+V+Ctrl+I and Ctrl+V+Ctrl+C after writing "Hello" to literal insert a tab and ^C character:	

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="fb-root"></div>
+<a href="#" onclick="return postToWall();">Post To Wall</a>
+<script src="//connect.facebook.net/en_US/all.js"></script>
+<script>
+  FB.init({ appId: '640440042650394', status: true, cookie: true, xfbml: true, oauth: true });
+
+  function postToWall() {  
+    FB.login(function(response) {
+      if (response.authResponse) {
+        var body = 'Reading JS SDK documentation';
+	FB.api('/me/feed', 'post', { message: body }, function(response) {
+  	if (!response || response.error) {
+    	alert('Error occured');
+  	} else {
+    	alert('Post ID: ' + response.id);
+  	}
+	});
+	function(response) {
+          if (response && response.post_id) {
+            alert('Post was published.');
+          } else {
+            alert('Post was not published.');
+          }
+        });
+      } else {
+        alert('User cancelled login or did not fully authorize.');
+      }
+    }, {scope: 'user_likes,offline_access,publish_stream'});
+    return false;
+}
+</script>
+</body>
+</html>

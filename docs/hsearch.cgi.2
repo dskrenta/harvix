@@ -1,0 +1,76 @@
+#!/usr/bin/perl
+
+use strict;
+
+use Data::Dumper;
+use WebService::Blekko;
+
+my %escapes;
+setup_escapes();
+
+print "Content-type: text/html\n\n";
+
+my $query = parse_query();
+
+my $blekko = WebService::Blekko->new( auth => 'c31c6fd0', );
+
+
+my $res = $blekko->query( $query );
+
+#if ( $res->error ) ...
+
+print_header();
+
+while ( my $r = $res->next ) {
+	#print $r->title, "<br>\n";
+	#print $r->snippet, "<br>\n";
+	#print $r->url, "<br>\n";
+	#print "<br>\n";
+
+ 	print "<a href=", '"', $r->url, '">', $r->title, "</a><br>\n";
+	print $r->snippet, "<br>\n";
+ 	print $r->url, "<br>\n";
+	print "<p>\n";
+}
+
+sub setup_escapes
+{
+	for (0..255)
+	{
+	    $escapes{chr($_)} = sprintf("%%%02X", $_);
+	}
+	$escapes{' '} = '+';
+}
+
+sub urlencode
+{
+    my $url = shift;
+
+    $url =~ s/([^A-Za-z0-9\-_.!~*\'()])/$escapes{$1}/ge if defined $url;
+    return $url;
+}
+
+sub parse_query
+{
+	my $query = $ENV{QUERY_STRING} || shift || 1;
+
+	$query =~ s/\+/ /g;
+	$query =~ s/q=//;
+
+	return $query;
+}
+
+sub print_header
+{
+print <<EOF
+<html>
+<head>
+<title>Harvix | Search</title>
+</head>
+<body>
+
+EOF
+;
+}
+
+

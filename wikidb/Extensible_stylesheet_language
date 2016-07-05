@@ -1,0 +1,1 @@
+7.10	Extensible_stylesheet_language	XSL	XSL Transformations (XSLT) currently has many implementations available. Several web browsers, including Internet Explorer (using the MSXML engine), Opera (native engine) and Safari, all support transformation of XML to HTML (or other languages) through XSLT. Other notable implementations include Saxon and Xalan.	

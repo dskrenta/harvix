@@ -1,0 +1,1 @@
+13.04	.pl	.pl	.pl is the Internet country code top-level domain (ccTLD) for Poland, administered by NASK, Polish research and development organization. It is one of the founding members of CENTR.	http://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Dotpl.png/220px-Dotpl.png

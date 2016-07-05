@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Los Angeles, CA",
+		"city":"Los Angeles",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"90001",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"33.97457886",
+		"longitude":"-118.24745941",
+		"elevation":"50.00000000"
+		},
+		"observation_location": {
+		"full":"Vernon, Vernon, California",
+		"city":"Vernon, Vernon",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"34.004993",
+		"longitude":"-118.193535",
+		"elevation":"177 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCAVERNO2",
+		"observation_time":"Last Updated on September 20, 3:30 AM PDT",
+		"observation_time_rfc822":"Sun, 20 Sep 2015 03:30:38 -0700",
+		"observation_epoch":"1442745038",
+		"local_time_rfc822":"Sun, 20 Sep 2015 03:33:06 -0700",
+		"local_epoch":"1442745186",
+		"local_tz_short":"PDT",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0700",
+		"weather":"Clear",
+		"temperature_string":"75.0 F (23.9 C)",
+		"temp_f":75.0,
+		"temp_c":23.9,
+		"relative_humidity":"62%",
+		"wind_string":"Calm",
+		"wind_dir":"NNE",
+		"wind_degrees":17,
+		"wind_mph":0.0,
+		"wind_gust_mph":"2.0",
+		"wind_kph":0,
+		"wind_gust_kph":"3.2",
+		"pressure_mb":"1009",
+		"pressure_in":"29.81",
+		"pressure_trend":"0",
+		"dewpoint_string":"61 F (16 C)",
+		"dewpoint_f":61,
+		"dewpoint_c":16,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"75.0 F (23.9 C)",
+		"feelslike_f":"75.0",
+		"feelslike_c":"23.9",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Los_Angeles.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAVERNO2",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=34.004993,-118.193535",
+		"nowcast":""
+	}
+}

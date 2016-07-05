@@ -1,0 +1,1 @@
+3.00	Extract_class	Extract class	In Software engineering, the Extract class refactoring is applied when a class becomes overweight with too many methods and its purpose becomes unclear. It involves creating a new class and moving methods and/or data to the new class.	

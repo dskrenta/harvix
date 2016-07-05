@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Harvix</title>
+<link rel="stylesheet" href="styleh.css" type="text/css" />
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <style>
+    .ui-autocomplete {
+        max-height: 100px;
+        overflow-y: auto;
+        /* prevent horizontal scrollbar */
+        overflow-x: hidden;
+    }
+    /* IE 6 doesn't support max-height
+     * we use height instead, but this forces the menu to always be this tall
+     */
+    * html .ui-autocomplete {
+        height: 100px;
+    }
+    </style>
+
+  <script>
+    $(function() {
+        var availableTags = [
+            "Google",
+            "AppleScript",
+            "Asp",
+            "BASIC",
+            "C",
+            "C++",
+            "Clojure",
+            "COBOL",
+            "ColdFusion",
+            "Erlang",
+            "Fortran",
+            "Groovy",
+            "Haskell",
+            "Java",
+            "JavaScript",
+            "Lisp",
+            "Perl",
+            "PHP",
+            "Python",
+            "Ruby",
+            "Scala",
+            "Scheme"
+    
+         ];
+        $( "#tags" ).autocomplete({
+            source: function( request, response ) {
+                    var matcher = new RegExp( "^" + $.ui.autocomplete.escapeRegex( request.term ), "i" );
+                    response( $.grep( availableTags, function( item ){
+                        return matcher.test( item );
+                    }) );
+                }
+        });
+    });
+
+</script>
+
+</head>
+<body>
+
+<center>
+
+<div class="logo">
+<b>Harvix</b>
+</div>
+
+<p>
+
+<form action="http://howlix.com/search.cgi"  class="form-wrapper cf">
+<input id="tags" autofocus="autofocus" type="text" placeholder="A new way to search..." required>
+<button type="submit">Search</button>
+</form>
+
+</center>
+
+
+
+<script type="text/javascript"> 
+$(document).ready(function() {
+  $("input[name=q]").val( '' ).focus();
+});
+</script>
+
+</body>
+</html>

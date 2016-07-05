@@ -1,0 +1,1 @@
+59.6	Remote_File_Inclusion	Remote file inclusion	The developer intended only blue.php and red.php to be used as options. But as anyone can easily insert arbitrary values in COLOR, it is possible to inject code from files:	

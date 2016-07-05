@@ -1,0 +1,1 @@
+1.00	LibraryThing.com	LibraryThing	LibraryThing is a social cataloging web application for storing and sharing book catalogs and various types of book metadata. It is used by individuals, authors, libraries and publishers.	http://upload.wikimedia.org/wikipedia/commons/a/a7/LibraryThing_Logo_medium.png

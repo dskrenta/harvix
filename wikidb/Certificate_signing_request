@@ -1,0 +1,1 @@
+42.27	Certificate_signing_request	Certificate signing request	If the request is successful, the certificate authority will send back an identity certificate that has been digitally signed with the private key of the certificate authority.	

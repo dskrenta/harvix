@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<!--Flappy Birdie Harvix version by David Skrenta -->
+
+<script>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) 
+{
+        window.location.assign("http://www.harvix.com/flappy/mobile.html")
+}
+</script>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="">
+
+    <title>Flappy Birdie</title>
+
+    <!-- Flappy Birdie CSS -->
+    <link href="http://harvix.com/flappy/bootstrap.min.css" rel="stylesheet">
+    <link href="http://harvix.com/flappy/flappy.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+    <style>
+
+    #screen {
+    	margin: 0 auto;
+        position: relative;
+        overflow: hidden;       
+    }
+
+    </style>
+
+  </head>
+
+  <body>
+
+	<script type="text/javascript">
+
+  	var _gaq = _gaq || [];
+ 	_gaq.push(['_setAccount', 'UA-30447587-1']);
+  	_gaq.push(['_trackPageview']);
+	
+  	(function() {
+   	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ 	 })();
+
+	</script>
+
+	<script type="text/javascript">
+
+  	var _gaq = _gaq || [];
+  	_gaq.push(['_setAccount', 'UA-30658262-1']);
+  	_gaq.push(['_trackPageview']);
+    	
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  	})();
+
+	</script>
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  	var js, fjs = d.getElementsByTagName(s)[0];
+  	if (d.getElementById(id)) return;
+  	js = d.createElement(s); js.id = id;
+  	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="http://harvix.com/flappy">Flappy Birdie</a>
+	  <a class="blog-nav-item" href="http://harvix.com/flappy/fullscreen.html">Full Screen</a>
+          <a class="blog-nav-item" href="http://harvix.com">Harvix</a>
+          <a class="blog-nav-item" href="http://harvix.org">Harvix.org</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">Flappy Birdie</h1>
+        <p class="lead blog-description">Missed out on the Flappy Bird Craze? Play Flappy Birdie!</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-9 blog-main">
+
+          <div class="blog-post">
+		<div id="screen"></div>
+     	 	<script src="physics.js"></script>
+      		<script src="game.js"></script>
+		<p><div class="fb-like" data-href="http://harvix.com/flappy" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></p>
+          </div>
+
+          <div class="blog-post">
+		<iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="728" height="90" src="http://adserving.7SearchDisplayAds.com/newServing/frameAd.php?nid=1101&amp;pid=559&amp;sid=733&amp;adtype=1&amp;c1=&amp;c2=&amp;c3=&amp;c4=&amp;image=2"></iframe> 
+	  </div>	
+
+	  <div class="blog-post">
+		<div class="fb-comments" data-href="http://harvix.com/flappy" data-numposts="10" data-colorscheme="light"></div>
+	  </div>
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-2 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module">
+          	<iframe frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="160" height="600" src="http://adserving.7SearchDisplayAds.com/newServing/frameAd.php?nid=1101&amp;pid=559&amp;sid=733&amp;adtype=5&amp;c1=&amp;c2=&amp;c3=&amp;c4=&amp;image=2"></iframe> 
+	  </div>
+          <div class="sidebar-module">
+            <h4>Share Flappy Birdie</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://www.facebook.com/pages/Flappy-Birdie/666512706720698">Facebook</a></li>
+              <li><a href="https://twitter.com/Harvix">Twitter</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <div class="blog-footer">
+      <p>Flappy Birdie built by &copy; <a href="http://harvix.com">Harvix</a> 2014.</p>
+    </div>
+  
+  </body>
+</html>
+

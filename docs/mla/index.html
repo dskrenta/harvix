@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Harvix</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Le styles -->
+<link href="http://harvix.com/assets/bootstrap.css" rel="stylesheet">
+<style type="text/css">
+body {
+padding-top: 40px;
+padding-bottom: 40px;
+background-color: #f5f5f5;
+}
+
+.form-signin {
+max-width: 300px;
+padding: 19px 29px 29px;
+margin: 0 auto 20px;
+background-color: #fff;
+border: 1px solid #e5e5e5;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+font-size: 16px;
+height: auto;
+margin-bottom: 15px;
+padding: 7px 9px;
+}
+
+</style>
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.harvix.com/images/harvixshort2.jpg">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.harvix.com/images/harvixshort2.jpg">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.harvix.com/images/harvixshort2.jpg">
+<link rel="apple-touch-icon-precomposed" href="http://www.harvix.com/images/harvixshort2.jpg">
+<link rel="shortcut icon" href="http://www.harvix.com/images/harvixshort2.jpg">
+</head>
+
+<body>
+
+<div class="container">
+
+<form class="form-signin" method="post" action="mla.php">
+<h2 class="form-signin-heading">SDP Generation</h2>
+    <label class = "label"> Article Title </label>
+<input type="text" class="input-block-level" placeholder="Article Title" name="atitle">
+      <label class = "label"> Author </label>
+<input type="text" class="input-block-level" placeholder="First Name" name="fname">
+<input type="text" class="input-block-level" placeholder="Last Name" name="lname">
+      <label class = "label"> Website Title </label>
+<input type="text" class="input-block-level" placeholder="Website Title" name="websitet">
+      <label class = "label"> Publisher/Sponsor  </label>
+<input type="text" class="input-block-level" placeholder="Publisher Sponsor" name="publish">
+      <label class = "label"> Electronically Published </label>
+<input type="text" class="input-block-level" placeholder="Day" name="eday">
+<input type="text" class="input-block-level" placeholder="Month" name="emonth">
+    <input type="text" class="input-block-level" placeholder="Year" name="eyear">
+          <label class = "label"> Date Accessed </label>
+<input type="text" class="input-block-level" placeholder="Day" name="aday">
+<input type="text" class="input-block-level" placeholder="Month" name="amonth">
+    <input type="text" class="input-block-level" placeholder="Year" name="ayear">
+<button class="btn btn-large btn-primary" type="submit">Create Citation</button>
+</form>
+
+</div> <!-- /container -->
+
+
+</body>
+</html>

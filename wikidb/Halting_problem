@@ -1,0 +1,1 @@
+153.2	Halting_problem	Halting problem	The proof proceeds by directly establishing that every total computable function with two arguments differs from the required function h. To this end, given any total computable binary function f, the following partial function g is also computable by some program e:	

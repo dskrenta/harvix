@@ -1,0 +1,1 @@
+66.1	List_of_TCP_and_UDP_port_numbers	List of TCP and UDP port numbers	The range of port numbers from 1024 to 49151 are the registered ports. They are assigned by IANA for specific service upon application by a requesting entity. On most systems registered ports can be used by ordinary users.	

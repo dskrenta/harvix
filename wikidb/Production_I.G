@@ -1,0 +1,1 @@
+29.43	Production_I.G	Production I.G	Production I.G Kabushiki-gaisha Purodakusyon Ai Jī) is a Japanese anime studio and production enterprise, which was founded on December 15, 1987 by Mitsuhisa Ishikawa. It is headquartered in Kokubunji, Tokyo, Japan.	http://upload.wikimedia.org/wikipedia/commons/a/af/Production_I.G_Logo.jpg

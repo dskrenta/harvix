@@ -1,0 +1,292 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+<title>Tuvaro </title>
+<link rel="icon" href="http://tuvaro.com/s/tuvaro.ico?v=8bb1f83c" type="image/x-icon" />
+<link rel="shortcut icon" href="http://tuvaro.com/s/tuvaro.ico?v=8bb1f83c" />
+<link rel="shortcut icon" href="http://tuvaro.com/s/tuvaro.ico?v=8bb1f83c" type="image/ico" />
+<link type="text/css" rel="stylesheet" href="t.css"/>
+<style>
+div.logo{color: black; font-size: 40px; font-family:  Helvetica, sans-serif; font-size: normal; line-height: normal;}
+</style>
+</head>
+<body id="home">
+<div id="content">
+<div id="home-spacer"></div>
+<div id="bg_img_info" class="bg_img_info ">
+<span class="bg_img_info_icon fr"></span>
+<div class="bg_img_info_box trans_bg">
+<div class="box_inner_border">
+<a href="javascript:;" class="bg_img_title"></a><br/>
+<a href="javascript:;" class="bg_img_author" target="_blank"></a>
+</div>
+</div>
+</div>
+<div id="search-home" class="trans_bg">
+<div class="fl ml10">
+<div class="logo">Harvix</div>
+<form id="searchForm" name="searchForm" action="/ws/" class="fl">
+<input id="searchBox" autofocus="autofocus" autocomplete="off" type="text" spellcheck="false" name="q"  />
+<button type="submit" class="red-button"  href="javascript:void(0);" id="search-submit" ><span class="search-icon"></span></button>
+<input type="hidden" name="bg" id="bg-input" value=""/>
+</form>
+<div id="AutocompleteInjectDiv"  class="autocomplete"></div>
+<div id="examples" class="distro clear fl">
+</div>
+<div id="language-pref" class="fr mt10">
+<a href="#" id="btn_lang" class="">
+<span>More Languages</span><span class="ddArrow"></span>
+</a>
+<div id="lang_container" class="trans_bg">
+<ul class="langs_list">
+<li rel="en"> English </li>
+<li rel="es"> Español </li>
+<li rel="pt"> Português </li>
+<li rel="de"> Deutsch </li>
+<li rel="fr"> Français </li>
+<li rel="ru"> Русский </li>
+</ul>
+<span id="language_msg"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+<div class="clear">&nbsp;</div>
+<div class="clear">&nbsp;</div>
+</div>
+<div id="footer" class="footer gradBlack">
+<p>
+<a href="/about">About</a>
+<a href="/about/privacy">Privacy Policy</a>
+<a href="/about/terms">Terms of Service</a>
+<a href="/about/help" class="help_link">Help</a>
+<span class="copyright">&copy; 2013 Tuvaro, inc.</span>
+</p>
+</div>
+<script type="text/javascript" src="http://tuvaro.com/s/tuvaro.js?v=87ca225f"></script>
+<script type="text/javascript">
+$(document).ready(function () { 
+var theWindow = $(window),
+$bg,
+aspectRatio;
+var bg_imgs = [
+{
+"title" : "Mono Lake, CA",
+"url" : "http://tuvaro.com/s/images/backgrounds/mono-lake.jpg",
+"query" : "mono lake",
+"author" : {
+"name" : "",
+"url" : ""
+}
+},
+{
+"title" : "Mountain Lakes, NJ",
+"url" : "http://tuvaro.com/s/images/backgrounds/mountain-lakes.jpg",
+"query" : "mountain lakes",
+"author" : {
+"name" : "",
+"url" : ""
+}
+},
+{
+"title" : "Pittsburgh, PA",
+"url" : "http://tuvaro.com/s/images/backgrounds/pittsburg.jpg",
+"query" : "pittsburgh",
+"author" : {
+"name" : "",
+"url" : ""
+}
+},
+{
+"title" : "Yosemite Falls, CA",
+"url" : "http://tuvaro.com/s/images/backgrounds/yosemite-falls.jpg",
+"query" : "yosemite falls",
+"author" : {
+"name" : "",
+"url" : ""
+}
+},
+{
+"title" : "Eiger Mountain, CH",
+"url" : "http://tuvaro.com/s/images/backgrounds/eiger.jpg",
+"query" : "eiger mountain",
+"author" : {
+"name" : "",
+"url" : ""
+}
+},
+{
+"title" : "Behind The Falls<br/>Minnehaha SP, MN",
+"url" : "http://tuvaro.com/s/images/backgrounds/behind-the-falls.jpg",
+"query" : "minnehaha falls",
+"author" : {
+"name" : "Ryan Engstrom",
+"url" : "http://www.ryanengstromphoto.com"
+}
+},
+{
+"title" : "Horseshoe Bend, AZ",
+"url" : "http://tuvaro.com/s/images/backgrounds/horseshoebend.jpg",
+"query" : "horseshoe bend",
+"author" : {
+"name" : "Ryan Engstrom",
+"url" : "http://www.ryanengstromphoto.com"
+}
+},
+{
+"title" : "Teton Reflections",
+"url" : "http://tuvaro.com/s/images/backgrounds/teton-reflection.jpg",
+"query" : "teton reflections",
+"author" : {
+"name" : "Ryan Engstrom",
+"url" : "http://www.ryanengstromphoto.com"
+}
+},
+{
+"title" : "Mesa Arch<br/>Canyonlands NP, UT",
+"url" : "http://tuvaro.com/s/images/backgrounds/underglow.jpg",
+"query" : "mesa arch",
+"author" : {
+"name" : "Ryan Engstrom",
+"url" : "http://www.ryanengstromphoto.com"
+}
+}
+];
+var imgLen = bg_imgs.length;
+var randomNumber = Math.floor((Math.random() * imgLen));
+var displayImage = bg_imgs[randomNumber];
+$("<img>")
+.attr("src", displayImage.url)
+.hide()
+.attr({id : "bg-image" })
+.on("load", function(){
+$(this).prependTo('body').fadeIn(500);
+$bg = $(this);
+aspectRatio = $bg.width() / $bg.height();
+resizeBg();
+$("#bg-input").val(displayImage.query);
+});
+$("#bg_img_info .bg_img_title").attr('href','/ws/?q=' + displayImage.query.replace(/ /g,"+"))
+.html(displayImage.title);
+$("#bg_img_info .bg_img_author").attr('href',displayImage.author.url)
+.html(displayImage.author.name);
+function resizeBg() {
+if($bg === undefined) {
+$bg = $("img#bg-image") || $("<img>");
+}
+if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+$bg
+.removeClass()
+.addClass('bgheight');
+} else {
+$bg
+.removeClass()
+.addClass('bgwidth');
+}
+}
+theWindow.resize(resizeBg );
+var processSampleQueries = function() {
+$.ajax({
+url: '/a/top_queries',
+type: 'get',
+data: {},
+success: function (data) {
+var top_queries = $.parseJSON( data );
+var examples = $('#examples');
+examples.append('<div class="samples_title">Try it out:</div>');
+examples.append('<div class="sample_queries"></div>');
+var sample_queries = $('#examples .sample_queries');
+var htm = '<div class="samples_results">';
+for(var i=0; i<top_queries.length;i++) {
+htm += '<a href="/ws/?source=&tbp=hpsug&q='+encodeURIComponent(top_queries[i])+'">'+top_queries[i];
+if (i + 1 != top_queries.length) {
+htm +=',';
+}
+htm +='</a>';
+}
+htm += '</div>';
+sample_queries.append(htm);
+var samples_results = $('#examples .samples_results');
+var samples_title = $('#examples .samples_title');
+samples_results.css('left', -1 * samples_results.outerWidth());
+setTimeout(function() {
+samples_results.css({
+'left': 0,
+'opacity': 1
+});
+samples_title.css('opacity',1);
+},1000);
+}
+});
+};
+processSampleQueries();
+});
+</script>
+<script type="text/javascript">
+function getLang() {
+var navLang = window.navigator.browserLanguage || window.navigator.userLanguage || window.navigator.language;
+navLang = navLang.split('-');
+var lang = {
+'language' : navLang[0] || '',
+'country' : navLang[1] || ''
+}
+return lang;
+}
+$(document).ready(function () {
+window.navigator.tuvaroLang = getLang();
+});
+if (typeof set_ptt_cookie == 'function') {
+set_ptt_cookie();
+}
+autocomplete( "searchBox", "/autocomplete" );
+function checkAncestor(element, selector) {
+if (element.is(selector)) {
+return element;
+} else if (element.is("body")) {
+return null;
+} else {
+return checkAncestor(element.parent(), selector);
+}
+}
+$.fn.ancestor = function (selector) {
+return checkAncestor($(this), selector);
+};
+var lang_container = $('#lang_container');
+$('#content').click(function (e) {
+var target = $(e.target);
+var pr = target.ancestor('#language-pref');
+if( (!$(pr).is('#language-pref')) && lang_container.hasClass('active')) {
+lang_container.toggleClass('active');
+}
+});
+$('#language-pref').click(function (e) {
+e.preventDefault();
+lang_container.toggleClass('active');
+});
+lang_container.click(function (e) {
+e.preventDefault();
+var li = $(e.target);
+$.ajax({
+url: '/a/myprefs?lang=' + li.attr('rel'),
+type: 'get',
+data: {},
+success: function (data) {
+location.reload(true);
+}
+});
+});
+<!--[if IE 7]>
+<style type="text/css">
+#searchForm {
+zoom: 1;
+}
+#search-submit .icon {
+top: 10px;
+}
+</style>
+<![endif]-->
+</body>
+</html>

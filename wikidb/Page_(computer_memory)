@@ -1,0 +1,1 @@
+12.64	Page_(computer_memory)	Page (computer memory)	In many Unix systems the command line utility getconf can be used. For example getconf PAGESIZE will return the page size in bytes.	

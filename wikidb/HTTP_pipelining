@@ -1,0 +1,1 @@
+56.9	HTTP_pipelining	HTTP pipelining	HTTP pipelining is a technique in which multiple HTTP requests are sent on a single TCP connection without waiting for the corresponding responses.	http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/HTTP_pipelining2.svg/300px-HTTP_pipelining2.svg.png

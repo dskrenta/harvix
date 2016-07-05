@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Orlando, FL",
+		"city":"Orlando",
+		"state":"FL",
+		"state_name":"Florida",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"32801",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"28.54150772",
+		"longitude":"-81.37413788",
+		"elevation":"35.00000000"
+		},
+		"observation_location": {
+		"full":"WFTV, Channel 9, Orlando, Florida",
+		"city":"WFTV, Channel 9, Orlando",
+		"state":"Florida",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"28.537670",
+		"longitude":"-81.372108",
+		"elevation":"92 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KFLORLAN65",
+		"observation_time":"Last Updated on September 20, 6:33 AM EDT",
+		"observation_time_rfc822":"Sun, 20 Sep 2015 06:33:07 -0400",
+		"observation_epoch":"1442745187",
+		"local_time_rfc822":"Sun, 20 Sep 2015 06:33:20 -0400",
+		"local_epoch":"1442745200",
+		"local_tz_short":"EDT",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0400",
+		"weather":"Clear",
+		"temperature_string":"74.5 F (23.6 C)",
+		"temp_f":74.5,
+		"temp_c":23.6,
+		"relative_humidity":"98%",
+		"wind_string":"Calm",
+		"wind_dir":"North",
+		"wind_degrees":357,
+		"wind_mph":0.0,
+		"wind_gust_mph":0,
+		"wind_kph":0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1012",
+		"pressure_in":"29.90",
+		"pressure_trend":"+",
+		"dewpoint_string":"74 F (23 C)",
+		"dewpoint_f":74,
+		"dewpoint_c":23,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"74.5 F (23.6 C)",
+		"feelslike_f":"74.5",
+		"feelslike_c":"23.6",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/FL/Orlando.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KFLORLAN65",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=28.537670,-81.372108",
+		"nowcast":""
+	}
+}

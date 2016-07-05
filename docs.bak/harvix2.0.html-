@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>
+Harvix
+</title>
+<link rel="stylesheet" href="/style.css" type="text/css">
+<style type="text/css">
+
+div.footer
+{
+color:#a0a0a0;
+}
+
+div.bar
+{
+float:right;
+}
+
+
+</style>
+</head>
+<body>
+<div class="bar">
+<a href="signi.html">Sign In</a> &middot <a href="signu.html">Sign Up</a>
+</div>
+
+<b>Search Bar:</b>  <a href="y2search.html">Web</a> &middot <a href="ysearch.html">Images</a> &middot <a href="search.html">Jokes</a>
+<hr></hr>
+<center>
+<p>
+<p>
+<img src="http://harvix.com/harvix-logo.png"/>
+<p>
+<p>
+<form action="/y1search.cgi" method="GET">
+<input size="60" name="q" value="">
+<input type=submit value="Harvix Search">
+</form>
+<b>Examples:</b> <a href="http://harvix.com/y1search.cgi?q=iphone">iphone</a> &middot <a href="http://harvix.com/y1search.cgi?q=blekko">blekko</a>
+<p>
+<p>
+<p>
+<p>
+Join The Social Search Community <a href="signu.html">Join Now</a>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<a href="man.html">About Harvix</a> &middot <a href="applacations.html">Harvix Applacations</a> &middot <a href="help.html">Harvix Help</a> 
+<p>
+<p>
+<p>
+<p>
+<div class="footer">
+&copy; Copyright 2010 &middot; <a href="privacy.html">Privacy</a>
+</div>
+</center>
+</body>
+
+
+

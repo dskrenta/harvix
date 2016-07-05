@@ -1,0 +1,32 @@
+<!DOCTYPE html "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google Maps JavaScript API Example</title>
+ <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAAyA6ffsAw36e9H7mCV1pMpxSFizZUSKv-WkcS__QDjQLthZCk4hQXavsI2kIXvZQZr3HCHGxIlCIOgQ" type="text/javascript"></script>
+    <script type="text/javascript">
+
+function initialize() {
+  if (GBrowserIsCompatible()) {
+  
+    // Create and Center a Map
+    var map = new GMap2(document.getElementById("map_canvas"));
+    map.setCenter(new GLatLng(37.4419, -122.1419), 13);
+    map.addControl(new GLargeMapControl());
+    map.addControl(new GMapTypeControl());
+
+    // bind a search control to the map, suppress result list
+    map.addControl(new google.maps.LocalSearch(), new GControlPosition(G_ANCHOR_BOTTOM_RIGHT, new GSize(10,20)));
+  }
+}
+GSearch.setOnLoadCallback(initialize);
+
+    </script>
+  </head>
+  <body onload="initialize()" onunload="GUnload()">
+    <div id="map_canvas" style="width: 1000px; height: 1000px"></div>
+  </body>
+</html>
+
+

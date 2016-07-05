@@ -1,0 +1,1 @@
+59.4	Maildir	Maildir	The Maildir e-mail format is a common way of storing e-mail messages, where each message is kept in a separate file with a unique name, and each folder is a directory. The local filesystem handles file locking as messages are added, moved and deleted.	http://upload.wikimedia.org/wikipedia/commons/4/44/Maildir.png

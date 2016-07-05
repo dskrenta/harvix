@@ -1,0 +1,1 @@
+114.0	BigTable	BigTable	BigTable is a compressed, high performance, and proprietary database system built on Google File System (also known as the "GFS"), Chubby Lock Service, SSTable and a few other Google technologies. It is not distributed outside Google, although Google offers access to it as part of its Google App Engine.	

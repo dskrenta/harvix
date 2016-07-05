@@ -1,0 +1,1 @@
+10.12	Name_resolution	Name resolution	However, relying on dynamic name resolution in code is discouraged by the Python community. The feature also may be removed in a later version of Python.	

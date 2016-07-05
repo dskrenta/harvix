@@ -1,0 +1,1 @@
+70.4	Coroutine	Coroutine	Since continuations can be used to implement coroutines, programming languages that support them can also quite easily support coroutines.	

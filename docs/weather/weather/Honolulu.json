@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Honolulu, HI",
+		"city":"Honolulu",
+		"state":"HI",
+		"state_name":"Hawaii",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"96801",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"21.32780075",
+		"longitude":"-157.82940674",
+		"elevation":"229.00000000"
+		},
+		"observation_location": {
+		"full":"Pacific Heights, Honolulu, Hawaii",
+		"city":"Pacific Heights, Honolulu",
+		"state":"Hawaii",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"21.327349",
+		"longitude":"-157.842026",
+		"elevation":"528 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KHIHONOL21",
+		"observation_time":"Last Updated on September 20, 12:32 AM HST",
+		"observation_time_rfc822":"Sun, 20 Sep 2015 00:32:29 -1000",
+		"observation_epoch":"1442745149",
+		"local_time_rfc822":"Sun, 20 Sep 2015 00:32:33 -1000",
+		"local_epoch":"1442745153",
+		"local_tz_short":"HST",
+		"local_tz_long":"Pacific/Honolulu",
+		"local_tz_offset":"-1000",
+		"weather":"Scattered Clouds",
+		"temperature_string":"77.2 F (25.1 C)",
+		"temp_f":77.2,
+		"temp_c":25.1,
+		"relative_humidity":"83%",
+		"wind_string":"From the WNW at 2.0 MPH Gusting to 7.0 MPH",
+		"wind_dir":"WNW",
+		"wind_degrees":302,
+		"wind_mph":2.0,
+		"wind_gust_mph":"7.0",
+		"wind_kph":3.2,
+		"wind_gust_kph":"11.3",
+		"pressure_mb":"1013",
+		"pressure_in":"29.91",
+		"pressure_trend":"0",
+		"dewpoint_string":"72 F (22 C)",
+		"dewpoint_f":72,
+		"dewpoint_c":22,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"77.2 F (26 C)",
+		"feelslike_f":"77.2",
+		"feelslike_c":"26",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/HI/Honolulu.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KHIHONOL21",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=21.327349,-157.842026",
+		"nowcast":""
+	}
+}

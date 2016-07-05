@@ -1,0 +1,1 @@
+1.00	HomeInsurance.com	HomeInsurance.com	HomeInsurance.com is an online home insurance shopping marketplace. The company is licensed to sell homeowners and auto insurance in 49 US states. HomeInsurance.com was founded by CEO Carlos Lagomarsino in 2007 as part of MyStateInsurance.com. The company headquarters is located in Wilmington, North Carolina.	

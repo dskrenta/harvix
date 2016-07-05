@@ -1,0 +1,1 @@
+68.8	Boo.com	Boo.com	Boo.com was a British Internet company, founded by Swedes Ernst Malmsten, Kajsa Leander and Patrik Hedelin, which went out of business following the dot-com boom of the late 1990s.	http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Boo-com.png/250px-Boo-com.png

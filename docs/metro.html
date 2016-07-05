@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Harvix Page">
+    <meta name="author" content="Harvix">
+    <meta name="keywords" content="windows 8, modern style, modern ui, style, modern, css, framework">
+
+    <link href="http://metroui.org.ua/css/modern.css" rel="stylesheet">
+    <link href="http://metroui.org.ua/css/theme-dark.css" rel="stylesheet">
+    <link href="http://metroui.org.ua/css/modern-responsive.css" rel="stylesheet">
+
+    <script src="http://metroui.org.ua/js/assets/jquery-1.8.2.min.js"></script>
+    <script src="http://metroui.org.ua/js/assets/google-analytics.js"></script>
+    <script src="http://metroui.org.ua/js/assets/jquery.mousewheel.min.js"></script>
+    <script src="http://metroui.org.ua/js/assets/github.info.js"></script>
+    <script src="http://metroui.org.ua/js/modern/tile-slider.js"></script>
+
+    <title>Harvix Test Page</title>
+
+    <style>
+        body {
+            background: #1d1d1d;
+        }
+    </style>
+
+    <script>
+        function Resize(){
+            var tiles_area = 0;
+            $(".tile-group").each(function(){
+                tiles_area += $(this).outerWidth() + 80;
+
+            });
+
+            $(".tiles").css("width", 120 + tiles_area + 20);
+
+            $(".page").css({
+                height: $(document).height() - 20,
+                width: $(document).width()
+            });
+        }
+
+
+        $(function(){
+
+            Resize();
+
+        })
+
+
+    </script>
+</head>
+<body class="modern-ui" onresize="Resize()">
+    <div class="page-header ">
+        <div class="page-header-content">
+            <div class="user-login">
+                <a href="#">
+                    <div class="name">
+                        <span class="first-name">You searched for "Bill Gates"</span>
+                    </div>
+                    <div class="avatar">
+                        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Bill_Gates_in_WEF_%2C2007.jpg/220px-Bill_Gates_in_WEF_%2C2007.jpg"/>
+                    </div>
+                </a>
+            </div>
+
+            <h1>Search Results:</h1>
+        </div>
+    </div>
+
+    <div class="page-region">
+            <div class="tile-group">
+                
+
+
+			<div class="tile double bg-color-blueDark">
+                    <div class="tile-content">
+                        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Bill_Gates_in_WEF_%2C2007.jpg/220px-Bill_Gates_in_WEF_%2C2007.jpg" width="100px" height="100px" class="place-left"/>
+                        <h3 style="margin-bottom: 5px;">Bill Gates</h3>
+                        <p>
+                        
+William Henry "Bill" Gates III (born October 28, 1955 in Seattle, Washington) is an American business magnate, investor, philanthropist and author. Gates is the former CEO and current chairman of Microsoft, the software company he founded with Paul Allen. He is consistently ranked among the world's wealthiest people and was the wealthiest overall from 1995 to 2009, excluding 2008, when he was ranked third; in 2011 he was the wealthiest American and the second wealthiest person. During his career at Microsoft, Gates held the positions of CEO and chief software architect, and remains the largest individual shareholder, with 6.4 percent of the common stock. He has also authored or co-authored several books.
+			</p>
+
+                    </div>
+                    <div class="brand">
+                        <span class="name">Wikipedia</span>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="tile bg-color-orangeDark icon">
+                    <b class="check"></b>
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/Video128.png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">Video</span>
+                    </div>
+                </div>
+
+
+		<div class="tile bg-color-green icon">
+                    <b class="check"></b>
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/Video128.png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">Video</span>
+                    </div>
+                </div>
+
+	
+		<div class="tile bg-color-red icon">
+                    <b class="check"></b>
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/Video128.png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">Video</span>
+                    </div>
+                </div>
+
+
+                <div class="tile bg-color-green icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/Market128.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Store</span>
+                        <span class="badge">6</span>
+                    </div>
+                </div>
+
+                <div class="tile bg-color-red icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/Music128.png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">Music</span>
+                    </div>
+                </div>
+
+                <div class="tile double bg-color-blueDark">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/michael.jpg" class="place-left"/>
+                        <h3 style="margin-bottom: 5px;">michael_angiulo</h3>
+                        <p>
+                            I just saw Thor last night. It was awesome! I think you'd love it.
+                        </p>
+                        <h5>RT @julie_green</h5>
+
+                    </div>
+                    <div class="brand">
+                        <span class="name">Tweet@rama</span>
+                    </div>
+                </div>
+
+                <div class="tile bg-color-darken icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/YouTube128.png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">YouTube</span>
+                    </div>
+                </div>
+
+                <div class="tile double image-slider" data-role="tile-slider" data-param-period="5000" data-param-direction="left">
+                    <div class="tile-content">
+                        <img src="http://www.microsoft.com/global/en-us/news/PublishingImages/bod/billg/gates_print.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://www.biography.com/imported/images/Biography/Images/Profiles/G/Bill-Gates-9307520-1-402.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://www.microsoft.com/global/en-us/news/PublishingImages/exec/billg/print/billg1_print.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://www.biography.com/imported/images/Biography/Images/Profiles/G/Bill-Gates-9307520-2-402.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://0.tqn.com/d/inventors/1/G/V/2/1/billgates.jpg" alt="">
+                    </div>
+
+			<div class="brand">
+                        <span class="name">Images</span>
+                        <div class="badge bg-color-orange">200</div>
+                    </div>
+                </div>
+
+
+                <div class="tile double image-slider" data-role="tile-slider" data-param-period="5000" data-param-direction="left">
+                    <div class="tile-content">
+                        <img src="http://i.ytimg.com/vi/AP5VIhbJwFs/default.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://i.ytimg.com/vi/RHy9_RQbrnQ/default.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://i.ytimg.com/vi/Hb5xSxG1aPA/default.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://i.ytimg.com/vi/njos57IJf-0/default.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://i.ytimg.com/vi/GNdH6uV-UY4/default.jpg" alt="">
+                    </div>
+
+                        <div class="brand">
+                        <span class="name">Videos</span>
+                        <div class="badge bg-color-orange">20</div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="tile-group" style="width: 322px;">
+                <div class="tile bg-color-blue icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/InternetExplorer128.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Internet Explorer</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/excel2013icon.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Excel 2013</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/word2013icon.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Word 2013</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/onenote2013icon.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">OneNote 2013</span>
+                    </div>
+                </div>
+                <div class="tile double image-set">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/1.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/2.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/3.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/4.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/5.jpg" alt="">
+                    </div>
+                    <div class="brand">
+                        <span class="name">Photos</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tile-group" style="width: 322px;">
+                <div class="tile double image">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/4.jpg" alt="" />
+                    </div>
+                    <div class="brand bg-color-orange">
+                        <img class="icon" src="http://metroui.org.ua/images/Rss128.png"/>
+                        <p class="text">This is a desert eagle. He is very hungry and angry bird.</p>
+                        <div class="badge">10</div>
+                    </div>
+                </div>
+
+                <div class="tile bg-color-blue icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/InternetExplorer128.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Internet Explorer</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/excel2013icon.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Excel 2013</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/word2013icon.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Word 2013</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/onenote2013icon.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">OneNote 2013</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tile-group" style="width: 322px;">
+                <div class="tile double image">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/4.jpg" alt="" />
+                    </div>
+                    <div class="brand bg-color-orange">
+                        <img class="icon" src="http://metroui.org.ua/images/Rss128.png"/>
+                        <p class="text">This is a desert eagle. He is very hungry and angry bird.</p>
+                        <div class="badge">10</div>
+                    </div>
+                </div>
+
+                <div class="tile bg-color-blue icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/InternetExplorer128.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Internet Explorer</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/excel2013icon.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Excel 2013</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/word2013icon.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Word 2013</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/onenote2013icon.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">OneNote 2013</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tile-group">
+                <div class="tile quadro double-vertical image-set">
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/1.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/2.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/3.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/4.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="http://metroui.org.ua/images/5.jpg" alt="">
+                    </div>
+                    <div class="brand">
+                        <span class="name">Photos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<a href='http://hit.ua/?x=19154' target='_blank'>
+    <script language="javascript" type="text/javascript"><!--
+    Cd=document;Cr="&"+Math.random();Cp="&s=1";
+    Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";
+    Cp+="&t="+(new Date()).getTimezoneOffset();
+    if(self!=top)Cp+="&f=1";
+    //--></script>
+    <script language="javascript1.1" type="text/javascript"><!--
+    if(navigator.javaEnabled())Cp+="&j=1";
+    //--></script>
+    <script language="javascript1.2" type="text/javascript"><!--
+    if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
+            screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
+    //--></script>
+    <script language="javascript" type="text/javascript"><!--
+    Cd.write("<img src='http://c.hit.ua/hit?i=19154&g=0&x=2"+Cp+Cr+
+            "&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+
+            "' border='0' wi"+"dth='1' he"+"ight='1'/>");
+    //--></script>
+    <noscript>
+        <img src='http://c.hit.ua/hit?i=19154&amp;g=0&amp;x=2' border='0'/>
+    </noscript></a>
+<!-- / hit.ua -->
+
+</body>
+</html>

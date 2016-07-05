@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"London, United Kingdom",
+		"city":"London",
+		"state":"",
+		"state_name":"United Kingdom",
+		"country":"UK",
+		"country_iso3166":"GB",
+		"zip":"00000",
+		"magic":"1",
+		"wmo":"03772",
+		"latitude":"51.47999954",
+		"longitude":"-0.44999999",
+		"elevation":"24.00000000"
+		},
+		"observation_location": {
+		"full":"London, ",
+		"city":"London",
+		"state":"",
+		"country":"UK",
+		"country_iso3166":"GB",
+		"latitude":"51.47750092",
+		"longitude":"-0.46138901",
+		"elevation":"79 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"EGLL",
+		"observation_time":"Last Updated on September 20, 11:20 AM BST",
+		"observation_time_rfc822":"Sun, 20 Sep 2015 11:20:00 +0100",
+		"observation_epoch":"1442744400",
+		"local_time_rfc822":"Sun, 20 Sep 2015 11:32:50 +0100",
+		"local_epoch":"1442745170",
+		"local_tz_short":"BST",
+		"local_tz_long":"Europe/London",
+		"local_tz_offset":"+0100",
+		"weather":"Partly Cloudy",
+		"temperature_string":"61 F (16 C)",
+		"temp_f":61,
+		"temp_c":16,
+		"relative_humidity":"77%",
+		"wind_string":"From the West at 8 MPH",
+		"wind_dir":"West",
+		"wind_degrees":280,
+		"wind_mph":8,
+		"wind_gust_mph":0,
+		"wind_kph":13,
+		"wind_gust_kph":0,
+		"pressure_mb":"1026",
+		"pressure_in":"30.30",
+		"pressure_trend":"0",
+		"dewpoint_string":"54 F (12 C)",
+		"dewpoint_f":54,
+		"dewpoint_c":12,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"61 F (16 C)",
+		"feelslike_f":"61",
+		"feelslike_c":"16",
+		"visibility_mi":"5.6",
+		"visibility_km":"9.0",
+		"solarradiation":"--",
+		"UV":"4","precip_1hr_string":"-9999.00 in (-9999.00 mm)",
+		"precip_1hr_in":"-9999.00",
+		"precip_1hr_metric":"--",
+		"precip_today_string":"0.00 in (0.0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0.0",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/03772.html",
+		"history_url":"http://www.wunderground.com/history/airport/EGLL/2015/9/20/DailyHistory.html",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=51.47750092,-0.46138901",
+		"nowcast":""
+	}
+}

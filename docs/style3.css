@@ -1,0 +1,13 @@
+div.logo{color: black; font-size: 60px; font-family:  Helvetica, sans-serif; font-size: normal; line-height: normal;}
+
+
+#searchBox{width:250px}.autocomplete{width:250px}
+#searchBox{font-size:20px;line-height:10px;height:10px;outline:none;border:1px solid #AAA;}
+#searchBox{height:45px;clear:both;}
+#search-submit{width:50px;}
+#search-submit{height:45px;}
+.red-button{height:32px;border:none 0;outline:none 0;font-size:14px;color:#FFF;cursor:pointer;font-weight:bold;background:#ef3625;background:-moz-linear-gradient(top, #ef3625 0%, #d02f20 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ef3625), color-stop(100%,#d02f20));background:-webkit-linear-gradient(top, #ef3625 0%,#d02f20 100%);background:-o-linear-gradient(top, #ef3625 0%,#d02f20 100%);background:-ms-linear-gradient(top, #ef3625 0%,#d02f20 100%);background:linear-gradient(top, #ef3625 0%,#d02f20 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef3625', endColorstr='#d02f20',GradientType=0 );}
+.search-icon{background:url('http://a.blekko-img.com/045/gz/theme21/imgs/serp08.png') no-repeat -212px 0;width:20px;height:20px;display:inline-block;}
+
+
+div.spacer{height:60px;}

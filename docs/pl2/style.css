@@ -1,0 +1,70 @@
+a:link {color:blue;}    /* unvisited link */
+a:visited {color:blue;} /* visited link */
+a:hover {color:red;}   /* mouse over link */
+a:active {color:blue;}  /* selected link*/ 
+
+
+
+h1
+{
+color:black;
+font-family:"Helvetica,Verdana,sans-serif";
+}
+
+h2
+{
+color:black;
+font-family:"Helvetica,Verdana,Arial,sans-serif";
+}
+
+h3
+{
+color:black;
+font-family:"Helvetica,Verdana,sans-serif";
+}
+
+
+
+body
+{
+background-color:white;
+}
+
+
+table.z
+{
+width:100%
+background-color:white;
+-moz-border-radius: 15px;
+border-radius: 15px;
+  -moz-box-shadow: 0 0 1em black;
+-webkit-box-shadow: 0 0 1em black;
+        box-shadow: 0 0 1em black;
+}
+
+
+
+table.two
+{
+width:100%
+background-color:white;
+-moz-border-radius: 15px;
+border-radius: 15px;
+  -moz-box-shadow: 0 0 1em black;
+-webkit-box-shadow: 0 0 1em black;
+        box-shadow: 0 0 1em black;
+}
+
+
+
+table.z {background: url('http://www.thedailybalance.com/wp-content/uploads/fall.jpg')  }
+
+p
+{
+font-family:"Helvetica,Verdana,New Times Roman,sans-serif;font-size:15px;
+color:black;
+}
+
+
+
+

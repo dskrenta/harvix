@@ -1,0 +1,1 @@
+54.1	First-class_function	First-class function	In languages where functions are first-class citizens, functions can be passed as arguments to other functions in the same way other types can (a function taking another function as argument is called a higher-order function). In the Haskell programming language:	

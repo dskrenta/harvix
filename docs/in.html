@@ -1,0 +1,88 @@
+CTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="apple-touch-icon" href="/s/dog.png" />
+<link rel="search" type="application/opensearchdescription+xml" href="/s/make_searchbacon_your_default_search.xml" title="searchbacon" />
+<title>Search</title>
+<style type="text/css">
+* { padding: 0; margin: 0; }
+body { font-size: 13px; font-family: Arial, sans-serif; font-size: normal; line-height: normal; }
+a { color: #00c; }
+a:visited { color: #507; }
+ul li { list-style: none; margin-bottom: 2em; }
+#wrapper { max-width: 97%; min-width: 700px; padding: 120px 30px 30px 30px; }
+#header { width: 100%; position: fixed; border-bottom: 1px solid #c9c9c9; -webkit-box-shadow: #ccc 0 2px 5px; -moz-box-shadow: #ccc 0 2px 5px; box-shadow: #ccc 0 2px 5px; background: #fff; }
+#header #search { width: 57%; max-width: 680px; min-width: 430px; padding: 0 30px; }
+#numbers { font-size: 13px; font-weight: normal; padding: 5px 30px; border-top: 1px solid #e5e5e5; background: #edf4fb; }
+#numbers p { max-width: 1024px; min-width: 600px; }
+#header .field { font-size: 18px; padding: 5px; outline: none; border: 1px solid #666; }
+#results { width: 61%; max-width: 680px; min-width: 300px; float: left; }
+h2.title { font-size: 16px; font-weight: normal; color: #00c; margin-bottom: .1em; }
+p.snippet { margin-bottom: .15em; }
+p.url { color: #393; }
+#sideCol-l { width: 180px; padding-right: 10px; float: left; border-right: 1px solid #edf4fb;  margin-right:15px;}
+#sideCol-r { width: 180px; padding-left: 10px; float: right; border-left: 1px solid #edf4fb;  }
+#paginate { font-size: 13px; }
+#paginate a.turn { font-weight: bold; color: #00c; padding: 0 7px; }
+#paginate a.page { color: #000; padding: 0 7px; }
+#paginate span#active { font-size: 15px; font-weight: bold; color: #ac0000; padding: 0 7px; }
+#footer {color:#BBB;  text-align: center; padding: 30px 0; clear: both; }
+#footer a{color:#CCC;}
+#narrowRes p{margin-bottom:10px;}
+#homepage{margin:17% auto; width:50%;  max-width:800px; min-width:500px;}
+#homepage h1{font-size:40px; font-weight:normal;}
+#homepage input.field{font-size:22px;  padding: 3px 6px;}
+.fl{float:left;}
+.autocomplete {  font-size: 14px; cursor:default; text-align:left; max-height:350px; overflow: auto;  /* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; border: 1px solid #aaa !important; background: #fff; }
+#search .autocomplete{position:absolute;}
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete div { padding:0px 0px; white-space:nowrap; }
+.autocomplete div div { padding:2px 5px; white-space:nowrap; }
+.autocomplete strong { font-weight:normal; color:#4444FF; }
+#dymbox{background: none repeat scroll 0 0 #F6F6F6; border: 1px solid #EEEEEE; display: block; font-size:18px; font-weight:bold; margin: 0 0px 20px -10px; padding: 10px; width: 100%;}
+</style>
+</head>
+<body>
+<div id="homepage">
+<form action="/" id="homepage-search">
+<div style="text-align:center;"><h1>Har<span style="color:#b31c1c;">vix</span></h1 </div>
+
+<div class="fl" style="margin-right:10px;"><a href="/"><img border=0  src="/s/dog.png?v=c1448b22" alt="dog image" title="search bacon" /></a></div>
+<div class="fl" style="width:70%"><input id="search_box" autocomplete="off" spellcheck="false"  type="text" name="q" value="" class="field" style="width:95%; margin-top:5px;" />
+    <div id="AutocompleteInjectDiv" style="padding:3px 6px; width: 95%; max-height: 400px; display: none; z-index:9999" class="autocomplete"></div></div>
+<div class="fl" style="margin:13px 0 0 5px;"> 
+<p>
+<input type="submit" id="subh" value="Search" style="font-size:16px;padding:3px;" size="70px;"   /></div>
+</tr>
+</table>
+</form>
+</div>
+<script type="text/javascript">
+<!--
+    function submitted(){
+        document.getElementById("homepage-search").submit();
+    }
+-->
+</script>
+</body>
+<script type="text/javascript" src="http://a.blekko-img.com/045/gz/a6c23cd1d0714d29_jquery.js"></script>
+<script type="text/javascript" src="/s/jquery.autocomplete.js?v=b534de50"></script>
+<script type="text/javascript" src="/s/searchbacon.js"></script>
+
+<script type="text/javascript">
+<!--
+    autocomplete_db( 'search_box', '/autocomplete' );
+    function submitted(){
+        document.getElementById("search-form").submit();
+    }
+    $("#search_box").focus();
+    var qi = "NmQ2YWQ4MWFmODE3YmYzZmIyMTk2NzgwOWI4NzZiZjEsMTMwMTE1NzQyMDpkMzc3MmI5MjNhNGJjMGFjZTdkOWQyMjI0OTA2ZGE0NQ==";
+    $("a").mousedown( function(){ return clk(this.name || this.id || 'c',this.href) } );
+    $("input:submit").mousedown( function(){ return clk('sub',$(this).parents("form").find("input:text").val(), this.name || this.id || 's') } );
+    $("input:text").keyup( function(e){if (keypress_enter(e)){return clk('sub',this.value,$(this).parents("form").find("input:submit").attr("id"))} return true;} );
+-->
+</script>
+</html>
+
+

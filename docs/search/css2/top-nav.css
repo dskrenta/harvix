@@ -1,0 +1,76 @@
+   .nav-bar {
+      background-color: #333;
+      width: 100%;
+      height: 100px;
+      margin-top: -20px;
+      border-bottom-width:8px;
+      border-bottom-color:#e0e0e0;
+      border-bottom-style:solid;
+   }
+
+   .logo {
+      color: #ee3729;
+      padding-top: 15px;
+      padding-left: 13.5%;
+      float: left;
+      font-weight: 400;
+   }
+
+   .search-form {
+      float: right;
+   }
+
+   .search-input {
+   	  float: right;
+   	  margin-right: 27%;
+   	  margin-top: 37px;
+   	  width: 850px;
+   }
+   
+   .search-button {
+      float: left;
+      background-color: #262626;
+      border-color: #262626;
+      border-style: solid;
+      border-radius: 0 100px 100px 0;
+      height: 40px;
+      width: 40px;
+      vertical-align: middle;
+   }
+    
+   .text-input {
+      float: left;
+      width: 785px;
+      background-color: #262626;
+      border-color: #262626;
+      border-style: solid;
+      border-radius: 100px 0 0 100px;
+      height: 40px;
+      vertical-align: middle;
+   }
+
+   .search-button:focus {
+      outline:none;
+   }
+
+   .search-button, select, textarea{
+      color: #eaeaea;
+   }
+
+   .text-input:focus {
+      outline:none;
+   }
+
+   .text-input, select, textarea{
+      color: #eaeaea;
+      padding-left: 20px;
+   }
+
+   textarea:focus, .search-input:focus {
+      color: #e0e0e0;
+   }
+   
+   .glyphicon-search {
+   	  padding-right: 5px;
+   	  padding-left: 2px;
+   }

@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Santiago, Chile",
+		"city":"Santiago",
+		"state":"",
+		"state_name":"Chile",
+		"country":"CH",
+		"country_iso3166":"CL",
+		"zip":"00000",
+		"magic":"1",
+		"wmo":"85574",
+		"latitude":"-33.38000107",
+		"longitude":"-70.77999878",
+		"elevation":"476.00000000"
+		},
+		"observation_location": {
+		"full":"Pudahuel Bezanilla Solar, Santiago, REGIÃ³N METROPOLITANA DE SANTIAGO",
+		"city":"Pudahuel Bezanilla Solar, Santiago",
+		"state":"REGIÃ³N METROPOLITANA DE SANTIAGO",
+		"country":"CHILE",
+		"country_iso3166":"CL",
+		"latitude":"-33.431484",
+		"longitude":"-70.822586",
+		"elevation":"1535 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"IREGINME9",
+		"observation_time":"Last Updated on September 20, 7:33 AM CLT",
+		"observation_time_rfc822":"Sun, 20 Sep 2015 07:33:42 -0300",
+		"observation_epoch":"1442745222",
+		"local_time_rfc822":"Sun, 20 Sep 2015 07:33:50 -0300",
+		"local_epoch":"1442745230",
+		"local_tz_short":"CLT",
+		"local_tz_long":"America/Santiago",
+		"local_tz_offset":"-0300",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"50.9 F (10.5 C)",
+		"temp_f":50.9,
+		"temp_c":10.5,
+		"relative_humidity":"58%",
+		"wind_string":"From the SE at 4.9 MPH Gusting to 4.9 MPH",
+		"wind_dir":"SE",
+		"wind_degrees":128,
+		"wind_mph":4.9,
+		"wind_gust_mph":"4.9",
+		"wind_kph":7.9,
+		"wind_gust_kph":"7.9",
+		"pressure_mb":"1008",
+		"pressure_in":"29.77",
+		"pressure_trend":"-",
+		"dewpoint_string":"37 F (3 C)",
+		"dewpoint_f":37,
+		"dewpoint_c":3,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"50.9 F (10.5 C)",
+		"feelslike_f":"50.9",
+		"feelslike_c":"10.5",
+		"visibility_mi":"6.2",
+		"visibility_km":"10.0",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/85574.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IREGINME9",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=-33.431484,-70.822586",
+		"nowcast":""
+	}
+}

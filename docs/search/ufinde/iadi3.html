@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+<body>
+<img id="image" src="https://www.google.com/images/srpr/logo4w.png">
+
+<iframe id="iframe" src="http://www.test.com" height= "100" width="160"></iframe>
+
+<script>
+$("#image").click(function(){
+   alert("image clicked");
+   $("#iframe").click();
+});
+
+$("#iframe").click(function(){
+   alert("iframe clicked");
+});
+</script>
+
+</body>

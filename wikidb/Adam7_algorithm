@@ -1,0 +1,1 @@
+4.10	Adam7_algorithm	Adam7 algorithm	Adam7 is an interlacing algorithm for raster images, best known as the interlacing scheme optionally used in PNG images. An Adam7 interlaced image is broken into seven subimages, which are defined by replicating this 8×8 pattern across the full image.	http://upload.wikimedia.org/wikipedia/commons/2/27/Adam7_passes.gif

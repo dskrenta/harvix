@@ -1,0 +1,1 @@
+81.2	Chmod	chmod	The chmod command (abbreviated from change mode) is a Unix command that lets a user tell the system how much (or little) access it should permit to a file. It changes the file system modes of files and directories. The modes include permissions and special modes. It is also a C language function in Unix and Unix-like environments.	

@@ -1,0 +1,1 @@
+51.0	Lazy_loading	Lazy loading	With lazy initialization, the object to be lazily loaded is originally set to null, and every request for the object checks for null and creates it "on the fly" before returning it first, as in this C# example:	

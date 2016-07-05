@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Harvix</title>
+        <style>
+            body {
+	    	background: #575757;
+	    }
+            form {
+                width: 70%;
+                height: auto;
+                margin-left: 15%;
+                position: absolute;
+                
+            }
+            form input:first-child {
+                width: 60%;
+                font-family: sans-serif;
+                font-size: 20px;
+                font-weight: 200;
+                margin-left: 13%;
+                padding: 5px 10px 5px 10px;
+                outline: none;
+                display: inline-block;
+                border: 1px solid #ff9032;
+            }
+            form input:nth-child(2):hover {
+                background: #2980b9;
+                cursor: pointer;
+            }
+            form input:nth-child(2) {
+                width: 10%;
+                height: 35px;
+                padding: 5px 10px 5px 10px;
+                display: inline-block;
+                border: none;
+                outline: none;
+                position: absolute;
+                margin-top: 2px;
+                font-family: sans-serif;
+                font-size: 17px;
+                font-weight: 200;
+                background: #ff9032;
+                color: #fff;
+            }
+            div.spacer{height:200px;}	
+        </style>
+    </head>
+    <body>
+	<div class="spacer"></div>
+	<center>
+        <img src="http://harvix.com/images/harvixasdfg.png" width="800px">
+        </center>
+	<form action="http://harvix.com/treble2/_product/newsearch.cgi" onsubmit="submitted('h'); return false">
+            <input type="text" autofocus="autofocus" autocomplete="off" spellcheck="false" name="q" placeholder="Learn something" x-webkit-speech> 
+            <input type="submit" value="Search">
+        </form>
+    </body>
+</html>

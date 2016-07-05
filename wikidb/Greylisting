@@ -1,0 +1,1 @@
+153.3	Greylisting	Greylisting	Greylisting (or graylisting) is a method of defending e-mail users against spam. A mail transfer agent (MTA) using greylisting will "temporarily reject" any email from a sender it does not recognize. If the mail is legitimate the originating server will, after a delay, try again and, if sufficient time has elapsed, the email will be accepted.	

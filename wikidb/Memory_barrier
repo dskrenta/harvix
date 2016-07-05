@@ -1,0 +1,1 @@
+34.81	Memory_barrier	Memory barrier	Memory barrier, also known as membar or memory fence or fence instruction, is a type of barrier and a class of instruction which causes a central processing unit (CPU) or compiler to enforce an ordering constraint on memory operations issued before and after the barrier instruction.	

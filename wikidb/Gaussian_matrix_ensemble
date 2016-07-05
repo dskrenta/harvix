@@ -1,0 +1,1 @@
+2.10	Gaussian_matrix_ensemble	Random matrix	Wishart matrices are n × n random matrices of the form H = X X*, where X is an n × n random matrix with independent entries, and X* is its conjugate matrix. In the important special case considered by Wishart, the entries of X are identically distributed Gaussian random variables (either real or complex).	

@@ -1,0 +1,1 @@
+18.20	BSON	BSON	BSON ( ) is a computer data interchange format used mainly as a data storage and network transfer format in the MongoDB database. It is a binary form for representing simple data structures and associative arrays (called objects or documents in MongoDB). The name "BSON" is based on the term JSON and stands for "Binary JSON".	

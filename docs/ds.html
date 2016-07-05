@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html lang="en">
+<head>
+<base href="http://www.ajaxdaddy.com/media/demos/play/1/glider/glider/" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Harvix</title>
+	<link rel="stylesheet" href="css/glider.css" type="text/css" media="screen" charset="utf-8">
+	<script src="javascript/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascript/effects.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascript/glider.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+
+<center>
+	<h1>Glider.js</h1>
+	
+	<div id="my-glider">
+		<div class="controls">
+			<a href="#section1">Section 1</a> | 
+			<a href="#section2">Section 2</a> |
+			<a href="#section3">Section 3</a> |
+			<a href="#section4">Section 4</a> |			
+		</div>
+		
+		<div class="scroller">
+			<div class="content">
+				<div class="section" id="section1">
+				
+				<form id="search-form"  action="hsearch.cgi">		
+<input style="font-size: 17pt" size="60" name="q" value=""><p><input type=submit style="font-size: 17pt" value="Harvix Search"></form>
+
+				</div>
+				<div class="section" id="section2">
+					Section 2
+					<p>Style the sections however you want</p>
+				</div>
+				<div class="section" id="section3">
+					Section 3
+					<p>I-frames? Yes, but only if scrollbars are hidden:</p>					
+					<iframe src="http://www.example.com" style="overflow:hidden"></iframe>
+				</div>
+				<div class="section" id="section4">
+					Section 4
+					<p>Flash? Sort-of works:</p>					
+				</div>
+			</div>
+		</div>			
+	</div>
+	<script type="text/javascript" charset="utf-8">
+		var my_glider = new Glider('my-glider', {duration:0.5});
+	</script>
+</center>
+</body>
+</html>

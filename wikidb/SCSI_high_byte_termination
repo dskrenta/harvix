@@ -1,0 +1,1 @@
+1.00	SCSI_high_byte_termination	SCSI high byte termination	In SCSI computer systems, there is a special case with mixed 8-bit and 16-bit devices where high-byte termination may be required.	http://upload.wikimedia.org/wikipedia/en/3/32/High_byte_termination.JPG

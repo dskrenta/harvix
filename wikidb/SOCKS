@@ -1,0 +1,1 @@
+80.2	SOCKS	SOCKS	SOCKet Secure is an Internet protocol that routes network packets between a client and server through a proxy server. SOCKS5 additionally provides authentication so only authorized users may access a server. Practically, a SOCKS server will proxy TCP connections to an arbitrary IP address as well as providing a means for UDP packets to be forwarded.	

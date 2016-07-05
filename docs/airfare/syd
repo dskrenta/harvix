@@ -1,0 +1,19 @@
+{
+  "request": {
+    "passengers": {
+      "adultCount": 1
+    },
+    "slice": [
+      {
+        "origin": "SFO",
+        "destination": "SYD",
+        "date": "2015-09-25"
+      },
+      {
+        "origin": "SYD",
+        "destination": "SFO",
+        "date": "2015-09-28"
+      }
+    ]
+  }
+}

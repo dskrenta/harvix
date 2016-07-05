@@ -1,0 +1,1 @@
+51.1	Column-oriented_DBMS	Column-oriented DBMS	A column-oriented DBMS is a database management system (DBMS) that stores its content by column rather than by row. This has advantages for data warehouses and library catalogues where aggregates are computed over large numbers of similar data items.	

@@ -1,0 +1,1 @@
+1.00	Savetheplanetprotest.com	Savetheplanetprotest.com	According to WHOIS record, SaveThePlanetProtest.com was first registered on January 7, 2008 under registrant James Lee. The domain was registered with a private registration service, which hid the registrant’s information. The WHOIS record only displayed a PO Box address located in Burnaby, Canada, in the contact info.	

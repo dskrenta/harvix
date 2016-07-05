@@ -1,0 +1,182 @@
+	html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  }
+  
+  
+
+
+    #upperbar {
+        height: 50px;
+        width: 100%;
+        background-image: -webkit-linear-gradient(bottom, #121212 1%, #202020 99%);
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        text-align:center;
+        font-family:  Helvetica;
+        }
+        
+        #bottombar {
+        height: 50px;
+        width: 100%;
+        background-image: -webkit-linear-gradient(bottom, #121212 1%, #202020 99%);
+        position:absolute;
+        bottom: 0px;
+        left: 0px;
+        text-align:center;
+        font-family:  Helvetica;
+        }
+        
+        
+    }
+    body {
+        height:100%;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        overflow: auto;
+    }
+    
+    .arrow {
+        position:absolute;
+        margin-top: 13px;
+        margin-left: 17px;
+        left:50%;
+        width:100px;
+        background: -webkit-linear-gradient(#2B2B2B, #353535);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size:20px;
+    }
+    
+    .logo {
+        position:absolute;
+        left:50%;
+        width:100px;
+        margin-left: -70px;
+        margin-top: 1px;
+    }
+    
+    #background {
+        position:absolute;
+        left: -2px;
+        top: -2px;
+        width:100%;
+        height:100%;
+        background:url("bg1.jpeg");
+        background-size:101% 101%;
+        background-repeat:no-repeat;
+        -webkit-filter: blur(1px);
+        z-index: -998;
+    }
+    
+    #bgabg {
+        position:absolute;
+        left:0;
+        top:0;
+        width:100%;
+        height:100%;
+        background:url("bg1.jpeg");
+        background-size:101% 101%;
+        background-repeat:no-repeat;
+        z-index: -999;
+        }
+    
+        #search {
+            z-index:995;
+            position:absolute;
+            left:50%;
+            top:50%;
+            width:300px;
+            height:100px;
+            margin-left: -150px;
+            margin-top: -65px;
+            background-color: #969696;
+            opacity: 0.4;
+            text-align: center;
+        }
+        
+        .textinput {
+	        width:95%;
+	        font-size: 16px;
+	        -webkit-appearance: none;
+	        border-radius: 0;
+	        height:40px;
+	        margin-top:10px;
+	        
+	        }
+	        
+	        #box {
+		    position:absolute;
+		    z-index:996;
+		    left: 50%;
+		    top:50%;
+            width:300px;
+            height:100px;
+            margin-left: -150px;
+            margin-top: -65px;
+            text-align: center;
+
+	        }
+	        
+	        button {
+		        font-size: 16;
+		        -webkit-appearance: none;
+		        -webkit-border-radius: 10px;
+		        background: -webkit-linear-gradient(#f32020, #e87878);
+		        height:35px;
+		        width:85px;
+		        margin-top:5px;
+		        color: #ffffff;
+		        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+		        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+		        background-image: -webkit-linear-gradient(top, #ea433d 0%, #b22c25 100%);
+		        background-repeat: repeat-x;
+		        border-color: #bd362f #bd362f #802420;
+		        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+		        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+		        filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	        }
+	        
+	        
+	        .activebtn {
+	        background: -webkit-linear-gradient(#353535 0%, #161616 100%);
+	        }
+	        
+	        .btn {
+	        background-image: -webkit-linear-gradient(bottom, #232323 2.98%, #232323 99%);
+	        }
+	        
+	        #button {
+	        border-radius: 6px;
+	        height:40px;
+	        width:73px;
+	        margin-top:5px;
+	        position: absolute;
+	        }
+	        
+	        img {
+	        margin-top:2px;
+	        }
+            
+            #menu {
+            background-color: rgba(15,15,15,0.91);
+            width:285px;
+            margin-left:-142px;
+            left:50%;
+            position:absolute;
+            top: -402px;
+            height:400px;
+            z-index:999;
+            color:#ffffff;
+            -webkit-transition:top 0.2s, -webkit-transform 0.2s ease-out;
+            border-radius: 0px 0px 10px 10px;
+            }
+            
+            #slidebutton {
+            width:51px;
+            height:16;
+            margin-top:230px;
+            }

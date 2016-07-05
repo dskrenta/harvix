@@ -1,0 +1,89 @@
+pt type="text/javascript">
+	com.ag.gameData = {
+		keyword: 'feedourdoughnutoverlords',
+		title: 'Feed Our Doughnut Overlords',
+		thumbNail: 'http://www.addictinggames.com/newGames/action-games/feedourdoughnutoverlords/feedourdoughnutoverlords.png',
+		description: 'Teh Giant Donutz have arrived, and they wants to nom nom your candy-filled planet. Oh noes! Feed marauding dough-nuts with anything you can find: flowers, birds, trees, houses, businessmen. Between waves of invasions, populate your planet with more edible delights. Anything to keep the donuts from chomping your tasty crust, mantle and candy core!',
+		URL: 'http://www.addictinggames.com/action-games/feed-our-doughnut-overlords-game.jsp',
+		isServiceManagerEnabled: false
+	};
+
+	com.mtvnet.games.GameSettings.Ad.timePerAd = 0; //Time in seconds from game load to play an Ad. 0 is default.
+	com.mtvnet.games.GameSettings.Ad.width = 480; //640 is default
+	com.mtvnet.games.GameSettings.Ad.height = 800; //480 is default
+	com.mtvnet.games.GameSettings.Ad.timeDisplayEnabled = true; //true is default
+	//	com.mtvnet.games.GameSettings.Ad.language = 'fr'; //en is default.
+	com.mtvnet.games.GameSettings.Ad.Quantcast.enabled = true; //true is default. Enable demographic targetting
+	com.mtvnet.games.GameSettings.Ad.DoubleClick.enabled = false;//true is default
+	com.mtvnet.games.GameSettings.Ad.DoubleClick.keyValues = 'gen=game;!category=expand;!category=pop;!category=float;'+com.ag.getTestMode; //"" is Default
+
+	
+			com.ag.showVideoAd = com.ag.shouldShowVideoAd( 2 ); // controls ad play based on ratio
+			com.mtvnet.games.GameSettings.Ad.gamePerAd = 0; //0 is default. Always play an ad. Override with disableAds property.
+			
+					com.mtvnet.games.GameSettings.Ad.disableAds = ( com.ag.showVideoAd ) ? false : true; // inverting our boolean return to match
+					com.mtvnet.games.GameSettings.Ad.FreeWheel.enabled = true; //false is default
+				
+
+	com.mtvnet.games.GameSettings.Ad.FreeWheel.networkId = 82125; //82125 is default
+	com.mtvnet.games.GameSettings.Ad.FreeWheel.siteSection = 'addictinggames__games'; //MTVN_Viral_Syndication is default
+	com.mtvnet.games.GameSettings.Ad.FreeWheel.assetId = 'feedourdoughnutoverlords'; //all_temporal_test_asset is default
+	com.mtvnet.games.GameSettings.Ad.FreeWheel.isLiveEnvironment = true; //true is default which points to live FW environemnt
+
+	com.mtvnet.games.GameSettings.Game.height = 800; //480 is default
+	com.mtvnet.games.GameSettings.Game.width = 480; //640 is default
+
+    com.mtvnet.games.GameSettings.Game.metadata.gameURL = 'http://cdn6.addictinggames.com/newGames/action-games/feedourdoughnutoverlords/feedourdoughnutoverlords.swf';
+    com.mtvnet.games.GameSettings.Game.gameEmbedTag = '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" id="gameObject" width="480" height="800"><param name="movie" value="http://cdn6.addictinggames.com/newGames/action-games/feedourdoughnutoverlords/feedourdoughnutoverlords.swf"/><param name="menu" value="false"/><param name="allowscriptaccess" value="always"/><param name="allownetworking" value="all"/><embed src="http://cdn6.addictinggames.com/newGames/action-games/feedourdoughnutoverlords/feedourdoughnutoverlords.swf" width="480" height="800" menu="false"  allowscriptaccess="always" allownetworking="all" name="gameObject" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed></object>';
+
+	com.mtvnet.games.GameSettings.Game.metadata.gameTitle = "Feed Our Doughnut Overlords"; //NA is default
+	com.mtvnet.games.GameSettings.Game.metadata.gameId = "feedourdoughnutoverlords"; //NA is default
+//	com.mtvnet.games.GameSettings.Game.metadata.franchise = "[Franchise]"; //"" is default
+//	com.mtvnet.games.GameSettings.Game.metadata.partner = "aol"; //"" is default
+	com.mtvnet.games.GameSettings.Game.metadata.gameGenre = "Action"; //NA is default
+	com.mtvnet.games.GameSettings.Game.metadata.gameType = "Action"; //"" is default
+	com.mtvnet.games.GameSettings.Game.metadata.gameName = "Feed Our Doughnut Overlords"; //"" is default
+	com.mtvnet.games.GameSettings.Game.metadata.type = "network"; //network is default
+	com.mtvnet.games.GameSettings.Game.metadata.ref = "www.addictinggames.com"; //location.href is default
+	com.mtvnet.games.GameSettings.Game.metadata.orig = "www.addictinggames.com";//NA is default
+	com.mtvnet.games.GameSettings.Game.metadata.ageGroup = "ALL AGES"; //"" is default. "mature" for mature games
+//	com.mtvnet.games.GameSettings.Game.metadata.revenueSplit = true; //"" is default
+
+//	com.mtvnet.games.GameSettings.Reporting.Omniture.enabled = true; //true is default
+
+	var stub = com.mtvnet.games.GameSettings.Game;
+
+	// pass any querystring parameters attached to the page along to the src attribute of an iframed game
+	if ( stub.gameEmbedTag.indexOf( 'iframe' ) !== -1 ) {
+		if ( window.location.search !== '' ) {
+			var qs = mtvn.btg.util.String.queryStringToObject( window.location.search );
+			var re = /src\s*=\s*[\""\']?([^\""\'\s>]*)/;
+
+			var infoArray = re.exec( stub.gameEmbedTag );
+			var newSrcString = 'src="' + infoArray[1];
+
+			if ( newSrcString.indexOf( '?' ) !== -1 ) { // game already has a querystring
+				for ( var val in qs ) {
+					newSrcString = newSrcString + '&' + val + '=' + qs[val];
+				}
+			} else { // no querystring in embed url
+				newSrcString = newSrcString + '?';
+				var count = 0;
+				for ( var val in qs ) {
+					if ( count > 0 ) {
+						newSrcString = newSrcString + '&';
+					}
+					newSrcString = newSrcString + val + '=' + qs[val];
+					count++;
+				}
+			}
+
+			newSrcString = newSrcString + '"';
+			stub.gameEmbedTag = stub.gameEmbedTag.replace( re, newSrcString );
+		}
+	}
+
+	com.mtvnet.games.GameLoader.init(document.getElementById("gameContainer"));
+
+</script>
+

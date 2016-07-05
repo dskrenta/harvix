@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>News feed</title>
+		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
+		
+</head>
+<body>
+		<script type="text/javascript">
+				$.getJSON("http://rockzi.com/newsologie?format=json&auth=c31c6fd0" , function(json)
+					{		
+
+  
+                        	arr = json.activity
+
+                  
+                        	jQuery.each(arr, function() {
+  							document.write('<div style= "width: 340px; padding: 0px; border-width: 5px; border-style: solid; border-color: black;">');
+  							
+  								if (this.data.images[0] != undefined)
+  							{document.write ('<a href="' + this.data.url + '"><img src="' +  this.data.images[0].resized_url + '" width="340" height="150"></a><br>');}
+  							
+  							document.write('<a style="color:black;" href ="' + this.data.url + '">' + this.data.orig_title + '</a><br>')
+
+
+  							document.write('</div>')
+  							document.write('<br>')
+		
+ 							
+ 							
+					});
+
+                    	
+                      
+                     }
+              );
+					</script>
+
+
+
+
+			
+	
+	</body>
+
+
+</html>

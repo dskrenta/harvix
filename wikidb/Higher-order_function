@@ -1,0 +1,1 @@
+56.6	Higher-order_function	Higher-order function	In this Scheme example the higher-order function g() takes a number and returns a function. The function a() takes a number and returns that number plus 7. (e.g. a(3)=10).	

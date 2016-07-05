@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>
+Harvix | Search
+</title>
+<style type="text/css">
+
+body { font-size: 13px; font-family: Arial, sans-serif; font-size: normal; line-height: normal; }
+
+
+div.header
+{
+font-size:200px;
+}
+
+div.hi
+{
+width:100%;
+padding:2px;
+border:1px solid gray;
+margin:0px;
+background-color:white;
+}
+
+div.1footer
+{
+color:gray;
+}
+
+div.bar
+{
+float:right;
+}
+
+
+div.footer
+{
+margin-top:40px;
+clear:both;
+text-align:center;
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+
+
+<div class="bar">
+<a href="help.html">Help</a> | <a href="login.html">Login</a>
+</div>
+
+<a href="web.hmtl">Web</a> | <a href="images.html">Images</a> | <a href="video.html">Video</a>
+
+
+<center>
+
+<div class="header">
+Har<span style="color:#b31c1c;">vix</span>
+</div>
+
+
+<form action="imagesearch.cgi" method="get">
+<input style="font-size: 16pt" size="65" name="q" value=""> 
+<p>
+<input type=submit style="font-size: 18pt"  value="Harvix Search">
+</form>
+
+<p>
+<p>
+<p>
+<a href="about.html">about</a> &middot; <a href="terms.html">terms of service</a> &middot; <a href="pri.html">privacy policy</a> 
+<p>
+<p>
+<p>
+<p>
+<div class="1footer">
+&copy;2011-Harvix inc.
+</div>
+
+<div style="clear:both">&nbsp;</div>
+<div id="footer">
+<p>
+<a href="/ws/+/contact">contact</a>&nbsp;&middot;
+<a href="http://blog.blekko.com/">blog</a>&nbsp;&middot;
+<a href="/ws/+/about">about</a>&nbsp;&middot;
+<a href="/ws/+/privacy">privacy policy</a>&nbsp;&middot;
+<a href="/ws/+/terms">terms &amp; conditions</a>&nbsp;&middot;
+<a href="/ws/+/topspam">topspam</a>&nbsp;&middot;
+<a href="/toolbar">toolbar</a>&nbsp;&middot;
+<a href="/ws/+/blekkojobs">jobs</a>&nbsp;&middot;
+<a href="/ws/+/webmaster">webmaster</a>&nbsp;&middot;
+<a href="/ws/+/help">help</a>&nbsp;&middot;
+<a href="http://twitter.com/blekko">follow @blekko on twitter</a>&nbsp;&middot;
+    &copy; 2011 Harvix, inc.</p>
+</div>
+
+</center>
+<script type="text/javascript">
+$(document).ready(function() {
+  $("input[name=q]").val( '' ).focus();
+});
+</script>
+</body>
+
+
+

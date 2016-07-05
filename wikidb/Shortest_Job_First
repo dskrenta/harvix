@@ -1,0 +1,1 @@
+1.00	Shortest_Job_First	Shortest job next	Shortest job next , also known as Shortest Job First (SJF) or Shortest Process Next (SPN), is a scheduling policy that selects the waiting process with the smallest execution time to execute next. SJN is a non-preemptive algorithm. Shortest remaining time is a preemptive variant of SJN.	

@@ -1,0 +1,1 @@
+71.6	Private_network	Private network	Classful addressing is obsolete and has not been used in the Internet since the implementation of Classless Inter-Domain Routing (CIDR) starting in 1993. For example, while 10.0.0.0/8 was a single class A network, it is common for organizations to divide it into smaller /16 or /24 networks.	

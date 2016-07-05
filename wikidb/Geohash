@@ -1,0 +1,1 @@
+51.9	Geohash	Geohash	This operation results in the bits 01101 11111 11000 00100 00010. Assuming that counting starts at 0 in the left side, the even bits are taken for the longitude code (0111110000000), while the odd bits are taken for the latitude code (101111001001).	

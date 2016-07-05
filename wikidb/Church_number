@@ -1,0 +1,1 @@
+3.00	Church_number	Church encoding	Church pairs are the Church encoding of the pair (two-tuple) type. The pair is represented as a function that takes a function argument. When given its argument it will apply the argument to the two components of the pair.	

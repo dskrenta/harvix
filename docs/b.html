@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<title>blekko | slashtag search</title>
+<link rel="icon" href="http://a.blekko-img.com/045/gz/faviconb.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://a.blekko-img.com/045/gz/faviconb.ico" />
+<link rel="apple-touch-icon" href="/s/apple-touch-icon.png" />
+<link rel="search" type="application/opensearchdescription+xml" href="/s/blekko.xml" title="blekko" />
+<link rel="search" type="application/opensearchdescription+xml" href="/s/blekko_https.xml" title="blekko (https)" />
+<link rel="stylesheet" type="text/css" href="http://a.blekko-img.com/045/gz/theme19/52a0d32556df9fcd_style.css" media="all" />
+</head>
+<body id="home">
+<!--[if IE 6]>
+<div id="browserBar">
+<style>#promoBar{display:none;}</style>
+<div class="fl">
+<img src="http://a.blekko-img.com/045/gz/theme19/imgs/icons/favicon.png" width="16" height="16" /> Did you know your internet explorer is out of date? Please update your browser to <a href="http://www.microsoft.com/windows/internet-explorer/worldwide-sites.aspx"><img src="/s/theme19/imgs/icons/ie8-icon.png?v=2abd5ea7"/>Internet Explorer 8</a>, <a href="http://www.mozilla.com/en-US/firefox/"><img src="/s/theme19/imgs/icons/firefox-icon.png?v=23410732"/> Firefox</a>, or <a href="http://www.google.com/chrome"><img src="/s/theme19/imgs/icons/chrome-icon.png?v=4e06216f"/> Chrome</a>.
+</div>
+<div class="fr mt"><small><a href="http://ie6funeral.com/" target="blank">more info...</a></small></div>
+<div class="clearBoth"></div>
+</div>
+<![endif]-->
+<!-- SEARCH BOX START --> 
+
+<img src="http://a.blekko-img.com/045/gz/theme19/imgs/blekkoman_gray.png" width="102" height="87" alt="blekkoman image" title="blekkoman" id="blekkoman" />
+<div id="wrapper">
+<div id="head"> 
+<a href="/ws/+/press-videos?h=1" id="videoLink">slash the web: watch the demo video</a>
+<ul id="settings"><li><a href="/login" id="login" style="padding-right:15px;background:url('http://a.blekko-img.com/045/gz/theme19/imgs/icons/login.png') no-repeat right center;">login</a></li><li><a href="/ws/+/help" class="login">help</a></li>
+</ul>
+</div><div id="inviteBox" class="popupBox" onkeypress="$('#inviteMsg').hide('slow')">
+<div id="invite_wheel" style="display:none; background-color:transparent; position:absolute;">
+<img width="30" height="30" src='http://a.blekko-img.com/045/gz/images/wait30trans.gif'>
+</div>
+<div id="inviteDial">
+<span class="close" onclick="javascript:toggleID('inviteBox');"><img width="16" height="16" src="http://a.blekko-img.com/045/gz/theme19/imgs/icons/x.png" alt="close icon" title="Close Preferences" style="margin: -2px -2px 0 0;" /></span>
+<h2>invite your friends to blekko</h2>
+
+<table width="100%" cellspacing="5" class="chart"><tr>
+<th>subject:</th>
+<td><input type="text" id="inviteFromEmail" spellcheck="false" class="input" ghost_text="enter a short subject" value="An invitation to try blekko" /></td>
+</tr>
+<tr>
+<th>emails:</th>
+<td><textarea id="inviteEmails" spellcheck="false" class="input emailMsg" ghost_text="enter email addresses - comma, space, or newline separated"></textarea></td>
+</tr>
+<tr>
+<th>comments:</th>
+<td><textarea id="inviteComment" spellcheck="false" class="input emailAddresses">Check out this new search engine called blekko!  Here's a quick video explaining how to use blekko to slash the web!! http://vimeo.com/14593120</textarea></td>
+</tr>
+
+</table>
+<p><input type="submit" value="send invitations" onclick="javascript:invites(); return false;" class="submit" style="float:right;" /> <a href="javascript:;" onclick="$('#invUrlBox').show();get_invite_url();">request an invite URL</a> <span class="note">(<span class="inviteCnt"></span> remaining)</span></p>
+<div class="clear"></div>
+<div id="invUrlBox">
+<p>You can copy this invite url and send it to a friend. Remember that a single invite URL will only work for one signup.</p>
+<p><a href="javascript:;" onclick="get_invite_url();">Generate another invite URL</a> to send to someone else.</p>
+<input type="text" id="invUrl" value="" class="input" onclick="this.select();" /> <br />
+
+<p class="note">* select and copy invite url</p>
+</div>
+<br/>
+<div id="inviteMsg" class="alertMsgTop" style="clear:both; margin-top:20px; display:none;"></div>
+</div>
+</div>
+<div id="fullCol">
+<form id="searchForm" name="searchForm" action="/ws/" onsubmit="submitted('h'); return false">
+<img src="http://a.blekko-img.com/045/gz/theme19/imgs/logo_home_168x38.png" alt="blekko logo" title="home" width="168" height="38" id="logo"/>
+<table width="100%" cellspacing="0">
+<tr>
+<td class="textInput">
+<input id="searchBox" autocomplete="off" type="text" spellcheck="false" name="q" onkeypress="if( is_enter( event ) && this.value ) { submitted('h'); return false; }" onsubmit="if (!this.value) return false;" /><br />
+<div id="AutocompleteInjectDiv" style="width: 482px; max-height: 400px; display: none; z-index:9999" class="autocomplete"></div>
+</td>
+<td  id="searchButton"><input type="submit" class="form_submit" value="" href="javascript:void(0);" id="submitSearch" onclick="if ($('input[name=q]').val()){ submitted('h'); } return false;"/></td>
+
+</tr>
+</table>
+<strong class="ml">slashtag of the day:</strong>
+    
+    
+    
+    
+    
+    <a title="NYSE was founded" href="ws/+/blekko/finance" onmousedown="return clk('s', qi, this.href, 'sodh')">/finance</a>
+    
+    
+<!-- SEARCH BOX END --> 
+</div>
+</form>
+      
+    <div  id="friendsFB">
+	<span class="fbicon" ></span>friends make search better! <a href="javascript:void(0);" onclick="toggleID('likesLogin'); return false;" style="">get started now</a>
+
+    </div> 
+    <div style="width: 550px; display: none;" class="popupBox" id="likesLogin">
+    <a class="close" href="javascript:void(0)" onclick="toggleID('likesLogin'); return false;"><img title="Close Preferences" alt="close icon" src="http://a.blekko-img.com/045/gz/theme19/imgs/icons/x.png"></a>
+       <h2>friends make search better!</h2>
+       <img src="/s/theme19/imgs/plugs/likes_popup2.png?v=9dd7285d" />
+       <br /><br />
+			<a href="/likes-info" style="float:right;padding:3px 25px 3px 0;background:url('/s/theme19/imgs/icons/tooltip_small.png?v=66d8f9c3') no-repeat right center;">what is /likes</a>
+       <fb:login-button v="2" size="small" perms="offline_access,user_likes,user_location,friends_likes,friends_location,user_checkins,friends_checkins" onlogin="fb_login();">
+
+           <fb:intl title="connect your facebook account with your blekko account">connect with facebook</fb:intl>
+       </fb:login-button>
+       <img class="login_spin" src="http://a.blekko-img.com/045/gz/images/wait16.gif" style="display:none; vertical-align:middle; margin-left:10px;" />
+</div>
+            <div id="fbForm" class="fbForm popupBox login_dial" style="width:400px;">
+                <h1 id="welcome">Welcome<span id="welcome_name"></span>!</h1>
+                <p>You are now signed into blekko via Facebook Connect. To link to an existing blekko account, <a href="javascript:;" onclick="$('#create_existing').toggle(); $('#fbuser').focus().select();">click here</a>.</p>
+
+                <div id="create_existing" style="display:none;">
+                <table 
+                <tr>
+                <th>username:</th>
+                <td><input type="text" id="fbuser" spellcheck="false" class="input" style="width:80%;" onkeypress="$('.msgBox').hide('slow'); if(keypress_enter(event)) $('#create_submit').click();" /></td>
+                </tr>
+                <tr>
+                <th>password:</th>
+                <td><input type="password" id="blpw" spellcheck="false" class="input" style="width:80%;" " value="" onkeypress="$('.msgBox').hide('slow'); if(keypress_enter(event)) $('#create_submit').click();" /></td>
+
+                </tr>
+                </table>
+                <br/>
+                </div>
+                <div>
+                <p>We've created a slashtag called <strong>/likes</strong> that contains sites you and your friends have liked via the Facebook like button. It will take a few minutes for /likes to fully populate.</p>
+                <p>Only you can see and search your /likes slashtag.</p>
+
+                </div>
+                <br/>
+                <input type="hidden" id="defu" value="" />
+                <input id="create_submit" type="submit" value="Ok" onclick="fb_new_login();" />
+                <img class="login_spin" src="/s/images/wait24trans.gif?v=7e386049" style="display:none; vertical-align:middle; margin-left:10px;" />
+                <div id="newfberr" class="alertMsgError msgBox" style="display:none;margin-top:10px;"></div>
+                <div class="fbstatus" style="font-size:x-small; text-align:center;"></div>
+             
+        </div>
+    
+
+</div>
+			
+<!-- POWERBOX END --> 
+<!-- NAV BOTTOM START-->
+<div style="clear:both">&nbsp;</div>
+<div id="footer">
+<p>
+<a href="/ws/+/contact">contact</a>&nbsp;&middot;
+<a href="http://blog.blekko.com/">blog</a>&nbsp;&middot;
+<a href="/ws/+/about">about</a>&nbsp;&middot;
+<a href="/ws/+/privacy">privacy policy</a>&nbsp;&middot;
+<a href="/ws/+/terms">terms &amp; conditions</a>&nbsp;&middot;
+
+<a href="/ws/+/topspam">topspam</a>&nbsp;&middot;
+<a href="/toolbar">toolbar</a>&nbsp;&middot;
+<a href="/ws/+/blekkojobs">jobs</a>&nbsp;&middot;
+<a href="/ws/+/webmaster">webmaster</a>&nbsp;&middot;
+<a href="/ws/+/help">help</a>&nbsp;&middot;
+<a href="http://twitter.com/blekko">follow @blekko on twitter</a>&nbsp;&middot;
+    &copy; 2011 blekko, inc.</p>
+</div>
+
+<!-- NAV BOTTOM END-->
+<script type="text/javascript">
+    var toolbarInstalled = false;
+</script>
+<img src="chrome://blekkoToolbar/content/images/tag.png" width="0" height="0" onload="javascript:toolbarInstalled=true;" style="visibility:hidden"/ >
+</script><script type="text/javascript" src="http://a.blekko-img.com/045/gz/dd57f0441b4a5168_blekko.js"></script>
+<script type="text/javascript" src="http://a.blekko-img.com/045/gz/ef09f9f31b05838d_search.js"></script>
+<script type="text/javascript">
+<!--var server_total;
+function blekko_onload() {}
+g_themenum = 19;
+function toggle() {
+var e = document.getElementById("toggleText");
+var t = document.getElementById("displayText");
+if(e.style.display == "none") {
+  e.style.display = "block";
+  t.innerHTML = "Hide Home Page Tips";
+}
+else {
+  e.style.display = "none";
+  t.innerHTML = "Show Home Page Tips";
+}
+}
+-->
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+ checkHeight();
+ $(window).resize(function() {
+	checkHeight();
+ });
+ $('img.tTip').tinyTips('title');
+ $("input[name=q]").val( '' ).focus();
+ blekko_onload();
+ init_ghost_text();
+ autocomplete( "searchBox", "/autocomplete" );
+    if ( $("#toolbar").length ) {
+        setTimeout( function(){
+            if ( ! toolbarInstalled ) {
+                $("#promoBar").show('fast');
+                $("#toolbar").show('fast');
+            }
+        }, 20);
+    }
+});
+var qi = "NGQ3ZGNmM2JlNmQyNTQxZjEwZWNjMTc3ODU4NTJiNWM6MzQxMTUxN2UyYmU2NmE1ZmM0YmZiNWJmZTgxOTE3ZWI=";
+var shortCheck=false;
+var prevShortCheck=false;
+function checkHeight(){
+	if (parseInt($(window).height())<parseInt($("#fullCol").offset().top+225)){
+		shortCheck=true;
+	}else{
+		shortCheck=false;
+	}
+	if (shortCheck && !prevShortCheck){
+		$("#footer").css("position", "relative");
+	}
+	if (!shortCheck && prevShortCheck){
+		$("#footer").css("position", "absolute");
+	}
+	prevShortCheck=shortCheck;
+}
+</script>
+<div id="fb-root"></div>
+<script type="text/javascript">
+  window.fbAsyncInit = function() {
+    FB.init({
+        appId  : 169076986451072,
+        status : true,
+        cookie : true,
+        logging: false,
+        xfbml  : true
+    });
+    FB.getLoginStatus(function(response) {
+        if ( ! response.session ) {
+            $("#fbrelogin").show();
+        }
+    });
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+</body></html>
+

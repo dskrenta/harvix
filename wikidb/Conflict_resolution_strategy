@@ -1,0 +1,1 @@
+3.00	Conflict_resolution_strategy	Conflict resolution strategy	Conflict resolution strategies are used in production systems to help in choosing which production rule to fire. The need for such a strategy arises when the conditions of two or more rules are satisfied by the currently known facts.	

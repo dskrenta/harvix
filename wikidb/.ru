@@ -1,0 +1,1 @@
+18.83	.ru	.ru	.ru is the Latin alphabet Internet country code top-level domain for the Russian Federation introduced on April 7, 1994. The Russian alphabet internationalized country code is .рф.	http://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/RuNet_Logo.jpg/220px-RuNet_Logo.jpg

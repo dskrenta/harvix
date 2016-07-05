@@ -1,0 +1,1 @@
+114.0	E-mail_spoofing	Email spoofing	Email spoofing is email activity in which the sender address and other parts of the email header are altered to appear as though the email originated from a different source. Because core SMTP doesn't provide any authentication, it is easy to impersonate and forge emails.	

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta charset="utf-8">
+
+<title>Harvix Notes</title>
+
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"></link>
+<link rel="stylesheet" type="text/css" href="css/prettyprint.css"></link>
+<link rel="stylesheet" type="text/css" href="css/notes.css"></link>
+
+</head>
+<body>
+<div class="hero-unit" style="margin-top:0px">
+<form class="form-signin" method="post" action="notes.php">
+	<textarea class="textarea" name="notes" placeholder="Take notes..." style="width: 100%; height: 400px"></textarea>
+	<input type="text" class="input-block-level" placeholder="Email" name="email">
+        <input type="text" class="input-block-level" placeholder="Title" name="title">
+	<button class="btn btn-large btn-primary" type="submit">Save</button>
+</form>
+</div>
+
+<script src="js/wysi.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/prettify.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/wysi2.js"></script>
+
+<script>
+	$('.textarea').wysihtml5();
+</script>
+
+<script type="text/javascript" charset="utf-8">
+	$(prettyPrint);
+</script>
+
+</body>
+</html>

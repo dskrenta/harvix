@@ -1,0 +1,1 @@
+4.20	Weak_symbol	Weak symbol	In computing, a weak symbol is a symbol definition in an object file or dynamic library that may be overridden by other symbol definitions. Its value will be zero if no definition is found by the loader.	

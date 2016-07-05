@@ -1,0 +1,1 @@
+57.4	Tail_recursion	Tail call	Here, both a(data) and b(data) are calls, but b is the last thing the procedure executes before returning and is thus in tail position. However, not all tail calls are necessarily located at the syntactical end of a subroutine. Consider:	

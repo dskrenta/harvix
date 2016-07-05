@@ -1,0 +1,1 @@
+7.10	Pstree	pstree	pstree is a Unix command that shows the running processes as a tree. It is used as a more visual alternative to the ps command. The root of the tree is either init or the process with the given pid.	http://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pstree_freebsd.png/220px-Pstree_freebsd.png

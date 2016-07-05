@@ -1,0 +1,1 @@
+70.2	Elliptic_curve_cryptography	Elliptic curve cryptography	Since all the fastest known algorithms that allow to solve the ECDLP which requires 3072-bit public keys and 256-bit private keys, and integer factorization cryptography (e.g., RSA) which requires 3072-bit public and private keys.	

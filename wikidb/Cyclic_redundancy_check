@@ -1,0 +1,1 @@
+118.6	Cyclic_redundancy_check	Cyclic redundancy check	To compute an n-bit binary CRC, line the bits representing the input in a row, and position the (n+1)-bit pattern representing the CRC's divisor (called a "polynomial") underneath the left-hand end of the row.	

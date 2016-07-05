@@ -1,0 +1,6 @@
+<div class="hi">
+<div class="hi2">
+<b><a href="index.html"><span style="color:white;">Har</span><span style="color:#b31c1c;">vix</span><a></b> <span style="color:white;">|</span> <a href="index.html"><span style="color:white;">Search</s
+pan></a>
+</div>
+</div> 

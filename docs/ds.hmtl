@@ -1,0 +1,64 @@
+
+<html> 
+<head> 
+<title>Harvix</title> 
+<link rel="shortcut icon" href="http://harvix.com/harvix-logo-2.png" type="image/x-icon" /> 
+<style type="text/css"> 
+a:link {color:#1a54e1; text-decoration:none;font-size:50px;}  
+a:visited {color:#1a54e1; text-decoration:none; font-size:50px;}
+a:hover {color:#1a54e1; text-decoration:underline;font-size:50px; }
+body { font-size: 15px; font-family:  Arial, sans-serif; font-size: normal; line-height: normal; margin: 0; padding: 0; } 
+div.header{font-size:50px;}
+div.hi{width:100%; padding:0px; border:1px solid:#ffffff; margin:0px; background-color:#BDBDBD;}
+div.1footer{color:gray;}
+div.bar{float:right;}
+div.footer{clear:both;text-align:center;}
+div.t{text-align:center;}
+div.large{font-size:50px;}
+div.h{font-size:18px;}
+div.t{font-size:15px;}
+div.o{width:20%; padding:2px; border:1px solid:#ffffff; margin:0px; background-color:#b31c1c;}
+div.center{text-align:center;}
+div.ex{width:80%; padding:2px; border:1px solid black;  margin:0px; -moz-border-radius: 15px; border-radius: 15px; background-color: white;}
+</style> 
+</head> 
+<body> 
+<table class="z" width="100%"  border="0" cellspacing="5" cellpadding="5"> 
+<tr> 
+<td>   
+<div class="header"><span style="color:black;">Har</span><span style="color:#b31c1c;">vix</span></div>
+</td> 
+<td> 
+<form id="search-form"  action="hsearch.cgi">
+<input style="font-size: 17pt" size="60" name="q" value=""><input type=submit style="font-size: 19pt" value="Harvix Search"></form>
+</td> 
+</tr> 
+</table> 
+
+
+
+
+
+
+<center> 
+<a href="">Search.</a> <a href="">Social.</a> <a href="">Games.</a>
+
+<p> 
+&nbsp;
+<p> 
+&nbsp;
+<p> 
+<div class="t"><a href="about.html">About Harvix</a> | <a href="terms.html">Terms &amp; Conditions</a> | <a href="privacy.html">Privacy Policy</a> 
+<p> 
+<span style="color:gray;">&copy; - 2011 Harvix inc.</span> 
+</div> 
+ 
+</p> 
+</center> 
+<script type="text/javascript"> 
+$(document).ready(function() {
+  $("input[name=q]").val( '' ).focus();
+});
+</script> 
+</body> 
+ 

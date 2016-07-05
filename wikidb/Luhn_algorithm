@@ -1,0 +1,1 @@
+81.6	Luhn_algorithm	Luhn algorithm	The check digit (x) is obtained by computing the sum of digits then computing 9 times that value modulo 10 (so that's: (67 * 9 mod 10)). In layman's terms:	

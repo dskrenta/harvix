@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Boston, MA",
+		"city":"Boston",
+		"state":"MA",
+		"state_name":"Massachusetts",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"02101",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"42.37046814",
+		"longitude":"-71.02747345",
+		"elevation":"6.00000000"
+		},
+		"observation_location": {
+		"full":"North End waterfront Boston, Boston, Massachusetts",
+		"city":"North End waterfront Boston, Boston",
+		"state":"Massachusetts",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"42.365311",
+		"longitude":"-71.051521",
+		"elevation":"39 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KMABOSTO124",
+		"observation_time":"Last Updated on September 20, 6:31 AM EDT",
+		"observation_time_rfc822":"Sun, 20 Sep 2015 06:31:28 -0400",
+		"observation_epoch":"1442745088",
+		"local_time_rfc822":"Sun, 20 Sep 2015 06:31:33 -0400",
+		"local_epoch":"1442745093",
+		"local_tz_short":"EDT",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0400",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"71.4 F (21.9 C)",
+		"temp_f":71.4,
+		"temp_c":21.9,
+		"relative_humidity":"87%",
+		"wind_string":"From the SSW at 1.8 MPH Gusting to 2.5 MPH",
+		"wind_dir":"SSW",
+		"wind_degrees":210,
+		"wind_mph":1.8,
+		"wind_gust_mph":"2.5",
+		"wind_kph":2.9,
+		"wind_gust_kph":"4.0",
+		"pressure_mb":"1011",
+		"pressure_in":"29.86",
+		"pressure_trend":"+",
+		"dewpoint_string":"68 F (20 C)",
+		"dewpoint_f":68,
+		"dewpoint_c":20,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"71.4 F (21.9 C)",
+		"feelslike_f":"71.4",
+		"feelslike_c":"21.9",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/MA/Boston.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KMABOSTO124",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=42.365311,-71.051521",
+		"nowcast":""
+	}
+}

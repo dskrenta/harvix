@@ -1,0 +1,401 @@
+/*
+ * Globals
+ */
+
+/* Links */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url('../fonts/Lato-light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url('../fonts/Lato-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url('../fonts/Lato-bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster'), local('Lobster-Regular'), url('../fonts/Lobster.ttf') format('truetype');
+}
+
+
+a,
+a:focus,
+a:hover {
+  color: #333;
+}
+
+/*
+ * Base structure
+ */
+.heartPad {
+	margin-top: 45px;
+}
+a.tooltips {
+  position: relative;
+  display: inline;
+  color: #eee;
+  font-weight: 400;
+  text-decoration: none;
+}
+a.tooltips span {
+  position: absolute;
+  width:140px;
+  color: #404040;
+  background: #E8E8E8;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+}
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-top: 8px solid #E8E8E8;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+a:hover.tooltips span {
+  visibility: visible;
+  opacity: 0.8;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -76px;
+  z-index: 999;
+}
+.title {
+	height: 350px;
+	width: 100%;
+	text-align: center;
+	padding-top: calc(50vh - 175px);
+}
+.logo {
+	padding: 20px 0px 0px 0px;
+	font-size: 125px;
+	color: #eee;
+	font-family: 'Lobster', cursive;
+}
+.name{
+	padding:10px;
+	font-size: 30px;
+	color: #eee;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+.sectionStart {
+	height: 100vh;
+	min-height: 690px;
+	padding-top: 0px;
+	margin-top:0px;
+	background:linear-gradient(rgba(0, 0, 51, 0.25), rgba(0, 0, 51, 0.25)), url('../images/startSoda.gif')/*url('http://www.gzbifang.com/data/upload/ueditor/558ce47427ab3.gif')url('http://i0.wp.com/cdn.ebaumsworld.com/mediaFiles/picture/2384616/84762464.gif?resize=760%2C500')/*url('http://media.giphy.com/media/5TjttjxXCdKVy/giphy.gif')*/;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.sectionVideo {
+	height: 100vh;
+	background-color: #eee;
+	min-height:540px;
+	color:#707070;
+}
+.sectionIntro {
+	height: 100vh;
+	background-color: #34495e;
+	min-height:540px;
+	color:#707070;
+}
+.sectionTeeth {
+	height: 100vh;
+	background-color: #fff;
+	min-height:540px;
+	color:#707070;
+}
+.sectionAsthma {
+	height: 100vh;
+	background-color: #5496ff;
+	min-height:540px;
+	color:#eee;
+}
+.sectionGender {
+	height: 100vh;
+	background-color: #cb68cb;
+	min-height:540px;
+	color:#eee;
+}
+.sectionHeart {
+	height: 100vh;
+	min-height:540px;
+	color:#eee;
+}
+.sectionDia {
+	height: 100vh;
+	background-color:#ecf0f1;
+	min-height:540px;
+	color:#34495e;
+}
+.arrowVid {
+	height:calc(50vh - 270px);
+	width: 100%;
+	margin-bottom: 0;
+	display: table;
+}
+.arrowVid a{
+	vertical-align: bottom;
+	display: table-cell;
+}
+.arrow1 {
+	height:calc(50vh - 270px);
+	width: 100%;
+	margin-bottom: 0;
+	display: table;
+}
+.arrow1 a{
+	vertical-align: bottom;
+	display: table-cell;
+}
+.arrow {
+	height:calc(50vh - 200px);
+	width: 100%;
+	margin-bottom: 0;
+	display: table;
+}
+.arrow a{
+	vertical-align:bottom;
+	display: table-cell;
+}
+.sectionSugar {
+	height: 100vh;
+	min-height:540px;
+	background: linear-gradient(rgba(0, 0, 51, 0.4), rgba(0, 0, 51, 0.4)), no-repeat url('../images/sugar.jpg');
+	background-size: 100% 100%;
+	color: #eee;
+}
+.sectionObesity {
+	height: 100vh;
+	min-height:540px;
+	background: linear-gradient(rgba(0, 0, 51, 0.5), rgba(0, 0, 51, 0.5)), no-repeat url('../images/obesity.jpg');
+	background-size: 100% 100%;
+	color: #eee;
+}
+.sectionOst {
+	height: 100vh;
+	min-height:540px;
+	background: linear-gradient(rgba(0, 0, 51, 0.5), rgba(0, 0, 51, 0.5)), no-repeat url('../images/xray.jpg');
+	background-size: 100% 100%;
+	color: #eee;
+}
+.sectionKidney {
+	height: 100vh;
+	min-height:540px;
+	background: linear-gradient(rgba(0, 0, 51, 0.5), rgba(0, 0, 51, 0.5)), no-repeat url('../images/kidney.jpg');
+	background-size: 100% 100%;
+	color: #eee;
+}
+.navSelect {
+	height: 100%;
+	margin-left: calc(50% - 600px);
+}
+.selectName {
+	height:45px;
+	width: 120px;
+	display: inline-block;
+	float:left;
+	color:#eee;
+	font-size:20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	/*'border-right:1px solid #404040;
+}
+.navSelect:first-child {
+	border-left: 1px solid #404040;*/
+}
+.QuoteSectionText{
+	width: 650px;
+	text-align:justify;
+	color: #ccc;
+}
+.QuoteSectionText h1 strong {
+	color: #1abc9c;
+}
+.QuoteSectionText h1{
+	text-align:center;
+	font-size:41px;
+	padding-top:30px;
+	padding-bottom:10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+.QuoteContain {
+	width: 650px;
+	height: 140px;
+	margin-left: calc(50% - 325px);
+	padding-top: calc(50vh - 90px);
+}
+.fullSectionText{
+	width: 800px;
+	text-align:justify;
+}
+.fullSectionText h1{
+	text-align:center;
+	font-size:41px;
+	padding-top:30px;
+	padding-bottom:10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+.fullSectionText p {
+	font-size: 20px;
+	padding-bottom:18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+.fullContain {
+	width: 800px;
+	height: 400px;
+	margin-left: calc(50% - 400px);
+	padding-top: calc(50vh - 200px);
+}
+.sectionText {
+	width: 600px;
+	text-align: left;
+}
+.sectionText h1 {
+	font-size:41px;
+	padding-top:30px;
+	padding-bottom:10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+.sectionText p {
+	font-size: 20px;
+	padding-bottom:18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+.sectionImage {
+	width: 320px;
+}
+.sectionImage img{
+	height: 320px;
+	padding-top: 35px;
+}
+.sectionImage1 {
+	width: 320px;
+}
+.sectionImage1 img{
+	height: 300px;
+	padding-top: 35px;
+}
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #e74c3c;
+  min-height:690px;
+  overflow-x: hidden;
+  width:100%;
+  margin:0;
+}
+.bottleimage {
+	height:500px;
+	margin-bottom: 40px;
+}
+.start{
+	height:600px;
+}
+.contain {
+	width: 1000px;
+	height: 400px;
+	margin-left: calc(50% - 500px);
+	padding-top: calc(50vh - 200px);
+	margin-right: 0px;
+}
+.contain1 {
+	width: 1000px;
+	height: 400px;
+	margin-left: calc(50% - 500px);
+	padding-top: calc(50vh - 200px);
+	margin-right: 0px;
+}
+.start p{
+	margin-top: 210px;
+}
+.left{
+	float:left;
+}
+.right {
+	float:right;
+}
+body {
+  color: #595959;
+  text-align: center;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  /*-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+

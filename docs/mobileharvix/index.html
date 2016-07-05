@@ -1,0 +1,47 @@
+<html>
+<head>
+    <script>
+        if (
+            (!!window.navigator.standalone)
+            ){
+            
+        }
+        else {
+            document.write('<object data="installpage.html" style="position:absolute;width:100%;height:100%;margin:0px;left:0px;top:0px;z-index:998;" ></object>');
+        }
+        </script>
+        <script src="script.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+            <meta name="format-detection" content="telephone=no">
+                <link rel="apple-touch-icon-precomposed" href="icon.png">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>
+Harvix
+</title>
+</head>
+<body id="body" >
+<div id="background"></div><div id="bgabg"></div>
+<div id="upperbar" ontouchstart="uppermenu()" ><b><logo class="logo"><span style="color:white;font-size:40px;">Har</span><span style="color:red;font-size:40px;">vix</span></logo><span class="arrow">&#9660;</span></b></div>
+<!- SREARCHBAR--->
+<div id="search">
+</div>
+<div id="box" ><form id="searchForm" name="searchForm" action="http://harvix.com/msnew3.cgi" onsubmit="submitted('h'); return false" class="form-wrapper cf"><input autocomplete="off" type="text" spellcheck="false" name="q" placeholder="What would you like to learn about?" required="" class="textinput" />
+    
+<button type="submit">Search</button>
+</form>
+</div>
+<!-//SREARCHBAR--->
+
+<div id="bottombar">
+<a href="http://jsfiddle.net/8LbUE/2/show/" ><div id="button" class="activebtn" style="margin-left:7px;" ><img src="home.png"/></div></a><a href="http://jsfiddle.net/8LbUE/3/show/" ><div class="btn" id="button" style="margin-left:85px;" ><img src="docs.png"/></div></a><a href="http://jsfiddle.net/8LbUE/4/show/" ><div class="btn" id="button" style="margin-left:163px;" ><img src="games.png"/></div></a><a href="http://jsfiddle.net/8LbUE/5/show/" ><div class="btn" id="button" style="margin-left:241px;" ><img src="settings.png"/></div></a>
+</div>
+<div id="menu">
+<center>
+<br><br><br><b>THIS IS ONLY A BETA FOR THE MOBILE VERSION OF HARVIX,<br>THIS SLIDE DOWN MENU IS COMMING SOON !</b><br>
+<img id="slidebutton" ontouchstart="unuppermenu()" src="slidebutton.png"/>
+</center>
+</div>
+</body>
+</html>

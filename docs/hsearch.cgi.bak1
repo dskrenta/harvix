@@ -1,0 +1,192 @@
+#!/usr/bin/perl
+
+use strict;
+
+use Data::Dumper;
+use WebService::Blekko;
+
+my %escapes;
+setup_escapes();
+
+print "Content-type: text/html\n\n";
+
+my $query = parse_query();
+
+my $blekko = WebService::Blekko->new( auth => 'c31c6fd0', );
+
+
+my $res = $blekko->query( $query );
+
+#if ( $res->error ) ...
+
+print_header();
+
+while ( my $r = $res->next ) {
+	#print $r->title, "<br>\n";
+	#print $r->snippet, "<br>\n";
+	#print $r->url, "<br>\n";
+	#print "<br>\n";
+
+ 	print "<a href=", '"', $r->url, '">', $r->title, "</a><br>\n";
+	print $r->snippet, "<br>\n";
+	print "<span style=\"color:green;\">";
+	print $r->url, "<br>\n";
+	print "</span>";
+	print "<p>\n";
+}
+
+print_footer();
+
+sub setup_escapes
+{
+	for (0..255)
+	{
+	    $escapes{chr($_)} = sprintf("%%%02X", $_);
+	}
+	$escapes{' '} = '+';
+}
+
+sub urlencode
+{
+    my $url = shift;
+
+    $url =~ s/([^A-Za-z0-9\-_.!~*\'()])/$escapes{$1}/ge if defined $url;
+    return $url;
+}
+
+sub urldecode
+{
+    my $url = shift;
+
+    $url =~ tr/+/ / if defined $url;
+    $url =~ s/%([0-9A-Fa-f]{2})/chr(hex($1))/eg if defined $url;
+
+    return $url;
+}
+
+sub parse_query
+{
+	my $query = $ENV{QUERY_STRING} || shift || 1;
+
+	$query =~ s/q=//;
+	$query = urldecode($query);
+	$query =~ s/\+/ /g;
+
+	return $query;
+}
+
+sub print_header
+{
+print <<EOF
+<html>
+<head>
+<title>Harvix</title>
+<style type="text/css">
+a:link {color:#1a54e1; text-decoration:none;}  
+a:visited {color:#1a54e1; text-decoration:none;}
+a:hover {color:#1a54e1; text-decoration:underline;}
+body { font-size: 13px; font-family:  Arial, sans-serif; font-size: normal; line-height: normal; }
+div.header{font-size:200px;}
+div.hi{width:100%; padding:0px; border:1px solid:#ffffff; margin:0px; background-color:#BDBDBD;}
+div.1footer{color:gray;}
+div.bar{float:right;}
+div.footer{clear:both;text-align:center;}
+div.t{text-align:center;}
+div.large{font-size:100px;}
+body {background-color:white;}
+div.h{font-size:20px;}
+div.t{font-size:17px;}
+#sideCol-l { width: 180px; padding-right: 10px; float: left; border-right: 1px solid #edf4fb;  margin-right:15px;}
+</style>
+</head>
+<body style="margin:0px;">
+
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr><td colspan=3><span class="hh">
+
+<div class="h">
+<div class="hi">
+<div class="bar">
+<a href="help.html">Help</a> | <a href="login.html">Login</a>
+</div>
+<b>Web</b> | <a href="images.html">Images</a> | <a href="video.html">Video</a>
+</div>
+</div>
+
+</span></td><td></td></tr>
+<tr height="30"><td></td></tr>
+
+<tr><td width=175 valign=top>
+<div style="font-size:36pt"><b>
+<span style="color:black;">Har</span><span style="color:#b31c1c;">vix</span></b>
+</div>
+Checkout:
+<p>
+<b>Web</b>
+<p>
+<a href="images.html">Images</a>
+<p>
+<a href="video.html">Video</a>
+<p>
+<a href="news.html">News</a>
+<p>
+<a href="shopping.hmtl">Shopping</a>
+</td>
+<td>
+
+<table width="100%" cellpadding="0" cellspacing="0">
+
+<tr><td valign=top>
+
+<form action="hsearch.cgi" method="get">
+<input style="font-size: 18pt" size="50" name="q" value="$query">
+<input type=submit style="font-size: 18pt" value="Harvix Search"> 
+</div>
+</form>
+<p>
+&nbsp;
+<p>
+EOF
+;
+
+}
+
+sub print_footer
+{
+print <<EOX
+
+</td>
+
+<td valign=top width=175>
+Web Results from Blekko<br>
+</td>
+</tr>
+
+</table>
+</td></tr></table>
+
+<p>
+<p>
+<p>
+<p>
+<center>
+<div class="t">
+<a href="about.html.html">About</a>&nbsp;&middot;
+<a href="help.html">Help</a>&nbsp;&middot;
+<a href="jobs.html">Jobs</a>&nbsp;&middot;
+<a href="co.html">Contact</a>&nbsp;&middot;
+<a href="terms.html">Terms &amp; Conditions</a>&nbsp;&middot;
+<a href="privacy.html">Privacy Policy - We don't track you!</a>&nbsp;
+</div>
+</p>
+<p>
+<span style="color:gray;">&copy; Harvix inc. | <a href="privacy.html">Privacy</a> - We don't track you!</span>
+</p>
+</center>
+</body>
+
+EOX
+;
+}
+
+

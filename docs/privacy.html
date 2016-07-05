@@ -1,0 +1,225 @@
+<title>Harvix</title> 
+<link rel="shortcut icon" href="http://www.tinychan.org/img/1328039793912825.png" type="image/x-icon" /> 
+<style type="text/css"> 
+a:link {color:blue; text-decoration:none;}  
+a:visited {color:blue; text-decoration:none;}
+a:hover {color:red;}
+body {background-image:url(''); font-size: 13px; width:100%; font-family:  Helvetica, sans-serif; font-size: normal; line-height: normal; margin: 0; padding: 0; } 
+div.header{font-size:150px;}
+div.header1{font-size:20px;}
+div.hi{width:100%; padding:8px; border:0px solid:black; margin:0px; background-image:url('');}
+div.hi2{font-size:20px;}
+div.hi5{padding:8px; border:1px solid:gray; width:80%; margin:0px; background-color:white; -moz-box-shadow: 0 0 1em black; -webkit-box-shadow: 0 0 1em black; box-shadow: 0 0 1em black;}
+div.1footer{color:gray;}
+div.bar{float:right;}
+div.large{font-size:50px; font-family:  Helvetica, sans-serif; font-size: normal; line-height: normal;}
+div.large4{font-size:18px;}
+div.large5{font-size:20px; padding:8px;}
+div.h{font-size:18px;}
+div.t{font-size:18px;}
+div.o{width:20%; padding:2px; border:1px solid:#ffffff; margin:0px; background-color:#b31c1c;}
+div.center{text-align:center;}
+div.ex{width:35%; padding:2px; border:1px solid black;  margin:0px; -moz-border-radius: 15px; border-radius: 15px; background-color:#1a54e1;}
+div.h{width:40%; padding:2px; border:1px solid black;  margin:0px; background-color:white;} 
+body{background-color:white;}
+div.po{width:50%; padding:2px; border:1px solid white;  margin:0px; -moz-border-radius: 15px; border-radius: 15px; background-color:white;}
+div.h7{width:100%; position: fixed; padding:4px; border:0px solid:black; margin:0px; background-color:black; -moz-box-shadow: 0 0 1em black; -webkit-box-shadow: 0 0 1em black; box-shadow: 0 0 1em black;}
+div.hello{font-size:12px;}
+div.terms{padding:20px;}
+
+
+#footer{clear:both;padding:10px 0;text-transform:uppercase;height:12px;font-size:10.5px;overflow:hidden;background:#2c2c2b;background:-moz-linear-gradient(top, #2c2c2b 0%, #262426 49%, #232222 50%, #1e201e 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#2c2c2b), color-stop(49%,#262426), color-stop(50%,#232222), color-stop(100%,#1e201e));background:-webkit-linear-gradient(top, #2c2c2b 0%,#262426 49%,#232222 50%,#1e201e 100%);background:-o-linear-gradient(top, #2c2c2b 0%,#262426 49%,#232222 50%,#1e201e 100%);background:-ms-linear-gradient(top, #2c2c2b 0%,#262426 49%,#232222 50%,#1e201e 100%);background:linear-gradient(top, #2c2c2b 0%,#262426 49%,#232222 50%,#1e201e 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c2c2b', endColorstr='#1e201e',GradientType=0 );}#footer p{margin:0 10px}#footer a{color:#818181;padding-right:15px;}#footer .copyright{float:right;color:#818181;}
+
+
+div.bar2{float:left;}
+ 
+div.hi8{padding:4px; border:1px solid:black; width:100%; margin:0px; background-color:black; -moz-box-shadow: 0 0 1em black; -webkit-box-shadow: 0 0 1em black; box-shadow: 0 0 1em black;}
+
+
+
+html {
+     height:100%
+}
+
+
+body {
+     height:100%
+}
+#container {
+     position:relative;
+     min-height:100%;
+     _height:100%; /* for IE6 as it doesnt understand min-height */
+}
+#content {
+     padding-bottom:29px; /* assuming your footer height is 100px */
+}
+ 
+#hifooter {
+     position: relative;
+     margin-top:-32px;
+     /* move the footer up negatively exactly the same height
+         as the footer so that its back in the view and always
+         appears to rest at the bottom
+         of the page */
+}
+
+
+#searchBox{width:800px;}
+#searchBox{font-size:25px;line-height:30px;height:30px;outline:none;border:1px solid #AAA;}
+#searchBox{height:45px;clear:both;}
+#search-submit{width:100px;}
+#search-submit{height:45px;}
+.red-button{height:32px;border:none 0;outline:none 0;font-size:14px;color:#FFF;cursor:pointer;font-weight:bold;background:#ef3625;background:-moz-linear-gradient(top, #ef3625 0%, #d02f20 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ef3625), color-stop(100%,#d02f20));background:-webkit-linear-gradient(top, #ef3625 0%,#d02f20 100%);background:-o-linear-gradient(top, #ef3625 0%,#d02f20 100%);background:-ms-linear-gradient(top, #ef3625 0%,#d02f20 100%);background:linear-gradient(top, #ef3625 0%,#d02f20 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef3625', endColorstr='#d02f20',GradientType=0 );}
+.search-icon{background:url('http://a.blekko-img.com/045/gz/theme21/imgs/serp08.png') no-repeat -212px 0;width:20px;height:20px;display:inline-block;}
+
+
+</style>
+</head> 
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30447587-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30658262-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<body>
+
+<div id="container">
+    <div id="content">
+
+
+
+<div class="h7">
+<table cellpadding="0">
+<tr VALIGN=BOTTOM>
+<td>
+<div class="large">
+<a href="index.html"><b><span style="color:white;">Har</span><span style=color:red;">vix</span></b></a>
+</div>
+</td>
+<td>
+<form id="searchForm" name="searchForm" action="http://harvix.com/hsearch1.cgi" onsubmit="submitted('h'); return false">
+<input id="searchBox" autofocus="autofocus" autocomplete="off" type="text" spellcheck="false" name="q" value=""  />
+<button type="submit" class="red-button"  href="javascript:void(0);" id="search-submit" ><span class="search-icon"></span></button>
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+<p>
+&nbsp;
+<p>
+&nbsp;
+<p>
+&nbsp;
+<div class="terms">
+<div class="hi2"><b>Privacy Policy</div>
+<p>
+Effective August 27 2012
+<p>
+Harvix Inc – Privacy Policy for your personal use
+<p>
+</b>
+Harvix, Inc. (“Harvix,” “we,” or “our”) respects your privacy and realizes that trust is the foundation of our relationship with you. This Privacy Policy describes the information we collect about you, how it is used, and with whom we may or may not share it. We also offer you options regarding your privacy choices more fully described below.
+<p>
+This Privacy Policy only covers the Harvix website along with any and all related pages on harvix.com. We are not responsible for the privacy practices on any website other than harvix.com. For example, we do not exercise control over the sites that appear as search results when you use the Harvix website. When you leave the Harvix website, we encourage you to carefully review the privacy policies on all other websites that you visit.
+<p>
+<div class="hi2"><b>Information we collect from you</b></div>
+<p>
+Harvix may collect your queries and ip adresses only in case of suspition of <b>automated querying</b> or an <b>emergency</b>.
+<p>
+If none of the above Harvix may not collect any information about you except google analytics data.  
+<p>
+<div class="hi2"><b>Changes to this Policy</b></div>
+<p>
+Harvix may update this Privacy Policy from time to time. We will notify you about significant changes in the way we treat your personal information by sending a notice to the primary email address you have specified or by placing a prominent notice on the Harvix website.
+<p>
+<div class="hi2"><b>Contact Information</b></div> 
+<p>
+Contact us at “harvix.com@gmail.com” for any additional information or questions about our Privacy Policy.  
+<p>
+</div>
+
+
+
+</div>
+</div>
+
+<div id="hifooter">
+<div id="footer">
+<span class="copyright">&copy; 2012 harvix, inc.</span>
+<p>
+<a href="about.html">about</a>&nbsp;
+<a href="privacy.html">privacy policy</a>&nbsp;
+<a href="terms.html">terms & condtions</a>&nbsp;
+</p>
+</div>
+</div>
+
+<script type="text/javascript"> 
+$(document).ready(function() {
+  $("input[name=q]").val( '' ).focus();
+});
+</script> 
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+</body> 
+ 
+

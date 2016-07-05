@@ -1,0 +1,1 @@
+8.11	ORBit	ORBit	ORBit is a CORBA 2.4 compliant Object Request Broker (ORB). It features mature C, C++ and Python bindings, and less developed bindings for Perl, Lisp, Pascal, Ruby, and Tcl. Most of the code is distributed under the LGPL license, although the IDL compiler and utilities use the GPL.	

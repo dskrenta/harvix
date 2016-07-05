@@ -1,0 +1,1 @@
+3.00	Lambda_Lifting	Lambda lifting	(The let rec declares sum as a function that may call itself.) The function f, which adds sum's argument to the sum of the numbers less than the argument, is a local function. Within the definition of f, n is a free variable. Start by converting the free variable to an argument:	

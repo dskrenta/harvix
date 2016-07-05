@@ -1,0 +1,436 @@
+@font-face {
+    font-family: Lato;
+    src: url(http://harvix.com/about/lato.ttf);
+}
+body {
+    background: url(http://harvix.com/about/images/splash2.jpg) no-repeat center;
+    background-size: 100%;
+    background-attachment:fixed;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background: #f7f7f7;
+    position: absolute;
+}
+header h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 200;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 80px;
+    text-decoration: none;
+    color: #2c3e50;
+}
+header h1 span {
+    color: #ee0000;
+}
+#banner {
+    width: 100%;
+    height: 650px; /*350*/
+    background: url(http://harvix.com/about/images/splash.jpg) no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    margin-top: 80px;
+    -webkit-box-shadow:inset 0 0 30px #555;
+    -moz-box-shadow: inset 0 0 30px #555;
+    box-shadow: inset 0 0 30px #555;
+    color: #000;
+    text-align: center;
+}
+#banner h3 {
+    font-family: Lato, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    position: absolute;
+    padding: 10px 15px 5px 15px;
+    margin-top: 20px;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+#banner p {
+    font-size: 23px;
+    font-family: Lato, sans-serif;
+    font-weight: 200;
+    position: absolute;
+    padding: 10px 15px 10px 15px;
+    margin-top: 83px;
+    text-align:center;
+    width: 50%;
+    margin-left: 25%;
+}
+#quote {
+    position: absolute;
+    margin-top: 1350px;
+    width: 100%;
+    height: 200px;
+    background: inherit;
+    background-attachment:fixed;
+}
+#quote p {
+    font-family: Lato, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    color: #ecf0f1;
+}
+.feature {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    margin-top: 730px;
+}
+#int {
+    z-index: 9999;
+    background: #3498db;
+}
+.feature h4 {
+    font-family: Lato, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 150px;
+    text-align:right;
+    color: #ecf0f1;
+}
+.feature p {
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 700px;
+    height: 450px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 200px;
+    text-align:right;
+    color: #1870a8;
+}
+.feature img {
+    float: right;
+    border-radius: 100%;
+    background: #2980b9;
+    padding: 50px;
+    margin-right: 150px;
+    margin-top: 125px;
+}
+#fac {
+    background: #2ecc71;
+    margin-top: 1540px;
+}
+#fac img {
+    background: #27ae60;
+    float: left;
+    margin-left: 150px;
+}
+#fac p {
+    color: #169d50;
+    margin-left: 470px;
+    text-align: left;
+}
+#fac h4 {
+    margin-left: 230px;
+}
+#catnotspa {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    margin-top: 2140px;
+    background: #f5f5f5;
+}
+#catnotspa div {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: 100px;
+    padding: 5px 10px 5px 10px;
+}
+#catnotspa div:first-child {
+    margin-left: 90px;
+}
+#catnotspa div:nth-child(2) {
+    margin-left: 475px;
+}
+#catnotspa div:nth-child(3) {
+    margin-left: 860px;
+}
+#catnotspa div h4 {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2c3e50;
+}
+#catnotspa div p {
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #777;
+    text-align: center;
+}
+#team {
+    margin-top: 2740px;
+    background: url(http://harvix.com/about/images/bgteam.jpg) no-repeat center;
+    background-size: 100%;
+    background-attachment:fixed;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index:200;
+}
+#team ul li {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    background-size: 100%;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow:inset 0 0 10px #333;
+    -moz-box-shadow:inset 0 0 10px #333;
+    box-shadow:inset 0 0 10px #333;
+    margin: 15px;
+}
+
+#david {
+    background: url(http://harvix.com/about/images/david.jpg) no-repeat center;
+}
+#jakob {
+    background: url(http://harvix.com/about/images/jakob.jpg) no-repeat center;
+}
+#sarthak {
+    background: url(http://harvix.com/about/images/sarthak.jpg) no-repeat center;
+}
+#ivan {
+    background: url(http://harvix.com/about/images/ivan.jpg) no-repeat center;
+}
+#anh {
+    background: url(http://harvix.com/about/images/anh.jpg) no-repeat center;
+}
+#bryce {
+    background: url(http://harvix.com/about/images/bryce.jpg) no-repeat center;
+}
+#armando {
+    background: url(http://harvix.com/about/images/armando.jpg) no-repeat center;
+}
+#julie {
+    background: url(http://harvix.com/about/images/julie.jpg) no-repeat center;
+}
+#nishi {
+    background: url(http://harvix.com/about/images/nishi.jpg) no-repeat center;
+}
+#hannah {
+    background: url(http://harvix.com/about/images/hannah.jpg) no-repeat center;
+}
+#minh {
+    background: url(http://harvix.com/about/images/minh.jpg) no-repeat center;
+}
+#team h3 {
+    color: white;
+    font-family: Lato, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    text-align:center;
+    width: 30%;
+    margin-left: 35%;
+}
+#teamoverlay {
+    margin-top: 2740px;
+    background: rgba(52, 73, 94, 0.75);
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index:100;
+    opacity:0;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+#teamoverlay img {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 160px;
+    height: 160px;
+    background: white;
+    background-size: 100%;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow:inset 0 0 10px #333;
+    -moz-box-shadow:inset 0 0 10px #333;
+    box-shadow:inset 0 0 10px #333;
+}
+#teamoverlay h3 {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 30px;
+    font-family: Lato, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+}
+#teamoverlay p {
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: 230px;
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+    font-weight: 200;
+    color: #ddd;
+}
+#close {
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+    margin-right: 25px;
+    font-family: Lato, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+#contact {
+    width: 100%;
+    height: 300px;
+    margin-top: 3240px;
+    position: absolute;
+    background: #f5f5f5;
+    z-index: 999;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+#contact form {
+    width: 100%;
+}
+#contact form input {
+    border: 2px solid #e5e5e5;
+    font-family: Lato,sans-serif;
+    font-weight: 200;
+    font-size: 1.15em;
+    outline: none;
+    padding: 5px 10px 5px 10px;
+    color: #555;
+}
+#contact form textarea {
+    border: 2px solid #e5e5e5;
+    font-family: Lato,sans-serif;
+    font-weight: 200;
+    font-size: 1.15em;
+    outline: none;
+    padding: 5px 10px 5px 10px;
+    color: #555;
+    margin-top: -90px;
+    float: right;
+    margin-right: 300px;
+    clear: right;
+}
+#contact form input:first-child {
+    margin-top: 30px;
+    float:right;
+    margin-right: 50px;
+}
+#contact form input:nth-child(2) {
+    margin-top: 20px;
+    float:right;
+    clear:right;
+    margin-right: 50px;
+}
+#contact form input:nth-child(4) {
+    width: 100px;
+    height: 40px;
+    background: #2ecc71;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    cursor: pointer;
+    -webkit-box-shadow: 0 3px 0 #1dbb60;
+    -moz-box-shadow: 0 3px 0 #1dbb60;
+    box-shadow: 0 3px 0 #1dbb60;
+    float: right;
+    clear: right;
+    margin-right: 50px;
+    margin-top: -50px;
+}
+#contact h3 {
+    position: absolute;
+    font-family: Lato, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    text-align:center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#contact p {
+    color: #d8d8d8;
+    position: absolute;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align:center;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 3540px;
+    background: #455a6f;
+    position: absolute;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+    z-index: 999;
+}
+footer ul {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+}
+footer ul li {
+    list-style: none;
+    font-family: Lato, sans-serif;
+    font-size:20px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #c0c0c0;
+}
+#sm {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#se {
+    margin-top: 30px;
+    margin-left: 350px;
+}
+#ot {
+    margin-top: 30px;
+    margin-left: 650px;
+}
+.footerheader {
+    color: #1b2d40;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}

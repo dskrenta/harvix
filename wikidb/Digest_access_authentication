@@ -1,0 +1,1 @@
+66.8	Digest_access_authentication	Digest access authentication	Digest access authentication is one of the agreed-upon methods a web server can use to negotiate credentials with a user's web browser. It applies a hash function to a password before sending it over the network, which is safer than basic access authentication, which sends plaintext.	

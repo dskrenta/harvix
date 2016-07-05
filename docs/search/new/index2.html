@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="ie lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="ie lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> <html> <![endif]-->
+<!--[if !IE]><!--><html><!-- <![endif]-->
+<head>
+	<title>FLAT PLUS Template (v1.2.4-rc1)</title>
+	
+	<!-- Meta -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+	
+	<!-- 
+	**********************************************************
+	In development, use the LESS files and the less.js compiler
+	instead of the minified CSS loaded by default.
+	**********************************************************
+	<link rel="stylesheet/less" href="../assets/less/skins/module.admin.page.profile_resume.skin.black-and-white.less" />
+	-->
+	
+		<!--[if lt IE 9]><link rel="stylesheet" href="http://preview.mosaicpro.biz/shared/components/library/bootstrap/css/bootstrap.min.css" /><![endif]-->
+	<link rel="stylesheet" href="http://harvix.com/search/new/css/main2.css" />
+	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+	<script src="http://cdn.mosaicpro.biz/shared/components/library/jquery/jquery.min.js?v=v1.2.4-rc1&sv=v0.0.1.1"></script>
+<script src="http://cdn.mosaicpro.biz/shared/components/library/jquery/jquery-migrate.min.js?v=v1.2.4-rc1&sv=v0.0.1.1"></script>
+<script src="http://cdn.mosaicpro.biz/shared/components/library/modernizr/modernizr.js?v=v1.2.4-rc1&sv=v0.0.1.1"></script>
+<script src="http://cdn.mosaicpro.biz/shared/components/plugins/less-js/less.min.js?v=v1.2.4-rc1&sv=v0.0.1.1"></script>
+<script src="http://cdn.mosaicpro.biz/shared/components/modules/admin/charts/flot/assets/lib/excanvas.js?v=v1.2.4-rc1&sv=v0.0.1.1"></script>
+<script src="http://cdn.mosaicpro.biz/shared/components/plugins/browser/ie/ie.prototype.polyfill.js?v=v1.2.4-rc1&sv=v0.0.1.1"></script>	
+</head>
+<body class="">
+
+		<div class="navbar navbar-fixed-top navbar-primary main" role="navigation">
+    
+    <div class="navbar-header pull-left">
+        <div class="navbar-brand">
+            <div class="pull-left">
+                <a href="" class="toggle-button toggle-sidebar btn-navbar"><i class="fa fa-bars"></i></a>
+            </div>
+            <a href="index.html?lang=en&amp;skin=black-and-white&amp;v=v1.2.4-rc1" class="appbrand innerL">Harvix+</a>
+            <div class="colors pull-right hidden-xs">
+                
+                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=style-default&v=v1.2.4-rc1" style="background-color: #cb4040"><span class="hide">style-default</span></a></li>
+                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=brown&v=v1.2.4-rc1" style="background-color: #ba5d32"><span class="hide">brown</span></a></li>
+                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=purple-gray&v=v1.2.4-rc1" style="background-color: #86618f"><span class="hide">purple-gray</span></a></li>
+                
+                <li class="dropdown">
+                    <a href="" data-toggle="dropdown" class="dropdown-toggle">
+                        <span class="color inverse"></span>
+                        <span class="color danger"></span>
+                        <span class="color success"></span>
+                        <span class="color info"></span>
+                    </a>
+                    <ul class="dropdown-menu pull-right">
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=purple-wine&v=v1.2.4-rc1"><span class="color" style="background-color: #b94b6f"></span> purple-wine</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=blue-gray&v=v1.2.4-rc1"><span class="color" style="background-color: #496cad"></span> blue-gray</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=green-army&v=v1.2.4-rc1"><span class="color" style="background-color: #6f8745"></span> green-army</a></li>
+                                                <li class="active"><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=black-and-white&v=v1.2.4-rc1"><span class="color" style="background-color: #575757"></span> black-and-white</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=alizarin-crimson&v=v1.2.4-rc1"><span class="color" style="background-color: #d15050"></span> alizarin-crimson</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=amazon&v=v1.2.4-rc1"><span class="color" style="background-color: #488075"></span> amazon</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=amber&v=v1.2.4-rc1"><span class="color" style="background-color: #a8a858"></span> amber</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=android-green&v=v1.2.4-rc1"><span class="color" style="background-color: #90bd59"></span> android-green</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=antique-brass&v=v1.2.4-rc1"><span class="color" style="background-color: #CD9575"></span> antique-brass</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=antique-bronze&v=v1.2.4-rc1"><span class="color" style="background-color: #6e6e3c"></span> antique-bronze</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=artichoke&v=v1.2.4-rc1"><span class="color" style="background-color: #8F9779"></span> artichoke</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=atomic-tangerine&v=v1.2.4-rc1"><span class="color" style="background-color: #cc865e"></span> atomic-tangerine</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=bazaar&v=v1.2.4-rc1"><span class="color" style="background-color: #98777B"></span> bazaar</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=bistre-brown&v=v1.2.4-rc1"><span class="color" style="background-color: #a38229"></span> bistre-brown</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=bittersweet&v=v1.2.4-rc1"><span class="color" style="background-color: #d6725e"></span> bittersweet</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=blueberry&v=v1.2.4-rc1"><span class="color" style="background-color: #4e72c2"></span> blueberry</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=bud-green&v=v1.2.4-rc1"><span class="color" style="background-color: #6fa362"></span> bud-green</a></li>
+                                                <li><a href="?module=admin&page=profile_resume&url_rewrite=&lang=en&skin=burnt-sienna&v=v1.2.4-rc1"><span class="color" style="background-color: #db897d"></span> burnt-sienna</a></li>
+                                            </ul>
+                </li>
+            </div>
+        </div>
+    </div>
+  
+    <ul class="nav navbar-nav navbar-left">
+        <li class=" hidden-xs">
+            <form class="navbar-form navbar-left " role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search"/>
+                    <div class="input-group-btn">
+                        <button type="submit" class="btn btn-inverse"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right hidden-xs">
+        <li class="dropdown notification">
+            <a href="#" class="dropdown-toggle menu-icon" data-toggle="dropdown"><i class="fa fa-fw fa-envelope-o"></i><span class="badge badge-primary">2</span></a>
+            <ul class="dropdown-menu inbox">
+                <li class="headline">Inbox</li>
+                <li><input type="text" class="form-control border-none" placeholder="Search Email..." /></li>
+                <li>
+                    <div class="media">
+                        <a class="pull-left" href="#"><img src="../assets/images/people/50/8.jpg" alt="" class="img-circle media-object"></a>
+                        <div class="media-body">
+                            <a href="" class="strong text-primary"> <i class="fa fa-circle"></i> Adrian Demian</a> <span>(3)</span><span class="pull-right time-email">10:20 AM</span>
+                            <div class="clearfix"></div>
+                            Lorem ipsum dolor sit amet, consecte adipisicing elit.
+                        </div>
+                    </div>    
+                </li>
+                <li>
+                    <div class="media">
+                        <a class="pull-left" href="#"><img src="../assets/images/people/50/3.jpg" alt="" class="img-circle media-object"></a>
+                        <div class="media-body">
+                            <a href="" class="strong text-primary"> Joanne Smith</a><span>(1)</span><span class="pull-right time-email">06:48 PM</span>
+                            <div class="clearfix"></div>
+                            Lorem ipsum dolor sit amet, consecte adipisicing elit.
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="media">
+                        <a class="pull-left" href="#"><img src="../assets/images/people/50/20.jpg" alt="" class="img-circle media-object"></a>
+                        <div class="media-body">
+                            <a href="" class="strong text-primary"> <i class="fa fa-circle"></i> Mister Awesome</a> <span>(7)</span><span class="pull-right time-email">04:22 PM</span>
+                            <div class="clearfix"></div>
+                            Lorem ipsum dolor sit amet, consecte adipisicing elit.
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li class="dropdown notification hidden-sm hidden-md">
+            <a href="#" class="dropdown-toggle menu-icon" data-toggle="dropdown"><i class="fa fa-fw fa-exclamation-circle"></i><span class="badge badge-info">2</span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </li>
+         <li class="dropdown notification hidden-sm hidden-md">
+            <a href="#" class="dropdown-toggle menu-icon" data-toggle="dropdown"><i class="fa fa-fw fa-dropbox"></i><span class="badge badge-success badge-icon"><i class="fa fa-check"></i></span></a>
+            <ul class="dropdown-menu dropbox list">
+                <li class="headline">
+                   <div class="row">
+                       <div class="col-md-6">Dropbox Folder</div>
+                       <div class="col-md-6">
+                           <a href="">Settings <i class="fa fa-cog"></i></a>
+                       </div>
+                   </div>
+                </li>
+                <li class="clean info">RECENTLY CHANGED</li>
+                                <li>
+                    <ul class="media-list">
+                        <li class="media innerAll half">
+                            <a class="pull-left" href="#"><img class="media-object" data-src="holder.js/35x35" alt="..."></a>
+                            <div class="media-body margin-none">
+                                <a class="padding-none">Media heading</a>
+                                <div class="clearfix"></div>
+                                <em>59 minutes ago</em>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                                <li>
+                    <ul class="media-list">
+                        <li class="media innerAll half">
+                            <a class="pull-left" href="#"><img class="media-object" data-src="holder.js/35x35" alt="..."></a>
+                            <div class="media-body margin-none">
+                                <a class="padding-none">Media heading</a>
+                                <div class="clearfix"></div>
+                                <em>59 minutes ago</em>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                                <li>
+                    <ul class="media-list">
+                        <li class="media innerAll half">
+                            <a class="pull-left" href="#"><img class="media-object" data-src="holder.js/35x35" alt="..."></a>
+                            <div class="media-body margin-none">
+                                <a class="padding-none">Media heading</a>
+                                <div class="clearfix"></div>
+                                <em>59 minutes ago</em>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                                <li>
+                    <ul class="media-list">
+                        <li class="media innerAll half">
+                            <a class="pull-left" href="#"><img class="media-object" data-src="holder.js/35x35" alt="..."></a>
+                            <div class="media-body margin-none">
+                                <a class="padding-none">Media heading</a>
+                                <div class="clearfix"></div>
+                                <em>59 minutes ago</em>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown"><img src="../assets//images/lang/en-flat.jpg" /></a>
+            <ul class="dropdown-menu pull-right">
+                <li class="active"><a href="">English</a></li>
+                <li><a href="">Romanian</a></li>
+            </ul>
+        </li>
+        <li><a href="" class="menu-icon"><i class="fa fa-sign-out"></i></a></li>
+    </ul>
+</div>
+
+
+
+
+
+
+	
+
+
+
+
+	<div id="content"><div class="heading-buttons bg-white border-bottom innerAll">
+	<h1 class="content-heading padding-none pull-left">Steve Jobs</h1>
+	<div class="clearfix"></div>
+</div>
+
+
+<div class="innerAll spacing-x2">
+	<div class="widget widget-inverse">
+	<div class="widget-head">
+		<h4 class="heading"><i class="fa fa-sitemap fa-fw"></i> Timeline</h4>
+	</div>
+	<div class="widget-body padding-none">
+		
+		<div class="relativeWrap overflow-hidden">
+		<div class="row row-merge layout-timeline layout-timeline-mirror">
+			<div class="col-md-6"></div>
+			<div class="col-md-6">
+				<div class="innerAll">
+					
+					<ul class="timeline">
+						<li class="active">
+							<div class="separator bottom">
+								<span class="date box-generic">Search</span>
+								<span class="type glyphicons suitcase">Website <i></i></span>
+							</div>
+							<div class="widget widget-heading-simple widget-body-white margin-none">
+								<div class="widget-body">
+									<div class="media">
+										<div class="media-object pull-left thumb"><img src="../assets//images/avatar-51x51.jpg" alt="Image" /></div>
+										<div class="media-body">
+											<a class="author">Adrian Demian</a><br/>
+											<span class="muted">adrian@ennovation.ie</span>
+										</div>
+									</div>
+									<div class="alert alert-gray">
+										<p class="glyphicons circle_info margin-none"><i></i> Added a new milestone named <a href="">MosaicPro</a></p>
+									</div>
+									<a class="glyphicons single pencil"><i></i></a>
+								</div>
+							</div>
+						</li>
+						<li class="active">
+							<span class="type glyphicons comments">Fact <i></i></span>
+							<div class="widget widget-heading-simple widget-body-white margin-none">
+								<div class="widget-body">
+									<p><i class="fa fa-quote-right fa-4x pull-right fa-muted"></i> Jobs was among the first to see the commercial potential of Xerox PARC's mouse-driven graphical user interface, which led to the creation of the Apple Lisa and, a year later, the Macintosh.</p>
+								</div>
+							</div>
+						</li>
+						<li class="active">
+							<span class="type glyphicons comments">Information <i></i></span>
+                                                        <div class="widget widget-heading-simple widget-body-white margin-none">
+                                                                <div class="widget-body">
+                                                                	<iframe src="http://harvix.com/wolf.cgi?Steve jobs" allowtransparency="true" width="632px" height="300px" frameborder="0"></iframe>
+								</div>
+                                                        </div>
+						</li>
+						<li class="active">
+							<span class="type glyphicons comments">Image <i></i></span>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		</div>
+
+	</div>
+</div>
+
+	
+	
+		
+		</div>
+		<!-- // Content END -->
+		
+		<div class="clearfix"></div>
+		<!-- // Sidebar menu & content wrapper END -->
+		
+		<!-- Footer -->
+		<div id="footer" class="hidden-print">
+			
+			<!--  Copyright Line -->
+			<div class="copy">&copy; 2014 Harvix Search</div>
+			<!--  End Copyright Line -->
+	
+		</div>
+		<!-- // Footer END -->
+		
+	</div>
+	<!-- // Main Container Fluid END -->
+	
+
+	
+
+	<!-- Global -->
+	<script>
+	var basePath = '',
+		commonPath = '../assets/',
+		rootPath = '../',
+		DEV = false,
+		componentsPath = '../assets/components/';
+	
+	var primaryColor = '#575757',
+		dangerColor = '#b55151',
+		infoColor = '#466baf',
+		successColor = '#8baf46',
+		warningColor = '#ab7a4b',
+		inverseColor = '#45484d';
+	
+	var themerPrimaryColor = primaryColor;
+	</script>
+	
+	<script src="http://cdn.mosaicpro.biz/shared/components/library/bootstrap/js/bootstrap.min.js?v=v1.2.4-rc1&sv=v0.0.1.1"></script>
+<script src="http://cdn.mosaicpro.biz/shared/components/plugins/nicescroll/jquery.nicescroll.min.js?v=v1.2.4-rc1&sv=v0.0.1.1"></script>
+<script src="http://cdn.mosaicpro.biz/shared/components/plugins/breakpoints/breakpoints.js?v=v1.2.4-rc1&sv=v0.0.1.1"></script>
+<script src="../assets/components/core/js/animations.init.js?v=v1.2.4-rc1"></script>
+<script src="http://cdn.mosaicpro.biz/shared/components/common/gallery/blueimp-gallery/assets/lib/js/blueimp-gallery.min.js?v=v1.2.4-rc1&sv=v0.0.1.1"></script>
+<script src="http://cdn.mosaicpro.biz/shared/components/common/gallery/blueimp-gallery/assets/lib/js/jquery.blueimp-gallery.min.js?v=v1.2.4-rc1&sv=v0.0.1.1"></script>
+<script src="http://cdn.mosaicpro.biz/shared/components/plugins/holder/holder.js?v=v1.2.4-rc1&sv=v0.0.1.1"></script>
+<script src="../assets/components/core/js/sidebar.main.init.js?v=v1.2.4-rc1"></script>
+<script src="../assets/components/core/js/sidebar.collapse.init.js?v=v1.2.4-rc1"></script>
+<script src="http://cdn.mosaicpro.biz/shared/components/helpers/themer/assets/plugins/cookie/jquery.cookie.js?v=v1.2.4-rc1&sv=v0.0.1.1"></script>
+<script src="../assets/components/core/js/core.init.js?v=v1.2.4-rc1"></script>	
+</body>
+</html>

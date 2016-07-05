@@ -1,0 +1,1 @@
+70.2	Two's_complement	Two's complement	When turning a two's-complement number with a certain number of bits into one with more bits (e.g., when copying from a 1 byte variable to a two byte variable), the most-significant bit must be repeated in all the extra bits and lower bits.	

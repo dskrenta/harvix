@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Barcelona, Spain",
+		"city":"Barcelona",
+		"state":"",
+		"state_name":"Spain",
+		"country":"SP",
+		"country_iso3166":"ES",
+		"zip":"00000",
+		"magic":"1",
+		"wmo":"08181",
+		"latitude":"41.27999878",
+		"longitude":"2.06999993",
+		"elevation":"6.00000000"
+		},
+		"observation_location": {
+		"full":"Avenida doctor Gallart i Mones,, El Prat De Llobregat, CATALUNYA",
+		"city":"Avenida doctor Gallart i Mones,, El Prat De Llobregat",
+		"state":"CATALUNYA",
+		"country":"ESPAñA",
+		"country_iso3166":"ES",
+		"latitude":"41.324039",
+		"longitude":"2.091882",
+		"elevation":"13 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"ICATALUN65",
+		"observation_time":"Last Updated on September 20, 12:29 PM CEST",
+		"observation_time_rfc822":"Sun, 20 Sep 2015 12:29:05 +0200",
+		"observation_epoch":"1442744945",
+		"local_time_rfc822":"Sun, 20 Sep 2015 12:31:05 +0200",
+		"local_epoch":"1442745065",
+		"local_tz_short":"CEST",
+		"local_tz_long":"Europe/Madrid",
+		"local_tz_offset":"+0200",
+		"weather":"Scattered Clouds",
+		"temperature_string":"71.0 F (21.7 C)",
+		"temp_f":71.0,
+		"temp_c":21.7,
+		"relative_humidity":"68%",
+		"wind_string":"From the ENE at 6.0 MPH Gusting to 10.0 MPH",
+		"wind_dir":"ENE",
+		"wind_degrees":63,
+		"wind_mph":6.0,
+		"wind_gust_mph":"10.0",
+		"wind_kph":9.7,
+		"wind_gust_kph":"16.1",
+		"pressure_mb":"1021",
+		"pressure_in":"30.15",
+		"pressure_trend":"0",
+		"dewpoint_string":"60 F (16 C)",
+		"dewpoint_f":60,
+		"dewpoint_c":16,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"71.0 F (21.7 C)",
+		"feelslike_f":"71.0",
+		"feelslike_c":"21.7",
+		"visibility_mi":"6.2",
+		"visibility_km":"10.0",
+		"solarradiation":"694",
+		"UV":"4.3","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/08181.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=ICATALUN65",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=41.324039,2.091882",
+		"nowcast":""
+	}
+}

@@ -1,0 +1,17 @@
+a:link {color:blue;}    /* unvisited link */
+a:visited {color:blue;} /* visited link */
+a:hover {color:red;}   /* mouse over link */
+a:active {color:blue;}  /* selected link */
+
+body
+{
+background-color:white;
+}
+
+p
+{
+font-family:"Helvetica,Verdana,New Times Roman,sans-serif;font-size:15px;
+color:black;}
+}
+
+

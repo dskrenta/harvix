@@ -1,0 +1,235 @@
+
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="apple-touch-icon" href="/s/s/dog.png" />
+<title>Search  pokemon</title>
+<style type="text/css">
+* { padding: 0; margin: 0; }
+body { font-size: 13px; font-family: Arial, sans-serif; font-size: normal; line-height: normal; }
+a { color: #00c; }
+a:visited { color: #507; }
+ul li { list-style: none; margin-bottom: 2em; }
+#wrapper { max-width: 97%; min-width: 700px; padding: 120px 30px 30px 30px; }
+#header { width: 100%; position: fixed; border-bottom: 1px solid #c9c9c9; -webkit-box-shadow: #ccc 0 2px 5px; -moz-box-shadow: #ccc 0 2px 5px; box-shadow: #ccc 0 2px 5px; background: #fff; }
+#header #search { width: 57%; max-width: 680px; min-width: 430px; padding: 0 30px; }
+#numbers { font-size: 13px; font-weight: normal; padding: 5px 30px; border-top: 1px solid #e5e5e5; background: #edf4fb; }
+#numbers p { max-width: 1024px; min-width: 600px; }
+#header .field { font-size: 18px; padding: 5px; outline: none; border: 1px solid #666; }
+#results { width: 61%; max-width: 680px; min-width: 300px; float: left; }
+h2.title { font-size: 16px; font-weight: normal; color: #00c; margin-bottom: .1em; }
+p.snippet { margin-bottom: .15em; }
+p.url { color: #393; }
+#sideCol-l { width: 180px; padding-right: 10px; float: left; border-right: 1px solid #edf4fb;  margin-right:15px;}
+#sideCol-r { width: 250px; padding-left: 10px; float: right; border-left: 1px solid #edf4fb;  }
+#paginate { font-size: 13px; }
+#paginate a.turn { font-weight: bold; color: #00c; padding: 0 7px; }
+#paginate a.page { color: #000; padding: 0 7px; }
+#paginate span#active { font-size: 15px; font-weight: bold; color: #ac0000; padding: 0 7px; }
+#footer {color:#BBB;   text-align: center; padding: 30px 0; clear: both; }
+#footer a{color:#CCC;}
+#suggest p{margin-bottom:10px;}
+#narrowRes p{margin-bottom:10px;}
+#homepage{margin:17% auto; width:50%;  max-width:800px; min-width:500px;}
+#homepage h1{font-size:40px; font-weight:normal;}
+#homepage input.field{font-size:22px;  padding: 3px 6px;}
+.fl{float:left;}
+.autocomplete {  font-size: 14px; cursor:default; text-align:left; max-height:350px; overflow: auto;  /* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; border: 1px solid #aaa !important; background: #fff; }
+#search .autocomplete{position:absolute;}
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete div { padding:0px 0px; white-space:nowrap; }
+.autocomplete div div { padding:2px 5px; white-space:nowrap; }
+.autocomplete strong { font-weight:normal; color:#4444FF; }
+#dymbox{background: none repeat scroll 0 0 #F6F6F6; border: 1px solid #EEEEEE; display: block; font-size:18px; font-weight:bold; margin: 0 0px 20px -10px; padding: 10px; width: 100%;}
+#baconAdsr { font-size: 13px; font-family: Arial, sans-serif; font-weight: normal; line-height: normal; margin-bottom: 20px; border-bottom: 1px solid #ababab; }
+#baconAdsr h2.baconAdTitle { font-size: 14px; font-weight: normal; margin-bottom: .15em; }
+#baconAdsr div.baconAdSnippet { font-size: 13px; }
+#baconAdsr .baconAdSingle { margin-bottom: 15px; }
+#baconAdsr .baconAdUrl { color: #393; cursor:pointer; }
+#baconAdst { font-size: 13px; font-family: Arial, sans-serif; font-weight: normal; line-height: normal; margin-bottom: 20px; border-bottom: 1px solid #ababab; }
+#baconAdst h2.baconAdTitle { font-size:16px; font-weight: normal; margin-bottom: .15em; }
+#baconAdst div.baconAdSnippet { font-size: 13px; }
+#baconAdst .baconAdSingle { margin-bottom: 15px; }
+#baconAdst .baconAdUrl { color: #393; cursor:pointer; }
+.clear{clear:both}
+/*shoppingcom */
+#shopping-com .shop-result{width:100px; text-align:center; margin-right:20px; float:left}
+#shopping-com .shop-title{height:28px; line-height:14px; overflow:hidden}
+#shopping-com img{border:0 none}
+#more-shopping{display:none}
+hr { height: 1px; margin: 1em 0; border: 0; border-bottom: 1px dotted #ddd; }
+</style>
+</head>
+<body>
+<div id="header">
+<div id="search">
+<form id="search-form"  action="/ws/">
+<table width="100%" cellspacing="0">
+<tr>
+<td style="white-space:nowrap;"><a href="/?ls=+pokemon" title="homepage"><img src="/s/dog.png?v=c1448b22" alt="dog image" title="search bacon" style="border:0px none;" /></a></td>
+<td width="100%" style="padding:0 15px;">
+<input id="search_box" autocomplete="off" spellcheck="false" type="text" name="q" value=" pokemon" class="field" style="width:482px;margin-bottom: 10px;" /><br />
+<div id="AutocompleteInjectDiv" style="width: 491px; max-height: 400px; display: none; z-index:9999" class="autocomplete"></div>
+</td>
+<td style="padding:25px 0;"><input type="submit" id="subs" value="search" style="font-size:14px;padding:3px;" /></td>
+</tr>
+</table>
+</form>
+</div>
+<div id="numbers">
+<p>Results <strong>1 - 20</strong> of <strong>2,325,648</strong> for <strong> pokemon</strong></p>
+</div>
+</div>
+<div id="wrapper">
+<div id="sideCol-r">
+<div id="narrowRes">
+<h3 style="font-size: 14px; font-weight:normal; margin-bottom: 5px;">Related searches:</h3>
+<div id="suggest">
+</div>
+<div>
+</div>
+<hr style="margin:20px 0;" />
+</div>
+</div>
+<div id="results">
+<div id="dymbox" style="display: none"></div>
+<div id="shopping-com"></div>
+<ul>
+<li>
+<h2 class="title"><a name="r1" href="http://www.pokemon.com/">The Official <strong>Pokémon</strong> Website - <strong>Pokemon</strong>.com</a></h2>
+<p class="snippet">Choose Your Country.  Flip over to view <strong>Pokémon</strong>.  TCG Premier Rating.  Your Favorite <strong>Pokémon</strong>.  Drag a <strong>Pokémon</strong> to rearrange its position.</p>
+<p class="url" >www.pokemon.com</p>
+</li>
+<li>
+<h2 class="title"><a name="r2" href="http://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon"><strong>Pokémon</strong> - Bulbapedia, the community-driven <strong>Pokémon</strong> encyclopedia</a></h2>
+<p class="snippet">Despite this issue, however, the fact that <strong>Pokémon</strong> is short for Pocket Monsters has been referenced in English, with an NPC in <strong>Pokémon</strong> Diamond, Pearl, and Platinum asking the player what <strong>Pokémon</strong> is short for after thinking about the name of the Pokétch, itself a contraction, as well as on the back of the DVD set contai...</p>
+<p class="url" >bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon</p>
+</li>
+<li>
+<h2 class="title"><a name="r3" href="http://www.monstermmorpg.com/">Addicting Monster MMORPG For Free <strong>Pokemon</strong> Online Games Players</a></h2>
+<p class="snippet">Monster MMORPG is a large and established game with friendly moderators and users.  It is taking the top place among free online games.  Monster MMORPG is a free to play game based on catching, training, and battling Monsters which will keep you more entertained than playing <strong>Pokemon</strong> Online games.</p>
+<p class="url" >www.monstermmorpg.com</p>
+</li>
+<li>
+<h2 class="title"><a name="r4" href="http://www.pokemonplatinum.com/"><strong>Pokémon</strong> Platinum Version - Official Video Game Site</a></h2>
+<p class="snippet">In <strong>Pokémon</strong> Platinum Version for the Nintendo DS, you&#39;ll train, battle and catch <strong>Pokémon</strong>, and find a new world to explore in the Sinnoh region: the Distortion World.</p>
+<p class="url" >www.pokemonplatinum.com</p>
+</li>
+<li>
+<h2 class="title"><a name="r5" href="http://www.pokemonblackwhite.com/en-us/"><strong>Pokémon</strong> Black Version and <strong>Pokémon</strong> White Version - Official Video Game Site</a></h2>
+<p class="snippet">Visit the official site of <strong>Pokémon</strong> Black Version and <strong>Pokémon</strong> White Version to discover a new world of <strong>Pokémon</strong> and a brand-new adventure.  The <strong>Pokémon</strong> Company International is not responsible for the content of any linked website that is not operated by The <strong>Pokémon</strong> Company International.</p>
+<p class="url" >www.pokemonblackwhite.com/en-us</p>
+</li>
+<li>
+<h2 class="title"><a name="r6" href="http://en.wikipedia.org/wiki/Pok%C3%A9mon"><strong>Pokémon</strong> - Wikipedia</a></h2>
+<p class="snippet">The term <strong>Pokémon</strong>, in addition to referring to the <strong>Pokémon</strong> franchise itself, also collectively refers to the 649 fictional species that have made appearances in <strong>Pokémon</strong> media as of the release of the fifth generation titles <strong>Pokémon</strong> Black 2 and White 2.</p>
+<p class="url" >en.wikipedia.org/wiki/Pok%C3%A9mon</p>
+</li>
+<li>
+<h2 class="title"><a name="r7" href="http://pokemon.wikia.com/wiki/Pok%C3%A9mon_Wiki">The <strong>Pokémon</strong> Wiki - Wikia Navigation</a></h2>
+<p class="snippet">Welcome to the <strong>Pokémon</strong> Wiki, a collaborative encyclopedia for everything and anything that is related to the <strong>Pokémon</strong> World.  That Water -Type <strong>Pokémon</strong> are the most common with 110 <strong>Pokémon</strong>.  The <strong>Pokémon</strong> Wiki is a <strong>Pokémon</strong> database that anyone can contribute to.  <strong>Pokémon</strong> Wiki Navigation.</p>
+<p class="url" >pokemon.wikia.com/wiki/Pok%C3%A9mon_Wiki</p>
+</li>
+<li>
+<h2 class="title"><a name="r8" href="http://www.animevice.com/pokemon/10-57/"><strong>Pokémon</strong> (anime/manga franchise)</a></h2>
+<p class="snippet">The other company tried to sue and lost but the name still got changed to <strong>Pokémon</strong>, although it is still called Pocket Monsters in Japan, <strong>Pokemon</strong> is even more popular.  The player wanders around the world, capturing wild <strong>Pokémon</strong> and training them in battle against other wild <strong>Pokémon</strong>.</p>
+<p class="url" >www.animevice.com/pokemon/10-57</p>
+</li>
+<li>
+<h2 class="title"><a name="r9" href="http://www.serebii.net/blackwhite/pokemon.shtml"><strong>Pokémon</strong> Black &amp; White - New <strong>Pokémon</strong></a></h2>
+<p class="snippet">These <strong>Pokémon</strong> make up for the biggest amount of new <strong>Pokémon</strong> in a generation.  As with all new generations of games, Black &amp; White bring a plethora of <strong>Pokémon</strong> to the fold.  This page will detail the stats of these 156 <strong>Pokémon</strong>.  Click the <strong>Pokémon</strong> to go to their Pokédex page.</p>
+<p class="url" >www.serebii.net/blackwhite/pokemon.shtml</p>
+</li>
+<li>
+<h2 class="title"><a name="r10" href="http://pokemondb.net/pokedex/national">List of <strong>Pokemon</strong> (sprites gallery) - <strong>Pokemon</strong> Database</a></h2>
+<p class="snippet">Click a <strong>pokemon</strong>&#39;s name to see its detailed Pokedex page, or click a type to see other <strong>pokemon</strong> of the same type.  Type a <strong>Pokemon</strong> name, type, move, ability to see instant results.  Advanced site search.  List of <strong>Pokemon</strong>.</p>
+<p class="url" >pokemondb.net/pokedex/national</p>
+</li>
+<li>
+<h2 class="title"><a name="r11" href="http://watchpokemonepisodes.com/">Watch <strong>Pokemon</strong> Episodes Online</a></h2>
+<p class="snippet"><strong>Pokemon</strong> Episode 723 – The Clubsplosion Begins.  <strong>Pokemon</strong> Episode 721 – An Amazing Aerial Battle.  <strong>Pokemon</strong> Episode 722 – Climbing the Tower of Success.  <strong>Pokemon</strong> Episode 720 – Cilan Takes Flight.  We have all the <strong>Pokemon</strong> Episodes for you to Watch online Free.</p>
+<p class="url" >watchpokemonepisodes.com</p>
+</li>
+<li>
+<h2 class="title"><a name="r12" href="http://www.pokemonranger.com/"><strong>Pokémon</strong> Ranger - Guardian Signs</a></h2>
+<p class="snippet">Get the <strong>Pokémon</strong> Ranger: Guardian Signs Strategy Guide.  Download two Extra Missions that involve a couple of incredible <strong>Pokémon</strong>: Giratina and Arceus.  Follow along to find out the incredible ending to the adventure of the <strong>Pokémon</strong> Rangers in Oblivia.</p>
+<p class="url" >www.pokemonranger.com</p>
+</li>
+<li>
+<h2 class="title"><a name="r13" href="http://www.cartoonnetwork.com/tv_shows/pokemon/index.html"><strong>Pokémon</strong> - Black &amp; White - Free Games and Video Clips - Cartoon Network</a></h2>
+<p class="snippet">Together with his new friends Iris and Cilan, Ash will discover a new generation of <strong>Pokémon</strong> and continue his quest to become a <strong>Pokémon</strong> Master.  Ash Ketchum has set out to find new <strong>Pokémon</strong> and new adventures in the Unova region.  Watch video clips from the TV show now.  MOST POPULAR SHOWS.  Black and White.</p>
+<p class="url" >www.cartoonnetwork.com/tv_shows/pokemon/index.html</p>
+</li>
+<li>
+<h2 class="title"><a name="r14" href="http://www.smogon.com/dp/pokemon/"><strong>Pokémon</strong> (D/P) - Smogon University</a></h2>
+<p class="snippet"><strong>Pokémon</strong> Type Tier Abilities HP Atk Def SpA SpD Spe BST.  Change your preferences here.</p>
+<p class="url" >www.smogon.com/dp/pokemon</p>
+</li>
+<li>
+<h2 class="title"><a name="r15" href="http://www.pokemonelite2000.com/">PE2K.com - #1 <strong>Pokemon</strong> Resource, <strong>Pokemon</strong> Game Info, All <strong>Pokemon</strong> Sprites</a></h2>
+<p class="snippet"><strong>Pokemon</strong> Release Dates.  Global Link C-Gear Skins Pikachu: Until Aug 31 Munna: Until Oct 25 Crustle: Until Sep 6 Porygon-Z: Until Sep 27 Worlds 2012: Until Sep 6.  June 23 US: Oct 7 AUS: Oct 11 EU: Oct 12.  Defeating the BW2 Bosses – Colress.  In B2W2, Video Games by Kaoru (Blue).</p>
+<p class="url" >www.pokemonelite2000.com</p>
+</li>
+<li>
+<h2 class="title"><a name="r16" href="http://www.pokemonthemovie.com/"><strong>Pokémon</strong> the Movie - White - Trailers</a></h2>
+<p class="snippet">The <strong>Pokémon</strong> Company International is not responsible for the content of any linked website that is not operated by The <strong>Pokémon</strong> Company International.  White—Victini and Zekrom.  Black—Victini and Reshiram.  SELECT YOUR REGION.</p>
+<p class="url" >www.pokemonthemovie.com</p>
+</li>
+<li>
+<h2 class="title"><a name="r17" href="http://www.pokemonworldchampionships.com/"><strong>Pokémon</strong> World Championships 2011 - Home</a></h2>
+<p class="snippet">Celebrate the <strong>Pokémon</strong> World Championships with a special C-Gear Skin for your <strong>Pokémon</strong> Black Version or <strong>Pokémon</strong> White Version game.  The 2011 <strong>Pokémon</strong> World Championships gathers <strong>Pokémon</strong> Trading Card Game and <strong>Pokémon</strong> video game players from around the world for a weekend of fun and intense competition.</p>
+<p class="url" >www.pokemonworldchampionships.com</p>
+</li>
+<li>
+<h2 class="title"><a name="r18" href="http://www.pokemonrumble.com/"><strong>Pokémon</strong> Rumble Blast - Official Site</a></h2>
+<p class="snippet">Check out information, screenshots, and videos at the official site for the <strong>Pokémon</strong> Rumble Blast game for the Nintendo 3DS system.  Info for parents.  SELECT YOUR REGION.</p>
+<p class="url" >www.pokemonrumble.com</p>
+</li>
+<li>
+<h2 class="title"><a name="r19" href="http://www.psypokes.com/anime/index.php">Psypoke - <strong>Pokemon</strong> Anime</a></h2>
+<p class="snippet">&quot;This story is about a boy, Ash, and <strong>Pokemon</strong>, as well as their friendships, adventures and encounters&quot;.  Fifth Japanese opening, Ready GO.</p>
+<p class="url" >www.psypokes.com/anime/index.php</p>
+</li>
+<li>
+<h2 class="title"><a name="r20" href="http://www.pokecommunity.com/">The PokéCommunity Forums</a></h2>
+<p class="snippet">This forum is for all non-<strong>Pokémon</strong> groups - use the <strong>Pokémon</strong> Clubs forum for <strong>Pokémon</strong> related topics.  This website is in no way affiliated with or endorsed by Nintendo, Creatures, GAMEFREAK, The <strong>Pokémon</strong> Company, <strong>Pokémon</strong> USA, Inc, The <strong>Pokémon</strong> Company International, or Wizards of the Coast.</p>
+<p class="url" >www.pokecommunity.com</p>
+</li>
+</ul>
+</div>
+</div>
+<div id="footer">
+<a href="/s/about.html">about</a>&nbsp;&nbsp;&nbsp;<a href="/s/tos.html">terms of service</a>&nbsp;&nbsp;&nbsp;<a href="/s/privacy.html">privacy policy</a><br/>
+&copy; 2011 Search Bacon
+</div>
+</body>
+<script type="text/javascript" src="http://a.blekko-img.com/045/gz/0c7d560c34eda542_jquery.js"></script>
+<script type="text/javascript" src="/s/jquery.autocomplete.js?v=bfcd6042"></script>
+<script type="text/javascript" src="/s/searchbacon.js"></script>
+<script type="text/javascript">
+<!--
+autocomplete_db( 'search_box', '/autocomplete' );
+function submitted(){
+document.getElementById("search-form").submit();
+}
+suggest(' pokemon');
+send_req( ' pokemon', 0 );
+$("#search_box").focus();
+var qi = "MDlmZjM1ZTE4MmJkMzNiMGZkN2JmNjgzOTljZWFhZWUsMTM0NTM5NTE5ODpkYjBlZWU";
+$("a").mousedown( function(){ return clk(this.name || this.id || 'c',this.href) } );
+$("input:submit").mousedown( function(){ return clk('sub',$(this).parents("form").find("input:text").val(), this.name || this.id || 's') } );
+$("input:text").keyup( function(e){if (keypress_enter(e)){return clk('sub',this.value,$(this).parents("form").find("input:submit").attr("id"))} return true;} );
+clk('l',window.location.href);
+window.onunload = function() { clk('u') }
+-->
+</script>
+<script type="text/javascript">
+var vglnk = { api_url: '//api.viglink.com/api', key: 'dafe0e06917c77d962e2af7a08c8200e' };
+(function(d, t) {
+var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+s.src = ('https:' == document.location.protocol ? vglnk.api_url : '//cdn.viglink.com/api') + '/vglnk.js';
+var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+}(document, 'script'));
+</script>
+</html>
+

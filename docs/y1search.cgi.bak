@@ -1,0 +1,201 @@
+#!/usr/bin/perl
+
+use strict;
+
+my %escapes;
+for (0..255)
+{
+    $escapes{chr($_)} = sprintf("%%%02X", $_);
+}
+$escapes{' '} = '+';
+
+sub urlencode
+{
+    my $url = shift;
+
+    $url =~ s/([^A-Za-z0-9\-_.!~*\'()])/$escapes{$1}/ge if defined $url;
+    return $url;
+}
+
+
+# magic - do not change
+print "Content-type: text/html\n\n";
+my $page = $ENV{QUERY_STRING} || shift || 1;
+# end magic
+
+$page =~ s/\+/ /g;
+$page =~ s/q=//;
+
+print <<EOF
+
+<html>
+<head>
+<title>
+harvix | search
+</title>
+<link rel="stylesheet" href="/style.css" type="text/css">
+<style type="text/css">
+
+div.footer
+{
+color:#a0a0a0;
+}
+
+div.bar
+{
+float:right;
+}
+
+div.q
+{
+float:right;
+}
+
+div.wi
+{
+width:50%;
+}
+
+</style>
+
+</head>
+<body>
+<div class="bar">
+<a href="index.html">home</a> &middot; <a href="signi.html">sign in</a> &middot <a href="signu.html">sign up</a>
+</div>
+
+<b>search bar:</b><a href="y2search.html">web</a>
+<hr></hr>
+
+<p>
+<p>
+<img src="http://harvix.com/harvix-logo.png"/>
+<p>
+<p>
+<form action="/y1search.cgi" method="get">
+<input size="60" name="q" value="$page">
+<input type=submit value="search the web">
+</form>
+
+
+
+
+
+</center>
+EOF
+;
+
+
+
+#print "Query was: $page<br>\n";
+#$page =~ s/q=//;
+#print "Now query is: $page<p>\n";
+
+#start args
+
+ use Yahoo::Search;
+ my @Results = Yahoo::Search->Results(Doc => $page,
+                                      AppId => "YahooDemo",
+                                      # The following args are optional.
+                                      # (Values shown are package defaults).
+                                      Mode         => 'all', # all words
+                                      Start        => 0,
+                                      Count        => 20,
+                                      Type         => 'any', # all types
+                                      AllowAdult   => 0, # no porn, please
+                                      AllowSimilar => 0, # no dups, please
+                                      Language     => undef,
+                                     );
+ warn $@ if $@; # report any errors
+
+#end args
+
+
+
+
+#Resualts statments
+
+print" <div class=\"wi\">";
+
+ for my $Result (@Results)
+ {
+#     printf "Result: #%d<br>\n",  $Result->I + 1,
+#     printf "Url:<a href=\"%s\">%s</a><br>\n",       $Result->Url, $Result->Url;
+#     printf "%s<br>\n",           $Result->ClickUrl;
+#     printf "Summary: %s<br>\n",  $Result->Summary;
+#     printf "Title: %s<br>\n",    $Result->Title;
+#     printf "In Cache: %s<br>\n", $Result->CacheUrl;
+
+
+        print"<hr></hr>";
+
+        print "<p>\n";
+        print" <div>";
+        print "<p>\n";
+print"<ol>";
+print"<li>";       
+ print "<a href=", '"', $Result->Url, '">', $Result->Title, "</a><br>\n";
+print" <p> \n";
+
+        print $Result->Summary, "<br>\n";
+         print "url:<a class=urlbar href=\"%s\">%s</a><br>\n",       $Result->Url, $Result->Url;
+
+print"</ol>";
+
+my $etitle = $Result->Title;
+my $eurl = urlencode( $Result->Url );
+
+my $title = $Result->Title;
+my $url = $Result->Url;
+
+# <a class="a2a_dd" href="http://www.addtoany.com/share_save?linkurl=http%3A%2F%2Fharvix.com&amp;linkname=Harvix.com">Share</a>
+
+	print <<EOF
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_default_style">
+<a class="a2a_dd" href="http://www.addtoany.com/share_save?linkurl=$eurl&amp;linkname=$etitle">Share</a>
+<span class="a2a_divider"></span>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_email"></a>
+<a class="a2a_button_google_gmail"></a>
+<a class="a2a_button_google_buzz"></a>
+<a class="a2a_button_yahoo_mail"></a>
+<a class="a2a_button_aol_mail"></a>
+<a class="a2a_button_digg"></a>
+<a class="a2a_button_live"></a>
+<a class="a2a_button_yahoo_messenger"></a>
+<a class="a2a_button_yahoo_buzz"></a>
+<a class="a2a_button_myspace"></a>
+<a class="a2a_button_hotmail"></a>
+<a class="a2a_button_blogger_post"></a>
+</div>
+<script type="text/javascript">
+var a2a_config = a2a_config || {};
+a2a_config.linkname = "$title";
+a2a_config.linkurl = "$url";
+</script>
+<script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+EOF
+;
+
+#a2a_config.linkname = "Harvix.com";
+#a2a_config.linkurl = "http://harvix.com";
+	
+     print "\n";
+        print" </div>";
+ }
+
+print" </div> ";
+
+print" \n";
+
+print <<EOF
+<form action="/y1search.cgi" method="get">
+<input size="60" name="q" value="$page">
+<input type=submit value="search the web">
+</form>
+EOF
+;
+               

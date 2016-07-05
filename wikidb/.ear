@@ -1,0 +1,1 @@
+2.00	.ear	EAR (file format)	EAR is a file format used by Java EE for packaging one or more modules into a single archive so that the deployment of the various modules onto an application server happens simultaneously and coherently. It also contains XML files called deployment descriptors which describe how to deploy the modules.	

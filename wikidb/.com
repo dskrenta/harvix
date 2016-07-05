@@ -1,0 +1,1 @@
+76.6	.com	.com	The domain name com is a generic top-level domain (gTLD) in the Domain Name System of the Internet. Its name is derived from the word commercial, indicating its original intended purpose for domains registered by commercial organizations. However eventually the distinction was lost when .com, .org and .net were opened for unrestricted registration.	
