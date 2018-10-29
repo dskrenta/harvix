@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Topix Splash</title>
+    <link href="styles/animate.css" rel="stylesheet" type="text/css"/>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .container {
+        background: linear-gradient(270deg, #2e8b84, #167e76);
+        background-size: 400% 400%;
+
+        -webkit-animation: gradient 4s ease infinite;
+        -moz-animation: gradient 4s ease infinite;
+        animation: gradient 4s ease infinite;
+
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      @-webkit-keyframes gradient {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+      }
+      @-moz-keyframes gradient {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+      }
+      @keyframes gradient {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+      }
+
+      .topix {
+        position: relative;
+      }
+
+      .pineapple {
+        position: absolute;
+        top: 20px;
+        left: 145px;
+
+        -webkit-animation-delay: 0.5s;
+        -moz-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+        animation-duration: 2s;
+      }
+
+      .logo-container {
+        position: relative;
+
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+        animation-duration: 2s;
+      }
+
+      .fade-delay {
+        top: 0px;
+        left: 0px;
+        position: absolute;
+        overflow: hidden;
+
+        -webkit-animation-delay: 3s;
+        -moz-animation-delay: 3s;
+        animation-delay: 3s;
+
+        -webkit-animation-duration: 1.5s;
+        -moz-animation-duration: 1.5s;
+        animation-duration: 1.5s;
+
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fade-delay animated fadeOut">
+      <div class="container">
+        <div class="logo-container animated bounceInUp">
+          <img class="topix" src="images/t_pix2.png" />
+          <img class="pineapple animated bounce" src="images/pineapple2.png" />
+        </div>
+      </div>
+    </div>
+    <div class="fade-delay animated fadeIn">
+      <img src="images/hp_mocks_v3_-_strong_gradients_1024.jpg"/>
+    </div>
+  </body>
+</html>
