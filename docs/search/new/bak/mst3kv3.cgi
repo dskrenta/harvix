@@ -11,8 +11,10 @@ use strict;
 #use URI::Fetch;
 use Encode;
 #use Number::Spell;
-use WebService::Yahoo::BOSS;
-#use Data::Dumper;
+#use WebService::Yahoo::BOSS;
+use Data::Dumper;
+use LWP::Simple;
+use JSON;
 
 my %escapes;
 setup_escapes();
@@ -64,16 +66,25 @@ sub utf8_off
 
 #####YAHOO API#####
 
-my $ckey = "dj0yJmk9UHowSk13Yzd2bG1DJmQ9WVdrOU0wOXVXRlJzTkhNbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD05MA--";
-my $csecret = "de55df25ba316c3683395ed0fdacc69565475958";
+# my $ckey = "dj0yJmk9UHowSk13Yzd2bG1DJmQ9WVdrOU0wOXVXRlJzTkhNbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD05MA--";
+# my $csecret = "de55df25ba316c3683395ed0fdacc69565475958";
 
-my $Boss = WebService::Yahoo::BOSS->new( ckey => $ckey, csecret => $csecret );
+# my $Boss = WebService::Yahoo::BOSS->new( ckey => $ckey, csecret => $csecret );
 
-my $response = $Boss->Web(q => $query, count => 20);
+# my $response = $Boss->Web(q => $query, count => 20);
 
 #print $response->totalresults;
 
 #print Dumper($response->results);
+
+
+my $response = get("https://contextualwebsearch.com/api/Search/WebSearchAPI?q=$query&count=25");
+
+# print Dumper($results);
+
+my $results = JSON->new->utf8->decode($response);
+
+# print Dumper($results);
 
 #####SEARCH RESULTS#####
 
@@ -81,11 +92,11 @@ my $response = $Boss->Web(q => $query, count => 20);
 
 my $count = 0;
 
-foreach my $result ( @{ $response->results } )
+foreach my $result ( @{ $results->{value} } )
 {
 	if($count == 0 && index($result->{url}, 'wikipedia.org') != -1)
 	{
-		print_wiki($result, $query, $count);
+ 		print_wiki($result, $query, $count);
 	}
 	elsif($count == 3)
 	{
@@ -156,14 +167,14 @@ sub print_result
                 <div class="timeline-panel">
                 <div class="media">
                 <a class="pull-right" href="">
-                <img class="media-object img-rounded" src="" alt="" height="200px" onerror="this.style.display='none'" alt="">
+                <img class="media-object img-rounded" src="$result->{image}->{url}" alt="" height="200px" onerror="this.style.display='none'" alt="$result->{title}">
                 </a>
                 <div class="timeline-heading">                
 		<h4 class="timeline-title"><a href="$result->{url}" target="_blank">$result->{title}</a></h4>
                 </div>
                 <div class="timeline-body">                
-		<p>$result->{abstract}</p>
-                <p><small class="text-muted"><i class="glyphicon glyphicon-ok"></i> $result->{dispurl}</small></p>  
+		<p>$result->{description}</p>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-ok"></i> $result->{url}</small></p>  
 		<br />
 	};
 
@@ -213,14 +224,14 @@ sub print_wiki
                 <div class="timeline-panel">
                 <div class="media">
                 <a class="pull-right" href="">
-                <img class="media-object img-rounded" src="" alt="" height="200px" onerror="this.style.display='none'" alt="">
+                <img class="media-object img-rounded" src="$result->{image}->{url}" alt="" height="200px" onerror="this.style.display='none'" alt="$result->{title}">
                 </a>
                 <div class="timeline-heading">                
                 <h4 class="timeline-title"><a href="$result->{url}" target="_blank">$result->{title}</a></h4>
                 </div>
                 <div class="timeline-body">                
-                <p>$result->{abstract}</p>
-                <p><small class="text-muted"><i class="glyphicon glyphicon-ok"></i> $result->{dispurl}</small></p>
+                <p>$result->{description}</p>
+                <p><small class="text-muted"><i class="glyphicon glyphicon-ok"></i> $result->{url}</small></p>
 		<br />                                
         };
 
